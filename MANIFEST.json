@@ -34,7 +34,7 @@
     },
     {
       "path": "SOURCE_MAP.json",
-      "sha256": "cd9f82d6856723c609c117d81c6ed707af1fc12b1f554cae6a13c7d48839f9fb",
+      "sha256": "2e64b12b9a52de6baa61220e127d4504c18519248a977aedf94b71cb8a5750cd",
       "bytes": 1639225
     },
     {
@@ -21664,13 +21664,13 @@
     },
     {
       "path": "paper/main.pdf",
-      "sha256": "21214e2185296c6d7aa2cc2b72b33b88d98a505a20fd9e5794dcdf542d1a88fd",
-      "bytes": 289106
+      "sha256": "bb5bf656234ccf0dd0e99d6f1cebfb7f8a04ef69935d12f36f8ccb88d2f22147",
+      "bytes": 288637
     },
     {
       "path": "paper/main.tex",
-      "sha256": "2a5f85a2a17447133f9d4751345591af70a4462c97116046735dec42b56ff872",
-      "bytes": 69921
+      "sha256": "7d895c6eadc7d541eff52956d8eb62407da7bbdcaa2ea1c002621bc432a2e0fb",
+      "bytes": 69426
     },
     {
       "path": "paper/references.bib",
