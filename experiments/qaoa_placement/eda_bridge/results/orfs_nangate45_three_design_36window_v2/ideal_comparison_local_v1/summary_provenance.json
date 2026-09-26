@@ -1,0 +1,8 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260827,
+  "bootstrap_unit": "window after averaging optimizer/search seeds",
+  "openroad_validated_cases": 144,
+  "openroad_validation": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/openroad_validation/openroad_validation.json",
+  "run_level": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/ideal_comparison_local_v1/run_level.csv"
+}

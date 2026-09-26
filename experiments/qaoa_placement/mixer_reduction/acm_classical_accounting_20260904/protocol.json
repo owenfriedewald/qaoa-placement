@@ -1,0 +1,22 @@
+{
+  "base_protocol_sha256": "5c9c857fa401f0e6e3374e58d0be70b3f2318db0ebb64494fd89f7581014a081",
+  "selection_sha256": "6e5a1fe33cec19aeea1182d58e8239f1f58d38e3621bee01889a46a576e3fd36",
+  "amendment": "Remove one uncounted repeated initial query in multistart greedy; preserve intended search trajectory and caps; rerun all classical controls with instrumented oracle calls",
+  "source_sha256": {
+    "experiments/qaoa_placement/mixer_reduction/run_acm_confirmation.py": "23cacd1d5c825cc42302ed59c84bd66323810d5c2a68d016972920b82eb25fbf",
+    "experiments/qaoa_placement/mixer_reduction/invariant_placement.py": "17f3422dda77655ae43cde0dcbc076c4da9cd8b005aa95f097f17019562977c4",
+    "experiments/qaoa_placement/benchmark_suite.py": "a44fd18b87fb435b4cdd4a43a40c66b463fb623af3e22e76bdd741b3b3bb6030",
+    "experiments/qaoa_placement/placement_core.py": "5893320cfda1b21096128d65b34de882ba35efdd87fbf3433df0efbf7b5537e1",
+    "experiments/qaoa_placement/objective_functions.py": "977774244c7324b0a9fa8a42d42b4412e7aa32f9763f4dc61675edaec38f291a",
+    "experiments/qaoa_placement/mixer_reduction/run_token_permutation_p3_quality_uplift.py": "fbc95314d13f211fb4945ea4441597475507673dfce6164f3bcf2b79afd73043",
+    "experiments/qaoa_placement/mixer_reduction/phase_separator_optimization.py": "b5da3f21bb6171484eccfac96fc7a62ec364b442e71833520e4ee6a94498e8e1",
+    "experiments/qaoa_placement/mixer_reduction/register_partial_swap.py": "55e443e1cbffa6d62a10be99cdd42f4462c1582bdd55a8b5acf7b16a479dffa0",
+    "experiments/qaoa_placement/mixer_reduction/acm_gap_methods.py": "65f2ecb23585995325af2fd33b4f8c96449e8246b80cd2aad4e2e7db5ae785a8",
+    "experiments/qaoa_placement/mixer_reduction/acm_gap_study.py": "2144325fc0fb64c0261176550d9308515c0e8afff21d941825f5a3a1e197300b",
+    "experiments/qaoa_placement/mixer_reduction/test_acm_gap_methods.py": "39a152b479f7784d3526924c20f36b0a77104fb04d529d42c7dab0c218671b56",
+    "experiments/qaoa_placement/mixer_reduction/acm_classical_accounting_hpc.py": "2136ec2cf076721353ded2fec76f16457e66036b42d689205060900936df5b6a",
+    "experiments/qaoa_placement/mixer_reduction/acm_classical_accounting.py": "c8ef7ed2413c824cc02a4c6cddc3c3d3ac67a6d435058a8c6f93071b9ff24788",
+    "experiments/qaoa_placement/mixer_reduction/test_acm_classical_accounting.py": "11e322f147c7cf393760abb68b31bb73739d65725ee884b6d3bb89283641e073"
+  },
+  "job": "16984409"
+}

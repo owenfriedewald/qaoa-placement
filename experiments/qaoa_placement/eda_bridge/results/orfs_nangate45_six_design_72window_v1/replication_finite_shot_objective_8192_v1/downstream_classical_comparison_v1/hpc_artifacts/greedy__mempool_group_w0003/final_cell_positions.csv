@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/place43651,1754840,1447600,R0,1754840,1447600,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/place37517,1758260,1447600,R0,1758260,1447600,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/place43652,1758640,1453200,R0,1758640,1453200,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/place51278,1746100,1444800,MX,1746100,1444800,MX

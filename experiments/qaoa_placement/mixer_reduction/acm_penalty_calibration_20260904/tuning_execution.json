@@ -1,0 +1,365 @@
+{
+  "expected": 72,
+  "cases": [
+    {
+      "case": "calibration_4_compact_0_strict_bound",
+      "returncode": 0,
+      "sha256": "3378be410741ae0088c04fa234c7c41a3d9b5f7dc4fff47e3ae777fe1f65129c"
+    },
+    {
+      "case": "calibration_4_compact_1_fixed5",
+      "returncode": 0,
+      "sha256": "90781ec726e20628a97b412d610164da13dca0e2335203fb19fbbdbe2c52bcec"
+    },
+    {
+      "case": "calibration_4_compact_0_four_bound",
+      "returncode": 0,
+      "sha256": "973c15d4d601117820b03162df460033084788d69517cc4cfc8d5e5ea58502df"
+    },
+    {
+      "case": "calibration_4_compact_1_four_bound",
+      "returncode": 0,
+      "sha256": "47053c2244a52524043c296bcae7e88a94a25095ad265dfeb1aa6740664d59a5"
+    },
+    {
+      "case": "calibration_4_compact_0_fixed5",
+      "returncode": 0,
+      "sha256": "24a1a3fabbe8213b253ce9e8f20b0222d1d088d011efb84239b155173d9d4368"
+    },
+    {
+      "case": "calibration_4_compact_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "ddd1489232ba4c17dd5ec1db8d115eb3a58c86f1a2218b8090d5556002f6bf49"
+    },
+    {
+      "case": "calibration_4_compact_1_strict_bound",
+      "returncode": 0,
+      "sha256": "7ccf7d31ed23cd8252cd1d1a34bb06e1a7400472fbca1924a13d6ac997754a23"
+    },
+    {
+      "case": "calibration_4_compact_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "314fe55c216e26aba14e51f8dc65dcd653d544f1a1110d8962d6fa06a51432e5"
+    },
+    {
+      "case": "calibration_4_line_0_four_bound",
+      "returncode": 0,
+      "sha256": "66bb7f12ad9bcda315f6f79b2cb31183c3ec5276d6c03c2e6367ccefa34374b4"
+    },
+    {
+      "case": "calibration_4_line_1_fixed5",
+      "returncode": 0,
+      "sha256": "ad4ab92f154918beae3b7e03c0fc1e7d792d32be9bfaa00c6669f73fe53b0c90"
+    },
+    {
+      "case": "calibration_4_line_0_fixed5",
+      "returncode": 0,
+      "sha256": "d44430aa4a65600196c9f5221debb1cd4fc28eb588b023d399ea654db5b6ea89"
+    },
+    {
+      "case": "calibration_4_line_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "4f1268fcde38d3350fff41c7dde1b4e4f1a38c97ebcb5eb4a0f902aba5078535"
+    },
+    {
+      "case": "calibration_4_line_0_strict_bound",
+      "returncode": 0,
+      "sha256": "6a84a92d819dcfaad71b30841734889add1a9cf8ce690bf4572ee0c6023fcb2b"
+    },
+    {
+      "case": "calibration_4_line_1_strict_bound",
+      "returncode": 0,
+      "sha256": "c42a6160d2fee6ef8a974ba3dc2871461aeda2edc0eabb9ecbfccbebffa91757"
+    },
+    {
+      "case": "calibration_4_line_1_four_bound",
+      "returncode": 0,
+      "sha256": "b964aba4511bfa680781916c3ab006cc5b7407bfd271b3f16f4752f69b454d7b"
+    },
+    {
+      "case": "calibration_4_line_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "81db165420e294f239b306e67ce8e9a17062915b398e79cb9819395ab40b214e"
+    },
+    {
+      "case": "calibration_4_scatter_0_four_bound",
+      "returncode": 0,
+      "sha256": "f7002ab531f4de210665efbb661e871a25b3602f8f116cb3114799fc01312981"
+    },
+    {
+      "case": "calibration_4_scatter_0_strict_bound",
+      "returncode": 0,
+      "sha256": "2af3cec2837f574b0d17aec6b015f56366e78596a6b35b77c3e384c0ac7c560f"
+    },
+    {
+      "case": "calibration_4_scatter_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "51ecbc20fa56c559f8f7a340e036a9abb8bbbf12e119d671b77c5280a15f4bad"
+    },
+    {
+      "case": "calibration_4_scatter_0_fixed5",
+      "returncode": 0,
+      "sha256": "ac491bdf526ac7a7f6de4468214eff4a4355f0175b1cae21c2c964ae4787a330"
+    },
+    {
+      "case": "calibration_4_scatter_1_four_bound",
+      "returncode": 0,
+      "sha256": "78cd8a2c2d4244f64796c0efc692681a91ddc9ebd88de21b4cb9c371d0a71b04"
+    },
+    {
+      "case": "calibration_4_scatter_1_fixed5",
+      "returncode": 0,
+      "sha256": "0224a69656ac2413ebe9be921ba7d86b92903800e66718e0340928621de1a5ba"
+    },
+    {
+      "case": "calibration_4_scatter_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "eb4214d1e0433a9d1752c91dbc06596a7d154fb130369c8225cd3de9666f01a8"
+    },
+    {
+      "case": "calibration_4_scatter_1_strict_bound",
+      "returncode": 0,
+      "sha256": "0fd60a02ebd83ab13649f9bddb025020a51574308522d796e91287f6df700c08"
+    },
+    {
+      "case": "calibration_5_compact_0_four_bound",
+      "returncode": 0,
+      "sha256": "2b0e8d30b12a985230aa64d9767f91223d88cc85d36f5ec3ce04c38885327568"
+    },
+    {
+      "case": "calibration_5_compact_1_four_bound",
+      "returncode": 0,
+      "sha256": "b9e0ec78a1d667cb930a2f5ad3bb9e5a15920567788db3ffcd70d1a0df9373fb"
+    },
+    {
+      "case": "calibration_5_compact_0_strict_bound",
+      "returncode": 0,
+      "sha256": "cf9b68a147f2663e6bf26566755d0716419c21511b10c08e83860599b37e1d24"
+    },
+    {
+      "case": "calibration_5_compact_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "1d9210443dbbbfe4206b34c558c11fd069ac0ace653523cf127502f09042dfa6"
+    },
+    {
+      "case": "calibration_5_compact_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "2b9cde3805c6901f0005fc0e77d9dbdd16494466fcc1ee93b5c4ea5b46715c96"
+    },
+    {
+      "case": "calibration_5_compact_0_fixed5",
+      "returncode": 0,
+      "sha256": "4484295902507d3f21690ab84ab653258c99758a2bedd3c4e33d2d78df8695f0"
+    },
+    {
+      "case": "calibration_5_compact_1_fixed5",
+      "returncode": 0,
+      "sha256": "a12e43da4eb07bedbbc0b648ee96b2b5de3b3c4a036d10565ac87e05cb8ba72e"
+    },
+    {
+      "case": "calibration_5_line_0_four_bound",
+      "returncode": 0,
+      "sha256": "5977d460198e104fde324c977eda963b19d7ff8423b73d57959315e2fff4052c"
+    },
+    {
+      "case": "calibration_5_line_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "68fc6106370256f4c5c6fb5a30bd7239df2b1c74a3c3847e722dbccc18391129"
+    },
+    {
+      "case": "calibration_5_line_0_fixed5",
+      "returncode": 0,
+      "sha256": "3b577b1efcad6a346f2f7b615438db5a971e9f0b713f4a9a86f36b1572684aa9"
+    },
+    {
+      "case": "calibration_5_line_1_fixed5",
+      "returncode": 0,
+      "sha256": "d4c8ad7e9ca464dcc996488815a7af97be2c85f7c6aa94cfb83791c9ea91ded0"
+    },
+    {
+      "case": "calibration_5_line_0_strict_bound",
+      "returncode": 0,
+      "sha256": "8f5fbd852f3ce8af8b94211a6cd45dbc7a242c01f8e9c3f556d3c471566ce814"
+    },
+    {
+      "case": "calibration_5_compact_1_strict_bound",
+      "returncode": 0,
+      "sha256": "438bd44a40f1a1d9ce93fc72425ec1a02dc014eab337e7a96264f039c3650c26"
+    },
+    {
+      "case": "calibration_5_line_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "086f17fb22271591034df635450eac085979a07c3309e42f8624dd19211becd0"
+    },
+    {
+      "case": "calibration_5_line_1_strict_bound",
+      "returncode": 0,
+      "sha256": "ae2705527f83a33c3983ac816d7e4b6a1026cd14d51111c5fdc79d84ff9a3074"
+    },
+    {
+      "case": "calibration_5_line_1_four_bound",
+      "returncode": 0,
+      "sha256": "915a329cffcf880b60a4d231752b01304d29f738d7c16e471cad746c6ff525f8"
+    },
+    {
+      "case": "calibration_5_scatter_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "1b71b7e03f3706d97629097cf07901bfdfa0fac4a0a9decc21d40e003bf7fb3f"
+    },
+    {
+      "case": "calibration_5_scatter_0_fixed5",
+      "returncode": 0,
+      "sha256": "655e47aed96a8f26713d9ede0bf3c3ceca5812de8372af84ba1da631c8288540"
+    },
+    {
+      "case": "calibration_5_scatter_0_strict_bound",
+      "returncode": 0,
+      "sha256": "87a7bac2adcbff251359c68599daa7af3aead662a73e7235bb38688cb2a38b04"
+    },
+    {
+      "case": "calibration_5_scatter_0_four_bound",
+      "returncode": 0,
+      "sha256": "61273f3e23e04f366fc3fdfcffa2f1fe698054936e0cf3c8dee91848f58e4f79"
+    },
+    {
+      "case": "calibration_5_scatter_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "60c3982069d5c8c981aa45d85da0ea235d0f132ebf1897523787a5a0bafccb14"
+    },
+    {
+      "case": "calibration_5_scatter_1_four_bound",
+      "returncode": 0,
+      "sha256": "731bdf29f858afaef945315ab2e4ba5c990d0c7e1bbe87fb3be7b1ff7fba0bdd"
+    },
+    {
+      "case": "calibration_5_scatter_1_strict_bound",
+      "returncode": 0,
+      "sha256": "32eb83d1045b5e4ea62cf823fbcce1ab8c05b10cee8afae1743f7837a0fd076d"
+    },
+    {
+      "case": "calibration_5_scatter_1_fixed5",
+      "returncode": 0,
+      "sha256": "d4973c6f6fb6075176d8ea87f89d91e837a9c178ecff05452a4b3c79d1d43a65"
+    },
+    {
+      "case": "calibration_6_compact_0_four_bound",
+      "returncode": 0,
+      "sha256": "baf528f11c120270389aa0cebb4b87c7c13ae12c039eba54c567a20ecfcb5c5a"
+    },
+    {
+      "case": "calibration_6_compact_0_fixed5",
+      "returncode": 0,
+      "sha256": "a7ba20ca3b59e6426c78d37f934ce2c7bc06aad75d67548817468f9a472761b6"
+    },
+    {
+      "case": "calibration_6_compact_1_strict_bound",
+      "returncode": 0,
+      "sha256": "d5980196120c7f09b67d8aaf4f3a40f66ae3e81997493e4a77ab4c7855e93d59"
+    },
+    {
+      "case": "calibration_6_compact_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "51ccd0844e53c87f0286fd22eb88690bf515fb29d83ba0f28000d3113aa768d2"
+    },
+    {
+      "case": "calibration_6_compact_1_fixed5",
+      "returncode": 0,
+      "sha256": "a227fc64e8a8573a0dcee69045c3bf8a20134fd3f3745a3ffc65d8d9e78f84b3"
+    },
+    {
+      "case": "calibration_6_compact_0_strict_bound",
+      "returncode": 0,
+      "sha256": "29ee32b6be626bae209b489844939e722b5a06b56f1d1e919adcaa10a7fd75b8"
+    },
+    {
+      "case": "calibration_6_compact_1_four_bound",
+      "returncode": 0,
+      "sha256": "0db294da7552bfbccba9b4d71c9e34e2f57544ee1a2aed632614f09d401e1ac7"
+    },
+    {
+      "case": "calibration_6_line_0_fixed5",
+      "returncode": 0,
+      "sha256": "4e08ac66e8b2b342c03aea69b75953f8a801d16c81bd3eb6fa212b71ff356ab1"
+    },
+    {
+      "case": "calibration_6_compact_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "d7959094a20919b43c8770409df7345b02b4f4b99272301390c588ed3d8a1454"
+    },
+    {
+      "case": "calibration_6_line_0_four_bound",
+      "returncode": 0,
+      "sha256": "f8ebd2ccfdf8a700729f42f3fa99ddd49f3b46241fecb0d31c26c5f6317f555f"
+    },
+    {
+      "case": "calibration_6_line_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "3a38752c9201378046eff07ce5b350868b6776df348ad82b0a852a826ab9c325"
+    },
+    {
+      "case": "calibration_6_line_1_strict_bound",
+      "returncode": 0,
+      "sha256": "32d817eea5337c58c254a8e9c17334cc080137c9421c42fc477826aa7a73f9d8"
+    },
+    {
+      "case": "calibration_6_line_0_strict_bound",
+      "returncode": 0,
+      "sha256": "9cca188905ecc9e35c1bec1d43b982b135c261c84219f8bca0e8674262e4478d"
+    },
+    {
+      "case": "calibration_6_line_1_fixed5",
+      "returncode": 0,
+      "sha256": "faeb786ed273a25499463d1059fef0c59699e3f7d62708b6b2ce3c22e17a010c"
+    },
+    {
+      "case": "calibration_6_line_1_four_bound",
+      "returncode": 0,
+      "sha256": "ed1491b973bb30fa9d05f79e0feee7666842e09e1edc97894cdf28d55af60dad"
+    },
+    {
+      "case": "calibration_6_line_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "b124fd01ba25dd51a838830cd0b068802a103283b072c4bbcba18b8df4d31335"
+    },
+    {
+      "case": "calibration_6_scatter_0_fixed5",
+      "returncode": 0,
+      "sha256": "2a48a9c7cf49725edb44775f6ad10d8fe8fc8e073ba9aaa9ecc81eba9cbbdb82"
+    },
+    {
+      "case": "calibration_6_scatter_0_four_bound",
+      "returncode": 0,
+      "sha256": "16217a2f6cb5b249a034f620b569bc005cb19e07ec3dd20677aefb5d301610da"
+    },
+    {
+      "case": "calibration_6_scatter_0_strict_bound",
+      "returncode": 0,
+      "sha256": "b177462426416e6ea03e49e0c99bca70d240c9246514062b26e298f05e054929"
+    },
+    {
+      "case": "calibration_6_scatter_0_quarter_bound",
+      "returncode": 0,
+      "sha256": "9fe60e14538886c1c2442c7e93f8fc47220cbd4b85570ad0e3cd084f38810276"
+    },
+    {
+      "case": "calibration_6_scatter_1_strict_bound",
+      "returncode": 0,
+      "sha256": "f63d83e6dc32f103bfeba2b63f6390051397f410c22ab5364ff2827bd620586c"
+    },
+    {
+      "case": "calibration_6_scatter_1_four_bound",
+      "returncode": 0,
+      "sha256": "d6dbdd01cc3b46a7265fe695350a665d0a17232e5228b1cb756fbee4fc2bd473"
+    },
+    {
+      "case": "calibration_6_scatter_1_fixed5",
+      "returncode": 0,
+      "sha256": "0bdfbe15ad993b28ffc4aea3f8c26bc6fa94c07122c4b7bb125cc51bd832d646"
+    },
+    {
+      "case": "calibration_6_scatter_1_quarter_bound",
+      "returncode": 0,
+      "sha256": "092c9e84d9a40961505e11a3cf20865e9091bf003332bfbce0883dc8d262d2aa"
+    }
+  ]
+}

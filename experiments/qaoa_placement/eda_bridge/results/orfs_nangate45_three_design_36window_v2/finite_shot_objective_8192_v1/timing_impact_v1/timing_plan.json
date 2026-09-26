@@ -1,0 +1,39 @@
+{
+  "container_image": "openroad/orfs@sha256:d995618be9f2bcdfa5538b885123463070dfbf178bea1818716d4652fe0fa380",
+  "designs": [
+    {
+      "case_count": 12,
+      "design": "aes",
+      "input_odb": "/orfs-work/flow/results/nangate45/aes/base/qeda_3_4_legalize_only.odb",
+      "raw_csv": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/raw_timing_aes.csv",
+      "sdc": "/orfs-work/flow/results/nangate45/aes/base/2_floorplan.sdc",
+      "set_rc": "/orfs-work/flow/platforms/nangate45/setRC.tcl",
+      "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/evaluate_timing_aes.tcl"
+    },
+    {
+      "case_count": 12,
+      "design": "gcd",
+      "input_odb": "/orfs-work/flow/results/nangate45/gcd/base/qeda_3_4_legalize_only.odb",
+      "raw_csv": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/raw_timing_gcd.csv",
+      "sdc": "/orfs-work/flow/results/nangate45/gcd/base/2_floorplan.sdc",
+      "set_rc": "/orfs-work/flow/platforms/nangate45/setRC.tcl",
+      "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/evaluate_timing_gcd.tcl"
+    },
+    {
+      "case_count": 12,
+      "design": "ibex",
+      "input_odb": "/orfs-work/flow/results/nangate45/ibex/base/qeda_3_4_legalize_only.odb",
+      "raw_csv": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/raw_timing_ibex.csv",
+      "sdc": "/orfs-work/flow/results/nangate45/ibex/base/2_floorplan.sdc",
+      "set_rc": "/orfs-work/flow/platforms/nangate45/setRC.tcl",
+      "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/timing_impact_v1/evaluate_timing_ibex.tcl"
+    }
+  ],
+  "input_manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/benchmark_manifest.json",
+  "input_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "openroad_binary": "/OpenROAD-flow-scripts/tools/install/OpenROAD/bin/openroad",
+  "roundtrip_tolerance_ns": 1e-12,
+  "schema_version": "qeda-timing-impact-v1",
+  "selected_readout": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/selected_readout.csv",
+  "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851"
+}

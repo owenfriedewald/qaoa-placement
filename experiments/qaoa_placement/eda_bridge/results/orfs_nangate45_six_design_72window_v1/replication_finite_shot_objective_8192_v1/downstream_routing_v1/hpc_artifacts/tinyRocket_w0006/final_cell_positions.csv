@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+frontend/s2_pc\[24\]$_SDFFE_PP0N_,525540,431200,R0,525540,431200,R0
+frontend/s2_pc\[17\]$_SDFFE_PP0N_,532000,431200,R0,532000,431200,R0
+frontend/s1_pc\[17\]$_DFF_P_,519460,434000,MX,519460,434000,MX
+frontend/s1_pc\[24\]$_DFF_P_,519080,428400,MX,519840,428400,MX

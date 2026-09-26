@@ -1,0 +1,15 @@
+{
+  "budgets": [
+    40,
+    360,
+    4096
+  ],
+  "manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_six_design_72window_v1/benchmark_manifest.json",
+  "manifest_sha256": "32b8e6259f6b36cb88aefe752b675574a4c29623927b1402faea10af896b0747",
+  "seeds": [
+    11,
+    17,
+    23,
+    29
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "qiskit": "2.5.2",
+    "qiskit-ibm-runtime": "0.46.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "protocol_sha256": "5c9c857fa401f0e6e3374e58d0be70b3f2318db0ebb64494fd89f7581014a081"
+}

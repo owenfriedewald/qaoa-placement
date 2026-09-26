@@ -1,0 +1,8 @@
+# Core environment for the September Qiskit 2.5.2 controls and analysis.
+# Python 3.10.12 was used. Historical 2.4.1 experiments have a separate lock.
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+qiskit==2.5.2
+qiskit-ibm-runtime==0.46.1
+pyzx==0.10.3

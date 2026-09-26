@@ -1,0 +1,30 @@
+{
+  "cohorts": [
+    {
+      "cohort": "Development",
+      "instances": 6,
+      "token": 0.18782502242842158,
+      "complete": 0.07841194298052782,
+      "delta": 0.10941307944789376
+    },
+    {
+      "cohort": "Confirmation",
+      "instances": 36,
+      "token": 0.15579118466829386,
+      "complete": 0.03734363019197802,
+      "delta": 0.11844755447631586
+    },
+    {
+      "cohort": "Transfer",
+      "instances": 12,
+      "token": 0.057129781916972606,
+      "complete": 0.011119919716126336,
+      "delta": 0.04600986220084627
+    }
+  ],
+  "confirmation_without_smoke": {
+    "instances": 35,
+    "delta": 0.1176291291744194
+  },
+  "interpretation": "Paired methods within instances; cohorts are unpaired and generator/protocol differences confound selection effects."
+}

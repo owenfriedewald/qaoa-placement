@@ -1,0 +1,200 @@
+{
+  "benchmark_id": "orfs_nangate45_six_design_72window_v1",
+  "best_cost_budgets": [
+    {
+      "qaoa_better_equal_worse_than_initial": [
+        39,
+        0,
+        33
+      ],
+      "qaoa_mean_absolute_improvement_dbu": 2043.926131605761,
+      "qaoa_mean_gap_closure_improving_windows": -0.24429830141866038,
+      "qaoa_median_absolute_improvement_dbu": 269.94066181156813,
+      "readouts": 64,
+      "uniform_better_equal_worse_than_initial": [
+        24,
+        0,
+        48
+      ],
+      "uniform_mean_absolute_improvement_dbu": -1985.4802381760533,
+      "uniform_mean_gap_closure_improving_windows": -3.114770194823249,
+      "uniform_median_absolute_improvement_dbu": -548.132927548344
+    },
+    {
+      "qaoa_better_equal_worse_than_initial": [
+        46,
+        8,
+        18
+      ],
+      "qaoa_mean_absolute_improvement_dbu": 2561.1579768814877,
+      "qaoa_mean_gap_closure_improving_windows": 0.7475636102527222,
+      "qaoa_median_absolute_improvement_dbu": 546.1954764742404,
+      "readouts": 256,
+      "uniform_better_equal_worse_than_initial": [
+        42,
+        0,
+        30
+      ],
+      "uniform_mean_absolute_improvement_dbu": 1729.016552711109,
+      "uniform_mean_gap_closure_improving_windows": 0.07850400356083968,
+      "uniform_median_absolute_improvement_dbu": 285.4514095647173
+    },
+    {
+      "qaoa_better_equal_worse_than_initial": [
+        48,
+        24,
+        0
+      ],
+      "qaoa_mean_absolute_improvement_dbu": 3057.496154564067,
+      "qaoa_mean_gap_closure_improving_windows": 0.9552284672215153,
+      "qaoa_median_absolute_improvement_dbu": 1093.652107854723,
+      "readouts": 4096,
+      "uniform_better_equal_worse_than_initial": [
+        48,
+        5,
+        19
+      ],
+      "uniform_mean_absolute_improvement_dbu": 3151.0650404367075,
+      "uniform_mean_gap_closure_improving_windows": 0.9999958798758337,
+      "uniform_median_absolute_improvement_dbu": 1229.9908170974813
+    }
+  ],
+  "curve": [
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.21150168735595523,
+      "qaoa_minus_uniform_four_seed_selector": 0.19093151708092412,
+      "qaoa_minus_uniform_single_seed": 0.06011681147282124,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.06536372505306814,
+      "readouts_per_seed": 1,
+      "total_readouts_four_seed_selector": 4,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.020570170275031108,
+      "uniform_single_seed_mean_exact_hit_probability": 0.005246913580246904
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.3338395393821847,
+      "qaoa_minus_uniform_four_seed_selector": 0.2937508468361152,
+      "qaoa_minus_uniform_single_seed": 0.11048404479632466,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.12090714150414354,
+      "readouts_per_seed": 2,
+      "total_readouts_four_seed_selector": 8,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.040088692546069477,
+      "uniform_single_seed_mean_exact_hit_probability": 0.010423096707818874
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.4610492092629376,
+      "qaoa_minus_uniform_four_seed_selector": 0.38469894903864915,
+      "qaoa_minus_uniform_single_seed": 0.1892773490961815,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.2098475193712126,
+      "readouts_per_seed": 4,
+      "total_readouts_four_seed_selector": 16,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.07635026022428841,
+      "uniform_single_seed_mean_exact_hit_probability": 0.020570170275031108
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.5519448344271197,
+      "qaoa_minus_uniform_four_seed_selector": 0.412053904237881,
+      "qaoa_minus_uniform_single_seed": 0.2899314991319558,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.3300201916780253,
+      "readouts_per_seed": 8,
+      "total_readouts_four_seed_selector": 32,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.13989093018923873,
+      "uniform_single_seed_mean_exact_hit_probability": 0.040088692546069477
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.6080291880805924,
+      "qaoa_minus_uniform_four_seed_selector": 0.3656106871156307,
+      "qaoa_minus_uniform_single_seed": 0.3786446114518487,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.4549948716761371,
+      "readouts_per_seed": 16,
+      "total_readouts_four_seed_selector": 64,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.24241850096496165,
+      "uniform_single_seed_mean_exact_hit_probability": 0.07635026022428841
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.663870373535758,
+      "qaoa_minus_uniform_four_seed_selector": 0.2701268203005208,
+      "qaoa_minus_uniform_single_seed": 0.40626404652007897,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.5461549767093177,
+      "readouts_per_seed": 32,
+      "total_readouts_four_seed_selector": 128,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.39374355323523713,
+      "uniform_single_seed_mean_exact_hit_probability": 0.13989093018923873
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.7270792093875836,
+      "qaoa_minus_uniform_four_seed_selector": 0.1321414021481795,
+      "qaoa_minus_uniform_single_seed": 0.35983181701112366,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.6022503179760853,
+      "readouts_per_seed": 64,
+      "total_readouts_four_seed_selector": 256,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.5949378072394041,
+      "uniform_single_seed_mean_exact_hit_probability": 0.24241850096496165
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.7920548734643288,
+      "qaoa_minus_uniform_four_seed_selector": -0.017695476528754472,
+      "qaoa_minus_uniform_single_seed": 0.26201082648859775,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.6557543797238349,
+      "readouts_per_seed": 128,
+      "total_readouts_four_seed_selector": 512,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.8097503499930833,
+      "uniform_single_seed_mean_exact_hit_probability": 0.39374355323523713
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.8498039705365036,
+      "qaoa_minus_uniform_four_seed_selector": -0.10560443538750774,
+      "qaoa_minus_uniform_single_seed": 0.12267054687997736,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.7176083541193815,
+      "readouts_per_seed": 256,
+      "total_readouts_four_seed_selector": 1024,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.9554084059240113,
+      "uniform_single_seed_mean_exact_hit_probability": 0.5949378072394041
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.8941703130164311,
+      "qaoa_minus_uniform_four_seed_selector": -0.10326448113118702,
+      "qaoa_minus_uniform_single_seed": -0.028088004268188693,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.7816623457248946,
+      "readouts_per_seed": 512,
+      "total_readouts_four_seed_selector": 2048,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.9974347941476182,
+      "uniform_single_seed_mean_exact_hit_probability": 0.8097503499930833
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.9247957225451066,
+      "qaoa_minus_uniform_four_seed_selector": -0.07519567050984166,
+      "qaoa_minus_uniform_single_seed": -0.11658379979783073,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.8388246061261806,
+      "readouts_per_seed": 1024,
+      "total_readouts_four_seed_selector": 4096,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 0.9999913930549482,
+      "uniform_single_seed_mean_exact_hit_probability": 0.9554084059240113
+    },
+    {
+      "qaoa_four_seed_selector_mean_exact_hit_probability": 0.9599096667988789,
+      "qaoa_minus_uniform_four_seed_selector": -0.0400903332011211,
+      "qaoa_minus_uniform_single_seed": -0.08574048973038906,
+      "qaoa_single_seed_mean_exact_hit_probability": 0.9142509033245592,
+      "readouts_per_seed": 4096,
+      "total_readouts_four_seed_selector": 16384,
+      "uniform_four_seed_selector_mean_exact_hit_probability": 1.0,
+      "uniform_single_seed_mean_exact_hit_probability": 0.9999913930549482
+    }
+  ],
+  "four_seed_selector_qaoa_to_uniform_crossover_readouts_per_seed": 117,
+  "interpretation": "QAOA concentrates optimal probability relative to uniform feasible sampling only in the low-readout regime. Both methods saturate, and the matched four-seed uniform selector overtakes before the manuscript's 4096-readout selection point.",
+  "optimizer_seeds_per_window": 4,
+  "provenance": {
+    "manifest_sha256": "32b8e6259f6b36cb88aefe752b675574a4c29623927b1402faea10af896b0747",
+    "run_level_sha256": {
+      "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_six_design_72window_v1/replication_finite_shot_objective_8192_v1/run_level.csv": "b4e5a4874695b3314d2336b76384602d0733423c1bdf3f34b9a9a31488a08be2",
+      "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/run_level.csv": "e4dd6b7ecd2a739204565eaabe3a583e51228f92a43fa7f4e2c70e1ed45fde4f"
+    }
+  },
+  "real_assignments_per_window": [
+    360
+  ],
+  "single_seed_qaoa_to_uniform_crossover_readouts": 446,
+  "token_states_per_window": 720,
+  "window_count": 72
+}

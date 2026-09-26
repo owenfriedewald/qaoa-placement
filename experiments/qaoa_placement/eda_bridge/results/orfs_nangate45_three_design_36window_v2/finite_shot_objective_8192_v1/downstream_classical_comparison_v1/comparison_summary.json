@@ -1,0 +1,676 @@
+{
+  "assignment_identity_with_qaoa": {
+    "exact": {
+      "different_assignment_count": 1,
+      "different_assignment_same_routed_wirelength_count": 0,
+      "different_assignment_same_routed_wirelength_windows": [],
+      "identical_assignment_count": 35
+    },
+    "greedy": {
+      "different_assignment_count": 6,
+      "different_assignment_same_routed_wirelength_count": 1,
+      "different_assignment_same_routed_wirelength_windows": [
+        "gcd_w0004"
+      ],
+      "identical_assignment_count": 30
+    },
+    "simulated_annealing": {
+      "different_assignment_count": 5,
+      "different_assignment_same_routed_wirelength_count": 2,
+      "different_assignment_same_routed_wirelength_windows": [
+        "gcd_w0004",
+        "ibex_w0000"
+      ],
+      "identical_assignment_count": 31
+    }
+  },
+  "bootstrap": {
+    "design_clusters": 3,
+    "interpretation": "descriptive hierarchical bootstrap",
+    "replicates": 10000,
+    "seed": 20260827
+  },
+  "comparator_run_level_sha256": "d704b849c6843aade9174cbe4a6c1277ea73003fa927b647b3d7c2ba1cdbdcb8",
+  "container_sha256": "65f020a67c02e9ce0c8c507b5a4124498820c7ee7b07f6d8f3da7ea61c30151e",
+  "execution_commit": "f223d005268a65232e21fe85fb33178adc89bb6d",
+  "method_summaries": {
+    "exact": {
+      "all_cells_retained_count": 35,
+      "distributions": {
+        "congestion_demand": {
+          "improved_count": 17,
+          "maximum": 7.0,
+          "mean": -1.8888888888888888,
+          "median": 0.0,
+          "minimum": -35.0,
+          "nonworsening_count": 32,
+          "unchanged_count": 15,
+          "worsened_count": 4,
+          "worst_value": 7.0,
+          "worst_window_id": "aes_w0003"
+        },
+        "hold_tns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "nonworsening_count": 36,
+          "unchanged_count": 36,
+          "worsened_count": 0,
+          "worst_value": 0.0,
+          "worst_window_id": "aes_w0000"
+        },
+        "hold_wns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": -2.804166666666657e-05,
+          "median": 0.0,
+          "minimum": -0.0003934000000000021,
+          "nonworsening_count": 33,
+          "unchanged_count": 33,
+          "worsened_count": 3,
+          "worst_value": -0.0003934000000000021,
+          "worst_window_id": "ibex_w0005"
+        },
+        "routed_wirelength": {
+          "improved_count": 18,
+          "maximum": 23.0,
+          "mean": -7.638888888888889,
+          "median": -1.5,
+          "minimum": -46.0,
+          "nonworsening_count": 29,
+          "unchanged_count": 11,
+          "worsened_count": 7,
+          "worst_value": 23.0,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_tns_ns": {
+          "improved_count": 11,
+          "maximum": 0.1288999999999998,
+          "mean": 0.0068166666666666376,
+          "median": 0.0,
+          "minimum": -0.022500000000000853,
+          "nonworsening_count": 27,
+          "unchanged_count": 16,
+          "worsened_count": 9,
+          "worst_value": -0.022500000000000853,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_wns_ns": {
+          "improved_count": 3,
+          "maximum": 0.0007188999999999945,
+          "mean": -1.352500000000227e-05,
+          "median": 0.0,
+          "minimum": -0.0010400000000000131,
+          "nonworsening_count": 33,
+          "unchanged_count": 30,
+          "worsened_count": 3,
+          "worst_value": -0.0010400000000000131,
+          "worst_window_id": "gcd_w0004"
+        },
+        "via_count": {
+          "improved_count": 12,
+          "maximum": 21.0,
+          "mean": -1.2222222222222223,
+          "median": 0.0,
+          "minimum": -41.0,
+          "nonworsening_count": 24,
+          "unchanged_count": 12,
+          "worsened_count": 12,
+          "worst_value": 21.0,
+          "worst_window_id": "ibex_w0005"
+        }
+      },
+      "retained_cell_count": 143,
+      "routed_wirelength_sum_delta": -275.0,
+      "zero_overflow_count": 36
+    },
+    "greedy": {
+      "all_cells_retained_count": 35,
+      "distributions": {
+        "congestion_demand": {
+          "improved_count": 15,
+          "maximum": 7.0,
+          "mean": -0.7777777777777778,
+          "median": 0.0,
+          "minimum": -6.0,
+          "nonworsening_count": 32,
+          "unchanged_count": 17,
+          "worsened_count": 4,
+          "worst_value": 7.0,
+          "worst_window_id": "aes_w0003"
+        },
+        "hold_tns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "nonworsening_count": 36,
+          "unchanged_count": 36,
+          "worsened_count": 0,
+          "worst_value": 0.0,
+          "worst_window_id": "aes_w0000"
+        },
+        "hold_wns_ns": {
+          "improved_count": 1,
+          "maximum": 0.00026189999999999547,
+          "mean": -9.83888888888886e-06,
+          "median": 0.0,
+          "minimum": -0.0003934000000000021,
+          "nonworsening_count": 34,
+          "unchanged_count": 33,
+          "worsened_count": 2,
+          "worst_value": -0.0003934000000000021,
+          "worst_window_id": "ibex_w0005"
+        },
+        "routed_wirelength": {
+          "improved_count": 16,
+          "maximum": 117.0,
+          "mean": -3.8333333333333335,
+          "median": 0.0,
+          "minimum": -46.0,
+          "nonworsening_count": 29,
+          "unchanged_count": 13,
+          "worsened_count": 7,
+          "worst_value": 117.0,
+          "worst_window_id": "ibex_w0006"
+        },
+        "setup_tns_ns": {
+          "improved_count": 9,
+          "maximum": 0.12110000000000021,
+          "mean": 0.0018213888888888123,
+          "median": 0.0,
+          "minimum": -0.04750000000000121,
+          "nonworsening_count": 26,
+          "unchanged_count": 17,
+          "worsened_count": 10,
+          "worst_value": -0.04750000000000121,
+          "worst_window_id": "ibex_w0006"
+        },
+        "setup_wns_ns": {
+          "improved_count": 3,
+          "maximum": 0.000928299999999993,
+          "mean": 1.2944444444423466e-06,
+          "median": 0.0,
+          "minimum": -0.0010940000000000116,
+          "nonworsening_count": 33,
+          "unchanged_count": 30,
+          "worsened_count": 3,
+          "worst_value": -0.0010940000000000116,
+          "worst_window_id": "gcd_w0004"
+        },
+        "via_count": {
+          "improved_count": 12,
+          "maximum": 21.0,
+          "mean": -2.5277777777777777,
+          "median": 0.0,
+          "minimum": -58.0,
+          "nonworsening_count": 26,
+          "unchanged_count": 14,
+          "worsened_count": 10,
+          "worst_value": 21.0,
+          "worst_window_id": "ibex_w0005"
+        }
+      },
+      "retained_cell_count": 143,
+      "routed_wirelength_sum_delta": -138.0,
+      "zero_overflow_count": 36
+    },
+    "qaoa": {
+      "all_cells_retained_count": 35,
+      "distributions": {
+        "congestion_demand": {
+          "improved_count": 17,
+          "maximum": 7.0,
+          "mean": -1.8333333333333333,
+          "median": 0.0,
+          "minimum": -35.0,
+          "nonworsening_count": 32,
+          "unchanged_count": 15,
+          "worsened_count": 4,
+          "worst_value": 7.0,
+          "worst_window_id": "aes_w0003"
+        },
+        "hold_tns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "nonworsening_count": 36,
+          "unchanged_count": 36,
+          "worsened_count": 0,
+          "worst_value": 0.0,
+          "worst_window_id": "aes_w0000"
+        },
+        "hold_wns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": -2.804166666666657e-05,
+          "median": 0.0,
+          "minimum": -0.0003934000000000021,
+          "nonworsening_count": 33,
+          "unchanged_count": 33,
+          "worsened_count": 3,
+          "worst_value": -0.0003934000000000021,
+          "worst_window_id": "ibex_w0005"
+        },
+        "routed_wirelength": {
+          "improved_count": 18,
+          "maximum": 23.0,
+          "mean": -7.305555555555555,
+          "median": -1.5,
+          "minimum": -46.0,
+          "nonworsening_count": 29,
+          "unchanged_count": 11,
+          "worsened_count": 7,
+          "worst_value": 23.0,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_tns_ns": {
+          "improved_count": 11,
+          "maximum": 0.1288999999999998,
+          "mean": 0.0068166666666666376,
+          "median": 0.0,
+          "minimum": -0.022500000000000853,
+          "nonworsening_count": 27,
+          "unchanged_count": 16,
+          "worsened_count": 9,
+          "worst_value": -0.022500000000000853,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_wns_ns": {
+          "improved_count": 3,
+          "maximum": 0.0007188999999999945,
+          "mean": -1.352500000000227e-05,
+          "median": 0.0,
+          "minimum": -0.0010400000000000131,
+          "nonworsening_count": 33,
+          "unchanged_count": 30,
+          "worsened_count": 3,
+          "worst_value": -0.0010400000000000131,
+          "worst_window_id": "gcd_w0004"
+        },
+        "via_count": {
+          "improved_count": 12,
+          "maximum": 21.0,
+          "mean": -1.0833333333333333,
+          "median": 0.0,
+          "minimum": -41.0,
+          "nonworsening_count": 24,
+          "unchanged_count": 12,
+          "worsened_count": 12,
+          "worst_value": 21.0,
+          "worst_window_id": "ibex_w0005"
+        }
+      },
+      "retained_cell_count": 143,
+      "routed_wirelength_sum_delta": -263.0,
+      "zero_overflow_count": 36
+    },
+    "simulated_annealing": {
+      "all_cells_retained_count": 35,
+      "distributions": {
+        "congestion_demand": {
+          "improved_count": 16,
+          "maximum": 7.0,
+          "mean": -1.8333333333333333,
+          "median": 0.0,
+          "minimum": -35.0,
+          "nonworsening_count": 31,
+          "unchanged_count": 15,
+          "worsened_count": 5,
+          "worst_value": 7.0,
+          "worst_window_id": "aes_w0003"
+        },
+        "hold_tns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "nonworsening_count": 36,
+          "unchanged_count": 36,
+          "worsened_count": 0,
+          "worst_value": 0.0,
+          "worst_window_id": "aes_w0000"
+        },
+        "hold_wns_ns": {
+          "improved_count": 0,
+          "maximum": 0.0,
+          "mean": -2.804166666666657e-05,
+          "median": 0.0,
+          "minimum": -0.0003934000000000021,
+          "nonworsening_count": 33,
+          "unchanged_count": 33,
+          "worsened_count": 3,
+          "worst_value": -0.0003934000000000021,
+          "worst_window_id": "ibex_w0005"
+        },
+        "routed_wirelength": {
+          "improved_count": 17,
+          "maximum": 23.0,
+          "mean": -7.472222222222222,
+          "median": 0.0,
+          "minimum": -46.0,
+          "nonworsening_count": 28,
+          "unchanged_count": 11,
+          "worsened_count": 8,
+          "worst_value": 23.0,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_tns_ns": {
+          "improved_count": 10,
+          "maximum": 0.1288999999999998,
+          "mean": 0.0065655555555555346,
+          "median": 0.0,
+          "minimum": -0.022500000000000853,
+          "nonworsening_count": 26,
+          "unchanged_count": 16,
+          "worsened_count": 10,
+          "worst_value": -0.022500000000000853,
+          "worst_window_id": "ibex_w0005"
+        },
+        "setup_wns_ns": {
+          "improved_count": 3,
+          "maximum": 0.0007188999999999945,
+          "mean": -1.5025000000002229e-05,
+          "median": 0.0,
+          "minimum": -0.0010940000000000116,
+          "nonworsening_count": 33,
+          "unchanged_count": 30,
+          "worsened_count": 3,
+          "worst_value": -0.0010940000000000116,
+          "worst_window_id": "gcd_w0004"
+        },
+        "via_count": {
+          "improved_count": 11,
+          "maximum": 21.0,
+          "mean": -1.1111111111111112,
+          "median": 0.0,
+          "minimum": -41.0,
+          "nonworsening_count": 24,
+          "unchanged_count": 13,
+          "worsened_count": 12,
+          "worst_value": 21.0,
+          "worst_window_id": "ibex_w0005"
+        }
+      },
+      "retained_cell_count": 143,
+      "routed_wirelength_sum_delta": -269.0,
+      "zero_overflow_count": 36
+    }
+  },
+  "qaoa_execution_commit": "52976f7d7071b84351885655c87fe32d03f16d4b",
+  "qaoa_pairwise": {
+    "exact": {
+      "congestion_demand": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.2222222222222222
+        ],
+        "mean_difference": 0.05555555555555555,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 0,
+        "ties": 35
+      },
+      "hold_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "hold_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "routed_wirelength": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          1.3333333333333333
+        ],
+        "mean_difference": 0.3333333333333333,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 0,
+        "ties": 35
+      },
+      "setup_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "setup_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "via_count": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.5555555555555556
+        ],
+        "mean_difference": 0.1388888888888889,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 0,
+        "ties": 35
+      }
+    },
+    "greedy": {
+      "congestion_demand": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -3.888888888888889,
+          0.16666666666666666
+        ],
+        "mean_difference": -1.0555555555555556,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 2,
+        "ties": 33
+      },
+      "hold_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "hold_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -7.281111111111084e-05,
+          0.0
+        ],
+        "mean_difference": -1.820277777777771e-05,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 0,
+        "ties": 35
+      },
+      "routed_wirelength": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -15.88888888888889,
+          1.5
+        ],
+        "mean_difference": -3.4722222222222223,
+        "median_difference": 0.0,
+        "qaoa_losses": 3,
+        "qaoa_wins": 2,
+        "ties": 31
+      },
+      "setup_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.019855555555555664
+        ],
+        "mean_difference": 0.004995277777777825,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 3,
+        "ties": 33
+      },
+      "setup_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -6.52777777777783e-05,
+          5.9999999999998324e-06
+        ],
+        "mean_difference": -1.4819444444444616e-05,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 1,
+        "ties": 34
+      },
+      "via_count": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -2.4166666666666665,
+          7.277777777777778
+        ],
+        "mean_difference": 1.4444444444444444,
+        "median_difference": 0.0,
+        "qaoa_losses": 4,
+        "qaoa_wins": 1,
+        "ties": 31
+      }
+    },
+    "simulated_annealing": {
+      "congestion_demand": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -0.1388888888888889,
+          0.16666666666666666
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 2,
+        "ties": 33
+      },
+      "hold_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "hold_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 0,
+        "ties": 36
+      },
+      "routed_wirelength": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -0.4166666666666667,
+          1.25
+        ],
+        "mean_difference": 0.16666666666666666,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 2,
+        "ties": 33
+      },
+      "setup_tns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          0.000878055555555473
+        ],
+        "mean_difference": 0.0002511111111111032,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 3,
+        "ties": 33
+      },
+      "setup_wns_ns": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          0.0,
+          5.9999999999998324e-06
+        ],
+        "mean_difference": 1.4999999999999581e-06,
+        "median_difference": 0.0,
+        "qaoa_losses": 0,
+        "qaoa_wins": 1,
+        "ties": 35
+      },
+      "via_count": {
+        "difference_definition": "qaoa_minus_comparator",
+        "hierarchical_bootstrap_95_ci": [
+          -0.4444444444444444,
+          0.5555555555555556
+        ],
+        "mean_difference": 0.027777777777777776,
+        "median_difference": 0.0,
+        "qaoa_losses": 1,
+        "qaoa_wins": 1,
+        "ties": 34
+      }
+    }
+  },
+  "qaoa_routing_summary_sha256": "488b70bf161ae7b41fbe34cbaf65231fe6b061672b64653b3bb631be1e8dd775",
+  "qaoa_selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851",
+  "schema_version": "qeda-downstream-classical-comparison-summary-v1",
+  "technical": {
+    "all_cells_retained_count": 105,
+    "completed_count": 108,
+    "retained_cell_count": 429,
+    "zero_overflow_count": 108
+  }
+}

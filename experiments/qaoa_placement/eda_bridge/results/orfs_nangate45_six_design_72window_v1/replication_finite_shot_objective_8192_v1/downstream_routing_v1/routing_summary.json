@@ -1,0 +1,145 @@
+{
+  "baselines": {
+    "mempool_group": {
+      "congestion_demand": 1639641.0,
+      "congestion_resource": 6315158.0,
+      "congestion_usage_percent": 25.96,
+      "hold_tns_ns": -0.137108,
+      "hold_wns_ns": -0.00711664,
+      "routed_wirelength": 6039685.0,
+      "setup_tns_ns": -12660.4,
+      "setup_wns_ns": -2.16,
+      "via_count": 1311004.0
+    },
+    "swerv": {
+      "congestion_demand": 725787.0,
+      "congestion_resource": 1267762.0,
+      "congestion_usage_percent": 57.25,
+      "hold_tns_ns": -6.19253,
+      "hold_wns_ns": -0.066223,
+      "routed_wirelength": 2839058.0,
+      "setup_tns_ns": -976.93,
+      "setup_wns_ns": -1.28142,
+      "via_count": 834139.0
+    },
+    "tinyRocket": {
+      "congestion_demand": 182619.0,
+      "congestion_resource": 491415.0,
+      "congestion_usage_percent": 37.16,
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.0751342,
+      "routed_wirelength": 745477.0,
+      "setup_tns_ns": -61.0131,
+      "setup_wns_ns": -0.177443,
+      "via_count": 239698.0
+    }
+  },
+  "container_sha256": "65f020a67c02e9ce0c8c507b5a4124498820c7ee7b07f6d8f3da7ea61c30151e",
+  "design_count": 3,
+  "execution_commit": "c22e851f80d6218a1e0779a8c36e767b4fbb6b7f",
+  "overall": {
+    "all_cells_retained_count": 35,
+    "completed_count": 36,
+    "distributions": {
+      "congestion_demand": {
+        "improved_count": 8,
+        "maximum": 437.0,
+        "mean": -33.72222222222222,
+        "median": 0.0,
+        "minimum": -1704.0,
+        "nonworsening_count": 28,
+        "unchanged_count": 20,
+        "worsened_count": 8,
+        "worst_value": 437.0,
+        "worst_window_id": "swerv_w0002"
+      },
+      "hold_tns_ns": {
+        "improved_count": 5,
+        "maximum": 0.6179600000000001,
+        "mean": 0.026735861111111075,
+        "median": 0.0,
+        "minimum": -0.4202300000000001,
+        "nonworsening_count": 33,
+        "unchanged_count": 28,
+        "worsened_count": 3,
+        "worst_value": -0.4202300000000001,
+        "worst_window_id": "swerv_w0004"
+      },
+      "hold_wns_ns": {
+        "improved_count": 6,
+        "maximum": 0.003448699999999999,
+        "mean": 7.290861111111183e-05,
+        "median": 0.0,
+        "minimum": -0.0017867900000000008,
+        "nonworsening_count": 34,
+        "unchanged_count": 28,
+        "worsened_count": 2,
+        "worst_value": -0.0017867900000000008,
+        "worst_window_id": "mempool_group_w0000"
+      },
+      "routed_wirelength": {
+        "improved_count": 12,
+        "maximum": 1662.0,
+        "mean": -481.6666666666667,
+        "median": 0.0,
+        "minimum": -7954.0,
+        "nonworsening_count": 32,
+        "unchanged_count": 20,
+        "worsened_count": 4,
+        "worst_value": 1662.0,
+        "worst_window_id": "swerv_w0002"
+      },
+      "setup_tns_ns": {
+        "improved_count": 11,
+        "maximum": 73.00099999999998,
+        "mean": 1.0555888888888085,
+        "median": 0.0,
+        "minimum": -177.86,
+        "nonworsening_count": 32,
+        "unchanged_count": 21,
+        "worsened_count": 4,
+        "worst_value": -177.86,
+        "worst_window_id": "swerv_w0002"
+      },
+      "setup_wns_ns": {
+        "improved_count": 2,
+        "maximum": 0.0011349999999999971,
+        "mean": -0.04607930555555555,
+        "median": 0.0,
+        "minimum": -0.3434299999999999,
+        "nonworsening_count": 28,
+        "unchanged_count": 26,
+        "worsened_count": 8,
+        "worst_value": -0.3434299999999999,
+        "worst_window_id": "swerv_w0003"
+      },
+      "via_count": {
+        "improved_count": 9,
+        "maximum": 177.0,
+        "mean": -164.27777777777777,
+        "median": 0.0,
+        "minimum": -1852.0,
+        "nonworsening_count": 29,
+        "unchanged_count": 20,
+        "worsened_count": 7,
+        "worst_value": 177.0,
+        "worst_window_id": "swerv_w0002"
+      }
+    },
+    "hpwl_correlations": {
+      "congestion_demand": 0.07454257217865459,
+      "hold_tns_ns": 0.32359601248585235,
+      "hold_wns_ns": 0.06475630376013458,
+      "routed_wirelength": -0.2521381373438182,
+      "setup_tns_ns": 0.19779023750179237,
+      "setup_wns_ns": -0.5070359366907282,
+      "via_count": -0.4086830894440438
+    },
+    "retained_cell_count": 143,
+    "routed_wirelength_sum_delta": -17340.0,
+    "zero_overflow_count": 36
+  },
+  "schema_version": "qeda-downstream-routing-summary-v2",
+  "selected_readout_sha256": "bcc706de9e53f8f89696d857f902e4f0177e092a99b004e3c17354e56e4512c2",
+  "window_count": 36
+}

@@ -1,0 +1,65 @@
+{
+  "initially_exact_window_count": 15,
+  "methods": {
+    "exact": {
+      "improving_window_rows": 21,
+      "mean_approximation_ratio": 1.0,
+      "mean_available_gap_closed_improving_windows": 1.0,
+      "mean_improvement_dbu_all_windows": 2589.1111111111113,
+      "optimal_hit_rate_all_windows": 1.0,
+      "optimal_hit_rate_improving_windows": 1.0,
+      "rows": 36
+    },
+    "greedy": {
+      "improving_window_rows": 21,
+      "mean_approximation_ratio": 1.0,
+      "mean_available_gap_closed_improving_windows": 1.0,
+      "mean_improvement_dbu_all_windows": 2589.1111111111113,
+      "optimal_hit_rate_all_windows": 1.0,
+      "optimal_hit_rate_improving_windows": 1.0,
+      "rows": 36
+    },
+    "random_search": {
+      "improving_window_rows": 42,
+      "mean_approximation_ratio": 1.00324572480427,
+      "mean_available_gap_closed_improving_windows": 0.4873329606701525,
+      "mean_improvement_dbu_all_windows": 1189.0833333333333,
+      "optimal_hit_rate_all_windows": 0.5555555555555556,
+      "optimal_hit_rate_improving_windows": 0.23809523809523808,
+      "rows": 72
+    },
+    "simulated_annealing": {
+      "improving_window_rows": 42,
+      "mean_approximation_ratio": 1.0013453836674555,
+      "mean_available_gap_closed_improving_windows": 0.7589782191239005,
+      "mean_improvement_dbu_all_windows": 2043.2222222222222,
+      "optimal_hit_rate_all_windows": 0.7638888888888888,
+      "optimal_hit_rate_improving_windows": 0.5952380952380952,
+      "rows": 72
+    },
+    "token_qaoa": {
+      "improving_window_rows": 42,
+      "mean_approximation_ratio": 1.0018514415865474,
+      "mean_available_gap_closed_improving_windows": 0.582946469651019,
+      "mean_expected_best_256_hpwl_dbu": 1337517.913144853,
+      "mean_improvement_dbu_all_windows": 2080.1388888888887,
+      "mean_optimal_probability": 0.25973993574474824,
+      "mean_probability_beating_initial": 0.06579802660372852,
+      "optimal_hit_rate_all_windows": 0.6388888888888888,
+      "optimal_hit_rate_improving_windows": 0.38095238095238093,
+      "rows": 72
+    },
+    "unchanged": {
+      "improving_window_rows": 21,
+      "mean_approximation_ratio": 1.00896269186041,
+      "mean_available_gap_closed_improving_windows": 0.0,
+      "mean_improvement_dbu_all_windows": 0.0,
+      "optimal_hit_rate_all_windows": 0.4166666666666667,
+      "optimal_hit_rate_improving_windows": 0.0,
+      "rows": 36
+    }
+  },
+  "row_count": 324,
+  "runtime_seconds": 1.677037000656128,
+  "window_count": 36
+}

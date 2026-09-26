@@ -1,0 +1,24 @@
+{
+  "configs": [
+    {
+      "budget": 40,
+      "edge_layers": 18,
+      "graph": "ring",
+      "name": "selected_ring_p3_beat",
+      "objective": "beat_initial",
+      "p": 3,
+      "schedule": "reversed"
+    }
+  ],
+  "development_manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/benchmark_manifest.json",
+  "development_manifest_hash": "d4e4a1d267ddd2c16808e1013b1b52efccf5f4f3df2c6ef4438867d751589363",
+  "development_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "exact_information_used_by_optimizer": false,
+  "readout_metric": "analytical expected best of 256",
+  "seeds": [
+    11,
+    17
+  ],
+  "selection_rule": "descending mean expected-best-256 gap closure on improving windows",
+  "split": "sealed_holdout"
+}

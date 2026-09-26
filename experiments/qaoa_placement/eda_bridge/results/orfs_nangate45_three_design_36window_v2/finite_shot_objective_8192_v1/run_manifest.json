@@ -1,0 +1,28 @@
+{
+  "input_manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/benchmark_manifest.json",
+  "input_manifest_hash": "d4e4a1d267ddd2c16808e1013b1b52efccf5f4f3df2c6ef4438867d751589363",
+  "input_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "objective_shots": [
+    8192
+  ],
+  "protocol": {
+    "edge_layers": 18,
+    "exact_information_used_by_optimizer": false,
+    "finite_shot_objective": true,
+    "gate_noise": false,
+    "graph": "ring",
+    "objective": "beat_initial",
+    "optimizer": "COBYLA",
+    "optimizer_budget": 40,
+    "p": 3,
+    "readout_noise": false,
+    "schedule": "reversed"
+  },
+  "seeds": [
+    11,
+    17,
+    23,
+    29
+  ],
+  "split": "finite_shot_holdout"
+}

@@ -1,0 +1,5 @@
+instance_id,family,sites,cohort,policy,synthesis,logical_cx,logical_depth,raw_cx,terms,objective,valid_residual,solve_seconds,coefficients,equalities,constraint_entries,circuit_sha256
+phase_6_scatter_0,scatter,6,gap,dense,beam,304,435,386,31,130.08124999999998,0.0,0.017369981855154037,64,36,2304,bc0c3fe9921e611ade638ea2ddd59a53e9a6c5e1b9d4e2ae1cbe8920188b3195
+phase_6_scatter_0,scatter,6,gap,dense,gray,210,286,210,31,130.08124999999998,0.0,0.017369981855154037,64,36,2304,106715eb8b683ca6e022ddcb024d4cfc1e466c02bbc0374fa03822370f3f098c
+phase_6_scatter_0,scatter,6,gap,separable,beam,346,528,444,39,143.36499999999998,0.0,0.008007063996046782,64,36,2304,dc407c05cdb2e34ecdbaac74d8d5c6ad6d1217bd263a399f419977fd2e2b3f6a
+phase_6_scatter_0,scatter,6,gap,separable,gray,262,356,262,39,143.36499999999998,0.0,0.008007063996046782,64,36,2304,31df515bb0da56f6655be29d9e8b7c714ce811f6ae9eaf40ad8f4f8ebb9b9fef

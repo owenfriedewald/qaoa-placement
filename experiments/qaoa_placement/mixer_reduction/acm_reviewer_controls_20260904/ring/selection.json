@@ -1,0 +1,29 @@
+{
+  "4": {
+    "candidate": "quarter_bound",
+    "scores": {
+      "fixed5": 0.0007261118407778084,
+      "quarter_bound": 0.0013939578693011273,
+      "strict_bound": 0.0005369723879375852,
+      "four_bound": 0.0012793800659651943
+    }
+  },
+  "5": {
+    "candidate": "strict_bound",
+    "scores": {
+      "fixed5": 2.5922979732283634e-05,
+      "quarter_bound": 1.3193770307772945e-05,
+      "strict_bound": 6.586975430643208e-05,
+      "four_bound": 1.4566859867450848e-05
+    }
+  },
+  "6": {
+    "candidate": "quarter_bound",
+    "scores": {
+      "fixed5": 1.8423700779399935e-07,
+      "quarter_bound": 1.7002317251737273e-06,
+      "strict_bound": 1.317723876829515e-07,
+      "four_bound": 5.519427072639115e-08
+    }
+  }
+}

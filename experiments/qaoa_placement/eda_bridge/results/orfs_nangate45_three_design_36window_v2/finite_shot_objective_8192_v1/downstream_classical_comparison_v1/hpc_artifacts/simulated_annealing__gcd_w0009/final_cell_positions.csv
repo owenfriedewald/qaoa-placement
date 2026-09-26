@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+_668_,49020,50400,MX,49020,50400,MX
+place197,44840,56000,MX,44840,56000,MX
+_703_,47120,56000,MX,47120,56000,MX
+place184,45980,47600,R0,45980,47600,R0

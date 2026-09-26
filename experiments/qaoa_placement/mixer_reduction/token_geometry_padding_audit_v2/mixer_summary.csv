@@ -1,0 +1,11 @@
+sites,register_width,topology,formula_cx,mixer_cx_level1,mixer_cx_level3,mixer_depth_level1,mixer_depth_level3
+6,3,line,210,210,195,274,271
+6,3,ring,252,252,234,327,323
+8,3,line,294,294,273,380,375
+8,3,ring,336,336,312,433,427
+9,4,line,448,448,416,561,554
+9,4,ring,504,504,468,630,622
+12,4,line,616,616,572,768,758
+12,4,ring,672,672,624,837,826
+16,4,line,840,840,780,1044,1030
+16,4,ring,896,896,832,1113,1098

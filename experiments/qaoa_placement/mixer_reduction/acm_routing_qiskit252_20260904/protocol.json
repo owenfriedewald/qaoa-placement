@@ -1,0 +1,82 @@
+{
+  "schema": "acm-confirmation-v1",
+  "frozen_before_evaluation": true,
+  "selection_data": {
+    "experiments/qaoa_placement/mixer_reduction/token_permutation_p3_parameter_results.csv": "0554ab1b51912fc589efb7f5bf02bcd5aec59afd7cc8280a55519bf7fefaca36",
+    "experiments/qaoa_placement/mixer_reduction/penalty_lambda_sweep_v1/run_level.csv": "c3cc11cbc61f8e118b74e953bfec58f5c4adf1f3583805174f620c36a5657922"
+  },
+  "token_graph": "line",
+  "token_schedule": "empty_prioritized",
+  "penalty_lambda": 5.0,
+  "objective": "analytical CVaR 0.25 of cost plus collision penalties",
+  "p": 3,
+  "optimizer": "COBYLA",
+  "budget": 200,
+  "rhobeg": 0.2,
+  "tol": 0.001,
+  "optimizer_seeds": [
+    11,
+    17,
+    23,
+    31
+  ],
+  "initializations": [
+    "deterministic",
+    "poor",
+    "random"
+  ],
+  "parameter_policy": "2p-1: beta0,gamma1,beta1,gamma2,beta2; matched starts",
+  "circuit_policy": "both symbolic, prepared, no first phase, no row penalties, no measurements",
+  "primary_endpoint": "instance mean unconditional optimum probability, token minus penalty",
+  "secondary_endpoints": [
+    "legal mass",
+    "improvement mass",
+    "expected best feasible cost with initial fallback"
+  ],
+  "readout_budgets": [
+    1,
+    8,
+    32,
+    128,
+    512
+  ],
+  "routing_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "instances_4c6s": 36,
+  "instances_5c7s": 12,
+  "outcome_filters": "none",
+  "routing_cohorts": [
+    "frozen 32 4c6s line/rotating",
+    "fresh 36 4c6s development-selected protocol"
+  ],
+  "code_sha256": {
+    "experiments/qaoa_placement/mixer_reduction/run_acm_confirmation.py": "23cacd1d5c825cc42302ed59c84bd66323810d5c2a68d016972920b82eb25fbf",
+    "experiments/qaoa_placement/mixer_reduction/invariant_placement.py": "17f3422dda77655ae43cde0dcbc076c4da9cd8b005aa95f097f17019562977c4",
+    "experiments/qaoa_placement/benchmark_suite.py": "a44fd18b87fb435b4cdd4a43a40c66b463fb623af3e22e76bdd741b3b3bb6030",
+    "experiments/qaoa_placement/placement_core.py": "5893320cfda1b21096128d65b34de882ba35efdd87fbf3433df0efbf7b5537e1",
+    "experiments/qaoa_placement/objective_functions.py": "977774244c7324b0a9fa8a42d42b4412e7aa32f9763f4dc61675edaec38f291a",
+    "experiments/qaoa_placement/mixer_reduction/run_token_permutation_p3_quality_uplift.py": "fbc95314d13f211fb4945ea4441597475507673dfce6164f3bcf2b79afd73043",
+    "experiments/qaoa_placement/mixer_reduction/phase_separator_optimization.py": "b5da3f21bb6171484eccfac96fc7a62ec364b442e71833520e4ee6a94498e8e1",
+    "experiments/qaoa_placement/mixer_reduction/register_partial_swap.py": "55e443e1cbffa6d62a10be99cdd42f4462c1582bdd55a8b5acf7b16a479dffa0"
+  }
+}

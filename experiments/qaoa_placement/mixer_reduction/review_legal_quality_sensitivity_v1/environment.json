@@ -1,0 +1,63 @@
+{
+  "cumulative_wall_clock_seconds": 1291.0487987995148,
+  "evaluation_budgets": [
+    40,
+    200,
+    800
+  ],
+  "exposed_cpus": 8,
+  "host_memory_gib": 11.681,
+  "manifest": "experiments/qaoa_placement/paper_suite_results/audit_061026/preflight_manifest_one_per_family.json",
+  "numpy": "2.2.6",
+  "optimizers": [
+    "COBYLA",
+    "Nelder-Mead"
+  ],
+  "penalty_lambda": 5.0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "restart_seeds": [
+    11,
+    17,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43
+  ],
+  "scipy": "1.15.3",
+  "starts": [
+    "deterministic",
+    "poor"
+  ],
+  "token_choice_candidates": [
+    [
+      "line",
+      "rotating"
+    ],
+    [
+      "line",
+      "reversed"
+    ],
+    [
+      "line",
+      "empty_prioritized"
+    ],
+    [
+      "ring",
+      "rotating"
+    ],
+    [
+      "ring",
+      "reversed"
+    ],
+    [
+      "ring",
+      "empty_prioritized"
+    ]
+  ],
+  "token_choice_development_source": "experiments/qaoa_placement/mixer_reduction/token_permutation_p3_parameter_results.csv",
+  "wall_clock_seconds_this_invocation": 0.023334980010986328
+}

@@ -1,0 +1,21 @@
+{
+  "benchmark_id": "orfs_nangate45_tqc_replication_three_design_36window_v1",
+  "benchmark_manifest_hash": "16531c7a5adc4e7fb8d9d0445f013f21877166a300e6dc6690a4d856f7b2f2fb",
+  "objective_shots": 8192,
+  "provenance": {
+    "finite_run_level_sha256": "b4e5a4874695b3314d2336b76384602d0733423c1bdf3f34b9a9a31488a08be2",
+    "manifest_sha256": "86ad4388ce34401588140faa7b4c33a34ed2eda481e110dd3e717b214cdda80a",
+    "selected_readout_sha256": "bcc706de9e53f8f89696d857f902e4f0177e092a99b004e3c17354e56e4512c2"
+  },
+  "sampled_exact_hit_count": 36,
+  "sampled_exact_hit_fraction": 1.0,
+  "schema_version": "qeda-finite-shot-readout-selection-v1",
+  "seeds": [
+    11,
+    17,
+    23,
+    29
+  ],
+  "selection_rule": "minimum sampled_best_4096_hpwl_dbu, then minimum seed",
+  "window_count": 36
+}

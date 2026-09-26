@@ -1,0 +1,143 @@
+{
+  "baselines": {
+    "aes": {
+      "congestion_demand": 82781.0,
+      "congestion_resource": 339681.0,
+      "congestion_usage_percent": 24.37,
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.109513,
+      "routed_wirelength": 351613.0,
+      "setup_tns_ns": -1.08268,
+      "setup_wns_ns": -0.0470821,
+      "via_count": 121787.0
+    },
+    "gcd": {
+      "congestion_demand": 1676.0,
+      "congestion_resource": 6107.0,
+      "congestion_usage_percent": 27.44,
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.0895048,
+      "routed_wirelength": 8099.0,
+      "setup_tns_ns": -7.65822,
+      "setup_wns_ns": -0.176052,
+      "via_count": 4179.0
+    },
+    "ibex": {
+      "congestion_demand": 97272.0,
+      "congestion_resource": 309040.0,
+      "congestion_usage_percent": 31.48,
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.0890542,
+      "routed_wirelength": 405204.0,
+      "setup_tns_ns": -15.0398,
+      "setup_wns_ns": -0.0807729,
+      "via_count": 133344.0
+    }
+  },
+  "container_sha256": "65f020a67c02e9ce0c8c507b5a4124498820c7ee7b07f6d8f3da7ea61c30151e",
+  "execution_commit": "52976f7d7071b84351885655c87fe32d03f16d4b",
+  "overall": {
+    "all_cells_retained_count": 35,
+    "completed_count": 36,
+    "distributions": {
+      "congestion_demand": {
+        "improved_count": 17,
+        "maximum": 7.0,
+        "mean": -1.8333333333333333,
+        "median": 0.0,
+        "minimum": -35.0,
+        "nonworsening_count": 32,
+        "unchanged_count": 15,
+        "worsened_count": 4,
+        "worst_value": 7.0,
+        "worst_window_id": "aes_w0003"
+      },
+      "hold_tns_ns": {
+        "improved_count": 0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "nonworsening_count": 36,
+        "unchanged_count": 36,
+        "worsened_count": 0,
+        "worst_value": 0.0,
+        "worst_window_id": "aes_w0000"
+      },
+      "hold_wns_ns": {
+        "improved_count": 0,
+        "maximum": 0.0,
+        "mean": -2.804166666666657e-05,
+        "median": 0.0,
+        "minimum": -0.0003934000000000021,
+        "nonworsening_count": 33,
+        "unchanged_count": 33,
+        "worsened_count": 3,
+        "worst_value": -0.0003934000000000021,
+        "worst_window_id": "ibex_w0005"
+      },
+      "routed_wirelength": {
+        "improved_count": 18,
+        "maximum": 23.0,
+        "mean": -7.305555555555555,
+        "median": -1.5,
+        "minimum": -46.0,
+        "nonworsening_count": 29,
+        "unchanged_count": 11,
+        "worsened_count": 7,
+        "worst_value": 23.0,
+        "worst_window_id": "ibex_w0005"
+      },
+      "setup_tns_ns": {
+        "improved_count": 11,
+        "maximum": 0.1288999999999998,
+        "mean": 0.0068166666666666376,
+        "median": 0.0,
+        "minimum": -0.022500000000000853,
+        "nonworsening_count": 27,
+        "unchanged_count": 16,
+        "worsened_count": 9,
+        "worst_value": -0.022500000000000853,
+        "worst_window_id": "ibex_w0005"
+      },
+      "setup_wns_ns": {
+        "improved_count": 3,
+        "maximum": 0.0007188999999999945,
+        "mean": -1.352500000000227e-05,
+        "median": 0.0,
+        "minimum": -0.0010400000000000131,
+        "nonworsening_count": 33,
+        "unchanged_count": 30,
+        "worsened_count": 3,
+        "worst_value": -0.0010400000000000131,
+        "worst_window_id": "gcd_w0004"
+      },
+      "via_count": {
+        "improved_count": 12,
+        "maximum": 21.0,
+        "mean": -1.0833333333333333,
+        "median": 0.0,
+        "minimum": -41.0,
+        "nonworsening_count": 24,
+        "unchanged_count": 12,
+        "worsened_count": 12,
+        "worst_value": 21.0,
+        "worst_window_id": "ibex_w0005"
+      }
+    },
+    "hpwl_correlations": {
+      "congestion_demand": -0.5011863835422332,
+      "hold_tns_ns": null,
+      "hold_wns_ns": -0.2050931654706607,
+      "routed_wirelength": -0.5341020392124279,
+      "setup_tns_ns": 0.3425018875533255,
+      "setup_wns_ns": -0.10405313506135937,
+      "via_count": 0.14925568868866154
+    },
+    "retained_cell_count": 143,
+    "routed_wirelength_sum_delta": -263.0,
+    "zero_overflow_count": 36
+  },
+  "schema_version": "qeda-downstream-routing-summary-v1",
+  "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851"
+}

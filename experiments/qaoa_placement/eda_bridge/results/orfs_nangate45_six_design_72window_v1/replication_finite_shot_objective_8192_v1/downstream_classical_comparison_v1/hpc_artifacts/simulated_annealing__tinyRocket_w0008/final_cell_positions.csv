@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+core/div/_4175_,63840,434000,MX,63840,434000,MX
+core/div/_4022_,62700,431200,R0,62700,431200,R0
+core/div/_4277_,50920,439600,MX,50920,439600,MX
+core/div/_4021_,58900,436800,R0,58900,436800,R0

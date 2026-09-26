@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+core/csr/place4100,331740,434000,MX,331740,434000,MX
+core/csr/_08757_,335540,434000,MX,335540,434000,MX
+core/csr/_05666_,329840,436800,R0,329840,436800,R0
+core/csr/_06826_,330600,428400,MX,330600,428400,MX

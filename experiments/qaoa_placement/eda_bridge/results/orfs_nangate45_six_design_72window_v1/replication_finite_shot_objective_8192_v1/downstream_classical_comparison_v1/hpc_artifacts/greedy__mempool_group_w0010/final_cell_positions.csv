@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+gen_tiles\[0\].i_tile.i_tile/_40043_,306280,1450400,MX,306280,1450400,MX
+gen_tiles\[0\].i_tile.i_tile/_40206_,315020,1458800,R0,315020,1458800,R0
+gen_tiles\[0\].i_tile.i_tile/_40229_,302100,1436400,R0,302100,1436400,R0
+gen_tiles\[0\].i_tile.i_tile/_40197_,312740,1433600,MX,312740,1433600,MX

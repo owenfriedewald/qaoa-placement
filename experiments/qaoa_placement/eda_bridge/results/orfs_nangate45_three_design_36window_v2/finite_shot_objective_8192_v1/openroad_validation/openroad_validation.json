@@ -1,0 +1,29 @@
+{
+  "container_digest": "sha256:d995618be9f2bcdfa5538b885123463070dfbf178bea1818716d4652fe0fa380",
+  "designs": {
+    "aes": {
+      "case_count": 12,
+      "input_odb_sha256": "2d82b8802376c82ccf73b61c1ba3560368601369b9f3715d763ab3fbf7eb76e1",
+      "openroad_exit_code": 0,
+      "validation_count": 12
+    },
+    "gcd": {
+      "case_count": 12,
+      "input_odb_sha256": "5140093541759c0a3564a009e93df86deb458faf62e9b1fad8e300b5184ee904",
+      "openroad_exit_code": 0,
+      "validation_count": 12
+    },
+    "ibex": {
+      "case_count": 12,
+      "input_odb_sha256": "728163f276732c02f9408e0165d90f78184a6d851b41df2283e73ab1607e14de",
+      "openroad_exit_code": 0,
+      "validation_count": 12
+    }
+  },
+  "method": "finite_shot_token_qaoa_seeded_best_of_4096",
+  "openroad_version": "26Q3-1510-g6cb3f2b704",
+  "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851",
+  "status": "pass",
+  "total_case_count": 36,
+  "total_validation_count": 36
+}

@@ -1,0 +1,5926 @@
+{
+  "schema_version": "qaoa-placement-benchmark-v1",
+  "manifest_hash": "959d55911d23604b3c9079219b7ba56de7d2697d5ef278926973c8c43f59a371",
+  "instance_count": 48,
+  "instances": [
+    {
+      "instance_id": "0000_sparse_grid_502",
+      "family": "sparse_grid",
+      "seed": 502,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.94
+        ],
+        [
+          "A",
+          "C",
+          4.87
+        ],
+        [
+          "B",
+          "D",
+          3.92
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 12.73,
+      "degenerate_optima": 28,
+      "exact_runtime_seconds": 0.0004584789276123047,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 21.52,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 34.25,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9502,
+          "assignment": {
+            "A": 0,
+            "B": 2,
+            "C": 3,
+            "D": 4
+          },
+          "hpwl": 20.59,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 12.73,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 0.5,
+      "weight_min": 3.92,
+      "weight_mean": 4.243333333333333,
+      "weight_max": 4.87
+    },
+    {
+      "instance_id": "0001_dense_grid_503",
+      "family": "dense_grid",
+      "seed": 503,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.55
+        ],
+        [
+          "A",
+          "C",
+          1.16
+        ],
+        [
+          "A",
+          "D",
+          2.51
+        ],
+        [
+          "B",
+          "C",
+          1.49
+        ],
+        [
+          "B",
+          "D",
+          3.98
+        ],
+        [
+          "C",
+          "D",
+          3.89
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 18.58,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007870197296142578,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 27.5,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 3,
+            "D": 2
+          },
+          "hpwl": 30.6,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9503,
+          "assignment": {
+            "A": 0,
+            "B": 5,
+            "C": 2,
+            "D": 1
+          },
+          "hpwl": 22.82,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 0,
+            "C": 2,
+            "D": 1
+          },
+          "hpwl": 18.78,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.16,
+      "weight_mean": 2.43,
+      "weight_max": 3.98
+    },
+    {
+      "instance_id": "0002_sparse_grid_line_504",
+      "family": "sparse_grid_line",
+      "seed": 504,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.61
+        ],
+        [
+          "A",
+          "C",
+          4.22
+        ],
+        [
+          "B",
+          "C",
+          4.01
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 11.45,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015473365783691406,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 14.059999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 0
+          },
+          "hpwl": 38.75,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9504,
+          "assignment": {
+            "A": 2,
+            "B": 3,
+            "C": 0
+          },
+          "hpwl": 22.08,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 3,
+            "C": 2
+          },
+          "hpwl": 11.45,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.61,
+      "weight_mean": 3.28,
+      "weight_max": 4.22
+    },
+    {
+      "instance_id": "0003_dense_grid_line_505",
+      "family": "dense_grid_line",
+      "seed": 505,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.58
+        ],
+        [
+          "A",
+          "C",
+          2.12
+        ],
+        [
+          "A",
+          "D",
+          4.84
+        ],
+        [
+          "B",
+          "C",
+          2.62
+        ],
+        [
+          "B",
+          "D",
+          2.18
+        ],
+        [
+          "C",
+          "D",
+          3.81
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 28.689999999999998,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007445812225341797,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 33.13,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 1,
+            "C": 4,
+            "D": 0
+          },
+          "hpwl": 65.92,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9505,
+          "assignment": {
+            "A": 4,
+            "B": 2,
+            "C": 1,
+            "D": 3
+          },
+          "hpwl": 30.78,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 3,
+            "D": 2
+          },
+          "hpwl": 28.689999999999998,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 2.12,
+      "weight_mean": 3.1916666666666664,
+      "weight_max": 4.84
+    },
+    {
+      "instance_id": "0004_sparse_grid_lshape_506",
+      "family": "sparse_grid_lshape",
+      "seed": 506,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.94
+        ],
+        [
+          "A",
+          "C",
+          2.53
+        ],
+        [
+          "B",
+          "C",
+          2.66
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 9.07,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015687942504882812,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 9.66,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 3
+          },
+          "hpwl": 25.36,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9506,
+          "assignment": {
+            "A": 0,
+            "B": 4,
+            "C": 1
+          },
+          "hpwl": 9.79,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 0,
+            "C": 1
+          },
+          "hpwl": 9.07,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.94,
+      "weight_mean": 2.3766666666666665,
+      "weight_max": 2.66
+    },
+    {
+      "instance_id": "0005_dense_grid_lshape_507",
+      "family": "dense_grid_lshape",
+      "seed": 507,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.94
+        ],
+        [
+          "A",
+          "C",
+          1.97
+        ],
+        [
+          "B",
+          "C",
+          4.56
+        ],
+        [
+          "B",
+          "D",
+          3.79
+        ],
+        [
+          "C",
+          "D",
+          2.44
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 21.08,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007045269012451172,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 21.46,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 1,
+            "B": 5,
+            "C": 3,
+            "D": 2
+          },
+          "hpwl": 53.16,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9507,
+          "assignment": {
+            "A": 2,
+            "B": 0,
+            "C": 4,
+            "D": 5
+          },
+          "hpwl": 26.37,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 21.08,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 5,
+      "net_density": 0.8333333333333334,
+      "weight_min": 1.97,
+      "weight_mean": 3.1399999999999997,
+      "weight_max": 4.56
+    },
+    {
+      "instance_id": "0006_sparse_grid_510",
+      "family": "sparse_grid",
+      "seed": 510,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          4.58
+        ],
+        [
+          "A",
+          "C",
+          4.51
+        ],
+        [
+          "A",
+          "D",
+          1.43
+        ],
+        [
+          "B",
+          "C",
+          3.57
+        ],
+        [
+          "B",
+          "D",
+          1.3
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 19.97,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0006673336029052734,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 21.2,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 0,
+            "D": 3
+          },
+          "hpwl": 32.01,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9510,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 5,
+            "D": 4
+          },
+          "hpwl": 21.2,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 2,
+            "D": 4
+          },
+          "hpwl": 20.26,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 5,
+      "net_density": 0.8333333333333334,
+      "weight_min": 1.3,
+      "weight_mean": 3.0780000000000003,
+      "weight_max": 4.58
+    },
+    {
+      "instance_id": "0007_dense_grid_511",
+      "family": "dense_grid",
+      "seed": 511,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.79
+        ],
+        [
+          "A",
+          "C",
+          3.32
+        ],
+        [
+          "A",
+          "D",
+          3.05
+        ],
+        [
+          "B",
+          "C",
+          1.11
+        ],
+        [
+          "B",
+          "D",
+          2.93
+        ],
+        [
+          "C",
+          "D",
+          1.58
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 19.939999999999998,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007231235504150391,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 25.189999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 33.650000000000006,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9511,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 28.129999999999995,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 4,
+            "D": 2
+          },
+          "hpwl": 21.400000000000002,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.11,
+      "weight_mean": 2.63,
+      "weight_max": 3.79
+    },
+    {
+      "instance_id": "0008_sparse_grid_line_512",
+      "family": "sparse_grid_line",
+      "seed": 512,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          4.56
+        ],
+        [
+          "A",
+          "C",
+          3.49
+        ],
+        [
+          "B",
+          "C",
+          1.57
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 11.190000000000001,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015425682067871094,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 13.11,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 1
+          },
+          "hpwl": 38.33,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9512,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 5
+          },
+          "hpwl": 23.23,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+          },
+          "hpwl": 11.190000000000001,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.57,
+      "weight_mean": 3.206666666666667,
+      "weight_max": 4.56
+    },
+    {
+      "instance_id": "0009_dense_grid_line_513",
+      "family": "dense_grid_line",
+      "seed": 513,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.29
+        ],
+        [
+          "A",
+          "C",
+          1.73
+        ],
+        [
+          "A",
+          "D",
+          2.75
+        ],
+        [
+          "B",
+          "C",
+          4.95
+        ],
+        [
+          "B",
+          "D",
+          4.29
+        ],
+        [
+          "C",
+          "D",
+          1.73
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 25.22,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007336139678955078,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 29.26,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 61.46,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9513,
+          "assignment": {
+            "A": 2,
+            "B": 0,
+            "C": 3,
+            "D": 5
+          },
+          "hpwl": 54.32,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 2,
+            "C": 3,
+            "D": 1
+          },
+          "hpwl": 25.22,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.73,
+      "weight_mean": 2.9566666666666666,
+      "weight_max": 4.95
+    },
+    {
+      "instance_id": "0010_sparse_grid_lshape_514",
+      "family": "sparse_grid_lshape",
+      "seed": 514,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.83
+        ],
+        [
+          "A",
+          "C",
+          3.53
+        ],
+        [
+          "B",
+          "C",
+          3.59
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 10.78,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.0001552104949951172,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 12.48,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 3
+          },
+          "hpwl": 33.9,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9514,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 5
+          },
+          "hpwl": 19.6,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 0,
+            "C": 1
+          },
+          "hpwl": 10.78,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.83,
+      "weight_mean": 2.983333333333333,
+      "weight_max": 3.59
+    },
+    {
+      "instance_id": "0011_dense_grid_lshape_515",
+      "family": "dense_grid_lshape",
+      "seed": 515,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.1
+        ],
+        [
+          "A",
+          "C",
+          4.67
+        ],
+        [
+          "A",
+          "D",
+          4.38
+        ],
+        [
+          "B",
+          "C",
+          1.67
+        ],
+        [
+          "B",
+          "D",
+          4.73
+        ],
+        [
+          "C",
+          "D",
+          1.38
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 25.75,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007495880126953125,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 37.09,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 67.99,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9515,
+          "assignment": {
+            "A": 1,
+            "B": 5,
+            "C": 4,
+            "D": 2
+          },
+          "hpwl": 44.75,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 4,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 25.75,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.38,
+      "weight_mean": 3.1549999999999994,
+      "weight_max": 4.73
+    },
+    {
+      "instance_id": "0012_sparse_grid_518",
+      "family": "sparse_grid",
+      "seed": 518,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.02
+        ],
+        [
+          "B",
+          "D",
+          2.03
+        ],
+        [
+          "C",
+          "D",
+          4.16
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 8.21,
+      "degenerate_optima": 28,
+      "exact_runtime_seconds": 0.0004611015319824219,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 18.560000000000002,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 3,
+            "D": 2
+          },
+          "hpwl": 22.6,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9518,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 4,
+            "D": 3
+          },
+          "hpwl": 12.25,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 0,
+            "D": 1
+          },
+          "hpwl": 8.21,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 0.5,
+      "weight_min": 2.02,
+      "weight_mean": 2.736666666666667,
+      "weight_max": 4.16
+    },
+    {
+      "instance_id": "0013_dense_grid_519",
+      "family": "dense_grid",
+      "seed": 519,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.18
+        ],
+        [
+          "A",
+          "C",
+          1.23
+        ],
+        [
+          "A",
+          "D",
+          4.24
+        ],
+        [
+          "B",
+          "C",
+          1.95
+        ],
+        [
+          "B",
+          "D",
+          1.85
+        ],
+        [
+          "C",
+          "D",
+          2.68
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 17.21,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007760524749755859,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 22.57,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 31.370000000000005,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9519,
+          "assignment": {
+            "A": 3,
+            "B": 2,
+            "C": 5,
+            "D": 4
+          },
+          "hpwl": 21.57,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 3,
+            "C": 4,
+            "D": 1
+          },
+          "hpwl": 17.21,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.23,
+      "weight_mean": 2.355,
+      "weight_max": 4.24
+    },
+    {
+      "instance_id": "0014_sparse_grid_line_520",
+      "family": "sparse_grid_line",
+      "seed": 520,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "C",
+          2.58
+        ],
+        [
+          "B",
+          "C",
+          4.73
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 7.3100000000000005,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00012612342834472656,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 9.89,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 0
+          },
+          "hpwl": 33.97,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9520,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 2
+          },
+          "hpwl": 12.040000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 7.3100000000000005,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 2.58,
+      "weight_mean": 3.6550000000000002,
+      "weight_max": 4.73
+    },
+    {
+      "instance_id": "0015_dense_grid_line_521",
+      "family": "dense_grid_line",
+      "seed": 521,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "C",
+          4.47
+        ],
+        [
+          "A",
+          "D",
+          4.1
+        ],
+        [
+          "B",
+          "C",
+          2.01
+        ],
+        [
+          "B",
+          "D",
+          4.18
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 18.78,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0005626678466796875,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 31.61,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 61.129999999999995,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9521,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 52.269999999999996,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 0,
+            "C": 3,
+            "D": 1
+          },
+          "hpwl": 18.78,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 4,
+      "net_density": 0.6666666666666666,
+      "weight_min": 2.01,
+      "weight_mean": 3.69,
+      "weight_max": 4.47
+    },
+    {
+      "instance_id": "0016_sparse_grid_lshape_522",
+      "family": "sparse_grid_lshape",
+      "seed": 522,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "C",
+          4.42
+        ],
+        [
+          "B",
+          "C",
+          2.54
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 6.96,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.000125885009765625,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 11.379999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 3
+          },
+          "hpwl": 32.260000000000005,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9522,
+          "assignment": {
+            "A": 3,
+            "B": 4,
+            "C": 0
+          },
+          "hpwl": 15.8,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 2,
+            "C": 1
+          },
+          "hpwl": 6.96,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 2.54,
+      "weight_mean": 3.48,
+      "weight_max": 4.42
+    },
+    {
+      "instance_id": "0017_dense_grid_lshape_523",
+      "family": "dense_grid_lshape",
+      "seed": 523,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.63
+        ],
+        [
+          "A",
+          "C",
+          3.15
+        ],
+        [
+          "A",
+          "D",
+          3.94
+        ],
+        [
+          "B",
+          "D",
+          1.69
+        ],
+        [
+          "C",
+          "D",
+          4.29
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 19.54,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0006439685821533203,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 27.419999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 2,
+            "C": 3,
+            "D": 5
+          },
+          "hpwl": 49.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9523,
+          "assignment": {
+            "A": 2,
+            "B": 5,
+            "C": 0,
+            "D": 3
+          },
+          "hpwl": 38.08,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 4,
+            "C": 2,
+            "D": 1
+          },
+          "hpwl": 19.54,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 5,
+      "net_density": 0.8333333333333334,
+      "weight_min": 1.63,
+      "weight_mean": 2.94,
+      "weight_max": 4.29
+    },
+    {
+      "instance_id": "0018_sparse_grid_526",
+      "family": "sparse_grid",
+      "seed": 526,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.6
+        ],
+        [
+          "A",
+          "C",
+          2.54
+        ],
+        [
+          "C",
+          "D",
+          1.22
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 6.36,
+      "degenerate_optima": 28,
+      "exact_runtime_seconds": 0.0004668235778808594,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 11.34,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 3,
+            "D": 2
+          },
+          "hpwl": 16.54,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9526,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 5,
+            "D": 2
+          },
+          "hpwl": 6.36,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 0,
+            "D": 3
+          },
+          "hpwl": 6.36,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 0.5,
+      "weight_min": 1.22,
+      "weight_mean": 2.12,
+      "weight_max": 2.6
+    },
+    {
+      "instance_id": "0019_dense_grid_527",
+      "family": "dense_grid",
+      "seed": 527,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.97
+        ],
+        [
+          "A",
+          "C",
+          2.26
+        ],
+        [
+          "A",
+          "D",
+          3.81
+        ],
+        [
+          "B",
+          "C",
+          4.47
+        ],
+        [
+          "B",
+          "D",
+          3.23
+        ],
+        [
+          "C",
+          "D",
+          2.47
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 22.650000000000002,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007693767547607422,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 28.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 3,
+            "D": 0
+          },
+          "hpwl": 40.26,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9527,
+          "assignment": {
+            "A": 4,
+            "B": 3,
+            "C": 0,
+            "D": 5
+          },
+          "hpwl": 28.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 26.75,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.97,
+      "weight_mean": 3.0349999999999997,
+      "weight_max": 4.47
+    },
+    {
+      "instance_id": "0020_sparse_grid_line_528",
+      "family": "sparse_grid_line",
+      "seed": 528,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.88
+        ],
+        [
+          "B",
+          "C",
+          1.38
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 4.26,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.0001270771026611328,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 4.26,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 4
+          },
+          "hpwl": 19.919999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9528,
+          "assignment": {
+            "A": 1,
+            "B": 5,
+            "C": 3
+          },
+          "hpwl": 14.28,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 3
+          },
+          "hpwl": 4.26,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 1.38,
+      "weight_mean": 2.13,
+      "weight_max": 2.88
+    },
+    {
+      "instance_id": "0021_dense_grid_line_529",
+      "family": "dense_grid_line",
+      "seed": 529,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.84
+        ],
+        [
+          "A",
+          "C",
+          3.68
+        ],
+        [
+          "A",
+          "D",
+          4.88
+        ],
+        [
+          "B",
+          "C",
+          3.95
+        ],
+        [
+          "B",
+          "D",
+          4.01
+        ],
+        [
+          "C",
+          "D",
+          2.66
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 36.03,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007374286651611328,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 40.47,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 73.50999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9529,
+          "assignment": {
+            "A": 3,
+            "B": 5,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 68.19,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 0,
+            "D": 3
+          },
+          "hpwl": 36.03,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 2.66,
+      "weight_mean": 3.8366666666666664,
+      "weight_max": 4.88
+    },
+    {
+      "instance_id": "0022_sparse_grid_lshape_530",
+      "family": "sparse_grid_lshape",
+      "seed": 530,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.23
+        ],
+        [
+          "A",
+          "C",
+          3.99
+        ],
+        [
+          "B",
+          "C",
+          3.43
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 13.879999999999999,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015592575073242188,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 14.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 3
+          },
+          "hpwl": 36.900000000000006,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9530,
+          "assignment": {
+            "A": 3,
+            "B": 4,
+            "C": 1
+          },
+          "hpwl": 27.759999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 2,
+            "C": 1
+          },
+          "hpwl": 13.879999999999999,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 3.23,
+      "weight_mean": 3.5500000000000003,
+      "weight_max": 3.99
+    },
+    {
+      "instance_id": "0023_dense_grid_lshape_531",
+      "family": "dense_grid_lshape",
+      "seed": 531,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.85
+        ],
+        [
+          "A",
+          "C",
+          1.8
+        ],
+        [
+          "A",
+          "D",
+          3.34
+        ],
+        [
+          "B",
+          "C",
+          4.46
+        ],
+        [
+          "B",
+          "D",
+          3.66
+        ],
+        [
+          "C",
+          "D",
+          2.74
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 28.040000000000003,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007491111755371094,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 30.990000000000002,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 60.49,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9531,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 5
+          },
+          "hpwl": 44.25000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 28.040000000000003,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.8,
+      "weight_mean": 3.141666666666667,
+      "weight_max": 4.46
+    },
+    {
+      "instance_id": "0024_sparse_grid_534",
+      "family": "sparse_grid",
+      "seed": 534,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.84
+        ],
+        [
+          "A",
+          "C",
+          1.62
+        ],
+        [
+          "B",
+          "C",
+          1.72
+        ],
+        [
+          "C",
+          "D",
+          2.42
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 10.219999999999999,
+      "degenerate_optima": 28,
+      "exact_runtime_seconds": 0.00057220458984375,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 15.059999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 20.84,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9534,
+          "assignment": {
+            "A": 0,
+            "B": 4,
+            "C": 5,
+            "D": 3
+          },
+          "hpwl": 17.1,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 3,
+            "B": 0,
+            "C": 1,
+            "D": 4
+          },
+          "hpwl": 10.219999999999999,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 4,
+      "net_density": 0.6666666666666666,
+      "weight_min": 1.62,
+      "weight_mean": 2.15,
+      "weight_max": 2.84
+    },
+    {
+      "instance_id": "0025_dense_grid_535",
+      "family": "dense_grid",
+      "seed": 535,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.93
+        ],
+        [
+          "A",
+          "C",
+          3.77
+        ],
+        [
+          "A",
+          "D",
+          4.33
+        ],
+        [
+          "B",
+          "C",
+          3.45
+        ],
+        [
+          "B",
+          "D",
+          2.62
+        ],
+        [
+          "C",
+          "D",
+          3.35
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 24.73,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007257461547851562,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 32.540000000000006,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 3,
+            "D": 0
+          },
+          "hpwl": 41.400000000000006,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9535,
+          "assignment": {
+            "A": 3,
+            "B": 1,
+            "C": 0,
+            "D": 4
+          },
+          "hpwl": 24.73,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 3,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 25.840000000000003,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.93,
+      "weight_mean": 3.241666666666667,
+      "weight_max": 4.33
+    },
+    {
+      "instance_id": "0026_sparse_grid_line_536",
+      "family": "sparse_grid_line",
+      "seed": 536,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.52
+        ],
+        [
+          "A",
+          "C",
+          3.23
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 6.75,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00012826919555664062,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 9.98,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 1
+          },
+          "hpwl": 30.520000000000003,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9536,
+          "assignment": {
+            "A": 4,
+            "B": 0,
+            "C": 5
+          },
+          "hpwl": 17.31,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+          },
+          "hpwl": 6.75,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 3.23,
+      "weight_mean": 3.375,
+      "weight_max": 3.52
+    },
+    {
+      "instance_id": "0027_dense_grid_line_537",
+      "family": "dense_grid_line",
+      "seed": 537,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.12
+        ],
+        [
+          "A",
+          "C",
+          3.07
+        ],
+        [
+          "A",
+          "D",
+          2.72
+        ],
+        [
+          "B",
+          "C",
+          1.17
+        ],
+        [
+          "B",
+          "D",
+          3.73
+        ],
+        [
+          "C",
+          "D",
+          3.98
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 24.92,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007386207580566406,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 29.030000000000005,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 0,
+            "D": 5
+          },
+          "hpwl": 57.35,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9537,
+          "assignment": {
+            "A": 3,
+            "B": 1,
+            "C": 2,
+            "D": 4
+          },
+          "hpwl": 30.35,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 3,
+            "C": 1,
+            "D": 2
+          },
+          "hpwl": 24.92,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.17,
+      "weight_mean": 2.7983333333333333,
+      "weight_max": 3.98
+    },
+    {
+      "instance_id": "0028_sparse_grid_lshape_538",
+      "family": "sparse_grid_lshape",
+      "seed": 538,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.29
+        ],
+        [
+          "A",
+          "C",
+          1.19
+        ],
+        [
+          "B",
+          "C",
+          2.6
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 7.27,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.0001552104949951172,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 7.27,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 3,
+            "C": 5
+          },
+          "hpwl": 23.35,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9538,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 5
+          },
+          "hpwl": 11.059999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 0
+          },
+          "hpwl": 7.27,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.19,
+      "weight_mean": 2.026666666666667,
+      "weight_max": 2.6
+    },
+    {
+      "instance_id": "0029_dense_grid_lshape_539",
+      "family": "dense_grid_lshape",
+      "seed": 539,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.27
+        ],
+        [
+          "A",
+          "C",
+          2.48
+        ],
+        [
+          "A",
+          "D",
+          4.32
+        ],
+        [
+          "B",
+          "C",
+          3.12
+        ],
+        [
+          "B",
+          "D",
+          4.38
+        ],
+        [
+          "C",
+          "D",
+          3.72
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 28.689999999999998,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007925033569335938,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 34.79,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 64.09,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9539,
+          "assignment": {
+            "A": 5,
+            "B": 1,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 40.99,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 2,
+            "C": 0,
+            "D": 1
+          },
+          "hpwl": 29.27,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.27,
+      "weight_mean": 3.215,
+      "weight_max": 4.38
+    },
+    {
+      "instance_id": "0030_sparse_grid_542",
+      "family": "sparse_grid",
+      "seed": 542,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.11
+        ],
+        [
+          "A",
+          "C",
+          1.66
+        ],
+        [
+          "A",
+          "D",
+          3.46
+        ],
+        [
+          "B",
+          "C",
+          2.68
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 11.57,
+      "degenerate_optima": 28,
+      "exact_runtime_seconds": 0.0005548000335693359,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 11.57,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 24.299999999999997,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9542,
+          "assignment": {
+            "A": 0,
+            "B": 4,
+            "C": 2,
+            "D": 5
+          },
+          "hpwl": 23.279999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 0,
+            "C": 3,
+            "D": 4
+          },
+          "hpwl": 11.57,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 4,
+      "net_density": 0.6666666666666666,
+      "weight_min": 1.66,
+      "weight_mean": 2.4775,
+      "weight_max": 3.46
+    },
+    {
+      "instance_id": "0031_dense_grid_543",
+      "family": "dense_grid",
+      "seed": 543,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          4.25
+        ],
+        [
+          "A",
+          "C",
+          1.34
+        ],
+        [
+          "A",
+          "D",
+          3.38
+        ],
+        [
+          "B",
+          "C",
+          4.77
+        ],
+        [
+          "B",
+          "D",
+          4.77
+        ],
+        [
+          "C",
+          "D",
+          4.12
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 28.74,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007314682006835938,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 36.98,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 47.519999999999996,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9543,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 4,
+            "D": 1
+          },
+          "hpwl": 30.78,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 31.47,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.34,
+      "weight_mean": 3.7716666666666665,
+      "weight_max": 4.77
+    },
+    {
+      "instance_id": "0032_sparse_grid_line_544",
+      "family": "sparse_grid_line",
+      "seed": 544,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.43
+        ],
+        [
+          "A",
+          "C",
+          3.6
+        ],
+        [
+          "B",
+          "C",
+          3.45
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 9.91,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015425682067871094,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 12.080000000000002,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 0
+          },
+          "hpwl": 33.230000000000004,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9544,
+          "assignment": {
+            "A": 0,
+            "B": 3,
+            "C": 1
+          },
+          "hpwl": 14.790000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 3,
+            "C": 2
+          },
+          "hpwl": 9.91,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.43,
+      "weight_mean": 2.8266666666666667,
+      "weight_max": 3.6
+    },
+    {
+      "instance_id": "0033_dense_grid_line_545",
+      "family": "dense_grid_line",
+      "seed": 545,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.13
+        ],
+        [
+          "A",
+          "C",
+          1.31
+        ],
+        [
+          "A",
+          "D",
+          1.93
+        ],
+        [
+          "B",
+          "C",
+          2.43
+        ],
+        [
+          "B",
+          "D",
+          4.26
+        ],
+        [
+          "C",
+          "D",
+          2.08
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 22.119999999999997,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007207393646240234,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 24.57,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 0,
+            "C": 1,
+            "D": 5
+          },
+          "hpwl": 50.43,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9545,
+          "assignment": {
+            "A": 0,
+            "B": 5,
+            "C": 3,
+            "D": 4
+          },
+          "hpwl": 38.49999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 3,
+            "B": 2,
+            "C": 0,
+            "D": 1
+          },
+          "hpwl": 22.119999999999997,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.31,
+      "weight_mean": 2.523333333333333,
+      "weight_max": 4.26
+    },
+    {
+      "instance_id": "0034_sparse_grid_lshape_546",
+      "family": "sparse_grid_lshape",
+      "seed": 546,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          4.58
+        ],
+        [
+          "B",
+          "C",
+          2.59
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 7.17,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00013494491577148438,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 7.17,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 4
+          },
+          "hpwl": 33.26,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9546,
+          "assignment": {
+            "A": 1,
+            "B": 4,
+            "C": 5
+          },
+          "hpwl": 11.75,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 7.17,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 2.59,
+      "weight_mean": 3.585,
+      "weight_max": 4.58
+    },
+    {
+      "instance_id": "0035_dense_grid_lshape_547",
+      "family": "dense_grid_lshape",
+      "seed": 547,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.83
+        ],
+        [
+          "A",
+          "C",
+          4.44
+        ],
+        [
+          "A",
+          "D",
+          2.69
+        ],
+        [
+          "B",
+          "C",
+          2.26
+        ],
+        [
+          "B",
+          "D",
+          2.95
+        ],
+        [
+          "C",
+          "D",
+          3.91
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 29.689999999999998,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007307529449462891,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 31.849999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 3,
+            "D": 4
+          },
+          "hpwl": 62.96,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9547,
+          "assignment": {
+            "A": 1,
+            "B": 3,
+            "C": 5,
+            "D": 4
+          },
+          "hpwl": 51.36999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 3,
+            "C": 1,
+            "D": 2
+          },
+          "hpwl": 29.689999999999998,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 2.26,
+      "weight_mean": 3.18,
+      "weight_max": 4.44
+    },
+    {
+      "instance_id": "0036_sparse_grid_550",
+      "family": "sparse_grid",
+      "seed": 550,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.16
+        ],
+        [
+          "A",
+          "C",
+          3.82
+        ],
+        [
+          "B",
+          "D",
+          4.37
+        ],
+        [
+          "C",
+          "D",
+          1.46
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 10.809999999999999,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.00055694580078125,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 21.919999999999998,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 29.810000000000002,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9550,
+          "assignment": {
+            "A": 2,
+            "B": 3,
+            "C": 1,
+            "D": 4
+          },
+          "hpwl": 13.129999999999999,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 2,
+            "D": 1
+          },
+          "hpwl": 13.129999999999999,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 4,
+      "net_density": 0.6666666666666666,
+      "weight_min": 1.16,
+      "weight_mean": 2.7024999999999997,
+      "weight_max": 4.37
+    },
+    {
+      "instance_id": "0037_dense_grid_551",
+      "family": "dense_grid",
+      "seed": 551,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.59
+        ],
+        [
+          "A",
+          "C",
+          4.99
+        ],
+        [
+          "A",
+          "D",
+          4.96
+        ],
+        [
+          "B",
+          "C",
+          4.33
+        ],
+        [
+          "B",
+          "D",
+          3.71
+        ],
+        [
+          "C",
+          "D",
+          1.97
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 27.110000000000003,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0007426738739013672,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 35.19,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 3,
+            "D": 0
+          },
+          "hpwl": 49.83,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9551,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 42.54,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 4,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 32.559999999999995,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.97,
+      "weight_mean": 3.758333333333333,
+      "weight_max": 4.99
+    },
+    {
+      "instance_id": "0038_sparse_grid_line_552",
+      "family": "sparse_grid_line",
+      "seed": 552,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.16
+        ],
+        [
+          "A",
+          "C",
+          4.11
+        ],
+        [
+          "B",
+          "C",
+          3.65
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 10.08,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015592575073242188,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 13.030000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 0
+          },
+          "hpwl": 36.31,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9552,
+          "assignment": {
+            "A": 2,
+            "B": 5,
+            "C": 4
+          },
+          "hpwl": 15.35,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 3,
+            "C": 2
+          },
+          "hpwl": 10.08,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.16,
+      "weight_mean": 2.973333333333333,
+      "weight_max": 4.11
+    },
+    {
+      "instance_id": "0039_dense_grid_line_553",
+      "family": "dense_grid_line",
+      "seed": 553,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.11
+        ],
+        [
+          "A",
+          "C",
+          3.93
+        ],
+        [
+          "A",
+          "D",
+          2.54
+        ],
+        [
+          "B",
+          "C",
+          1.54
+        ],
+        [
+          "B",
+          "D",
+          4.79
+        ],
+        [
+          "C",
+          "D",
+          1.73
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 21.560000000000002,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007231235504150391,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 29.44,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          },
+          "hpwl": 55.04,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9553,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 1,
+            "D": 3
+          },
+          "hpwl": 34.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 1,
+            "B": 3,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 21.560000000000002,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.11,
+      "weight_mean": 2.606666666666667,
+      "weight_max": 4.79
+    },
+    {
+      "instance_id": "0040_sparse_grid_lshape_554",
+      "family": "sparse_grid_lshape",
+      "seed": 554,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.69
+        ],
+        [
+          "A",
+          "C",
+          4.53
+        ],
+        [
+          "B",
+          "C",
+          2.44
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 10.35,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00015616416931152344,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 13.19,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 4,
+            "C": 3
+          },
+          "hpwl": 34.1,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9554,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 0
+          },
+          "hpwl": 20.7,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 2,
+            "C": 1
+          },
+          "hpwl": 10.35,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 3,
+      "net_density": 1.0,
+      "weight_min": 1.69,
+      "weight_mean": 2.8866666666666667,
+      "weight_max": 4.53
+    },
+    {
+      "instance_id": "0041_dense_grid_lshape_555",
+      "family": "dense_grid_lshape",
+      "seed": 555,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.77
+        ],
+        [
+          "A",
+          "C",
+          1.51
+        ],
+        [
+          "A",
+          "D",
+          3.83
+        ],
+        [
+          "B",
+          "C",
+          2.13
+        ],
+        [
+          "B",
+          "D",
+          1.43
+        ],
+        [
+          "C",
+          "D",
+          4.37
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 21.52,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007414817810058594,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 25.64,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 2,
+            "C": 5,
+            "D": 3
+          },
+          "hpwl": 53.940000000000005,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9555,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 3,
+            "D": 4
+          },
+          "hpwl": 36.349999999999994,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 4,
+            "C": 0,
+            "D": 1
+          },
+          "hpwl": 21.52,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.43,
+      "weight_mean": 2.5066666666666664,
+      "weight_max": 4.37
+    },
+    {
+      "instance_id": "0042_sparse_grid_558",
+      "family": "sparse_grid",
+      "seed": 558,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.09
+        ],
+        [
+          "A",
+          "C",
+          3.08
+        ],
+        [
+          "A",
+          "D",
+          4.03
+        ],
+        [
+          "B",
+          "D",
+          4.79
+        ],
+        [
+          "C",
+          "D",
+          3.74
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 20.759999999999998,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0006430149078369141,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 32.08,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 3,
+            "C": 0,
+            "D": 2
+          },
+          "hpwl": 37.3,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9558,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 2,
+            "D": 4
+          },
+          "hpwl": 27.44,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 4,
+            "C": 2,
+            "D": 1
+          },
+          "hpwl": 20.9,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 5,
+      "net_density": 0.8333333333333334,
+      "weight_min": 1.09,
+      "weight_mean": 3.345999999999999,
+      "weight_max": 4.79
+    },
+    {
+      "instance_id": "0043_dense_grid_559",
+      "family": "dense_grid",
+      "seed": 559,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 3,
+      "height": 2,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.13
+        ],
+        [
+          "A",
+          "C",
+          2.45
+        ],
+        [
+          "A",
+          "D",
+          3.83
+        ],
+        [
+          "B",
+          "C",
+          4.97
+        ],
+        [
+          "B",
+          "D",
+          4.19
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 21.700000000000003,
+      "degenerate_optima": 16,
+      "exact_runtime_seconds": 0.0006420612335205078,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 25.21,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 2,
+            "C": 3,
+            "D": 0
+          },
+          "hpwl": 42.81000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9559,
+          "assignment": {
+            "A": 2,
+            "B": 5,
+            "C": 0,
+            "D": 3
+          },
+          "hpwl": 42.81000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 4,
+            "D": 2
+          },
+          "hpwl": 24.85,
+          "is_optimal": false
+        }
+      ],
+      "net_count": 5,
+      "net_density": 0.8333333333333334,
+      "weight_min": 2.45,
+      "weight_mean": 3.714,
+      "weight_max": 4.97
+    },
+    {
+      "instance_id": "0044_sparse_grid_line_560",
+      "family": "sparse_grid_line",
+      "seed": 560,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.91
+        ],
+        [
+          "A",
+          "C",
+          2.85
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 5.76,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.0001246929168701172,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 8.61,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 5,
+            "B": 0,
+            "C": 1
+          },
+          "hpwl": 25.950000000000003,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9560,
+          "assignment": {
+            "A": 2,
+            "B": 3,
+            "C": 4
+          },
+          "hpwl": 8.61,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+          },
+          "hpwl": 5.76,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 2.85,
+      "weight_mean": 2.88,
+      "weight_max": 2.91
+    },
+    {
+      "instance_id": "0045_dense_grid_line_561",
+      "family": "dense_grid_line",
+      "seed": 561,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 6,
+      "height": 1,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          2.4
+        ],
+        [
+          "A",
+          "C",
+          3.84
+        ],
+        [
+          "A",
+          "D",
+          1.9
+        ],
+        [
+          "B",
+          "C",
+          3.22
+        ],
+        [
+          "B",
+          "D",
+          2.74
+        ],
+        [
+          "C",
+          "D",
+          1.8
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 23.9,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007255077362060547,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 26.28,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 0,
+            "D": 1
+          },
+          "hpwl": 52.32,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9561,
+          "assignment": {
+            "A": 1,
+            "B": 2,
+            "C": 4,
+            "D": 0
+          },
+          "hpwl": 34.940000000000005,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 3,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 23.9,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.8,
+      "weight_mean": 2.6500000000000004,
+      "weight_max": 3.84
+    },
+    {
+      "instance_id": "0046_sparse_grid_lshape_562",
+      "family": "sparse_grid_lshape",
+      "seed": 562,
+      "num_cells": 3,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          3.81
+        ],
+        [
+          "B",
+          "C",
+          4.11
+        ]
+      ],
+      "state_count": 120,
+      "num_qubits": 18,
+      "exact_hpwl": 7.92,
+      "degenerate_optima": 8,
+      "exact_runtime_seconds": 0.00014591217041015625,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2
+          },
+          "hpwl": 7.92,
+          "is_optimal": true
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 3,
+            "C": 5
+          },
+          "hpwl": 35.79,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9562,
+          "assignment": {
+            "A": 4,
+            "B": 0,
+            "C": 5
+          },
+          "hpwl": 12.030000000000001,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 2,
+            "B": 1,
+            "C": 0
+          },
+          "hpwl": 7.92,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 2,
+      "net_density": 0.6666666666666666,
+      "weight_min": 3.81,
+      "weight_mean": 3.96,
+      "weight_max": 4.11
+    },
+    {
+      "instance_id": "0047_dense_grid_lshape_563",
+      "family": "dense_grid_lshape",
+      "seed": 563,
+      "num_cells": 4,
+      "num_sites": 6,
+      "width": 4,
+      "height": 3,
+      "geometry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.69
+        ],
+        [
+          "A",
+          "C",
+          1.96
+        ],
+        [
+          "A",
+          "D",
+          4.27
+        ],
+        [
+          "B",
+          "C",
+          4.34
+        ],
+        [
+          "B",
+          "D",
+          3.47
+        ],
+        [
+          "C",
+          "D",
+          1.27
+        ]
+      ],
+      "state_count": 360,
+      "num_qubits": 24,
+      "exact_hpwl": 23.879999999999995,
+      "degenerate_optima": 6,
+      "exact_runtime_seconds": 0.0007350444793701172,
+      "initializations": [
+        {
+          "init_mode": "deterministic",
+          "init_seed": -1,
+          "assignment": {
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 30.97,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "poor",
+          "init_seed": -2,
+          "assignment": {
+            "A": 4,
+            "B": 5,
+            "C": 2,
+            "D": 3
+          },
+          "hpwl": 60.63,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "random",
+          "init_seed": 9563,
+          "assignment": {
+            "A": 4,
+            "B": 0,
+            "C": 1,
+            "D": 2
+          },
+          "hpwl": 30.97,
+          "is_optimal": false
+        },
+        {
+          "init_mode": "greedy",
+          "init_seed": -3,
+          "assignment": {
+            "A": 4,
+            "B": 1,
+            "C": 2,
+            "D": 0
+          },
+          "hpwl": 23.879999999999995,
+          "is_optimal": true
+        }
+      ],
+      "net_count": 6,
+      "net_density": 1.0,
+      "weight_min": 1.27,
+      "weight_mean": 2.8333333333333335,
+      "weight_max": 4.34
+    }
+  ]
+}

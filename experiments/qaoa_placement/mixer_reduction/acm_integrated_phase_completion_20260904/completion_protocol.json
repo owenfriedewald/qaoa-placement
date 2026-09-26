@@ -1,0 +1,21 @@
+{
+  "analysis": "paired full-circuit L1 versus zero extension, all 36 fresh cases",
+  "specification": "same symbolic prepared p=3 circuit, graph, schedule, and routing seeds",
+  "hypothesis": "measure native ECR/depth change; no direction assumed",
+  "quality": "same ideal valid-domain algorithm; no new optimization outcomes",
+  "comparison": "zero references from acm-routing-corpus-20260904-v2; pair by circuit hash",
+  "source_sha256": "da9267073504e756abebbc34a35c5b85a22a2eb80ec6e341a38048f15db40490",
+  "scientific_source_sha256": {
+    "experiments/qaoa_placement/mixer_reduction/run_acm_confirmation.py": "23cacd1d5c825cc42302ed59c84bd66323810d5c2a68d016972920b82eb25fbf",
+    "experiments/qaoa_placement/mixer_reduction/invariant_placement.py": "17f3422dda77655ae43cde0dcbc076c4da9cd8b005aa95f097f17019562977c4",
+    "experiments/qaoa_placement/benchmark_suite.py": "a44fd18b87fb435b4cdd4a43a40c66b463fb623af3e22e76bdd741b3b3bb6030",
+    "experiments/qaoa_placement/placement_core.py": "5893320cfda1b21096128d65b34de882ba35efdd87fbf3433df0efbf7b5537e1",
+    "experiments/qaoa_placement/objective_functions.py": "977774244c7324b0a9fa8a42d42b4412e7aa32f9763f4dc61675edaec38f291a",
+    "experiments/qaoa_placement/mixer_reduction/run_token_permutation_p3_quality_uplift.py": "fbc95314d13f211fb4945ea4441597475507673dfce6164f3bcf2b79afd73043",
+    "experiments/qaoa_placement/mixer_reduction/phase_separator_optimization.py": "b5da3f21bb6171484eccfac96fc7a62ec364b442e71833520e4ee6a94498e8e1",
+    "experiments/qaoa_placement/mixer_reduction/register_partial_swap.py": "55e443e1cbffa6d62a10be99cdd42f4462c1582bdd55a8b5acf7b16a479dffa0"
+  },
+  "workers": 8,
+  "threads_per_worker": 1,
+  "case_timeout_seconds": 1200
+}

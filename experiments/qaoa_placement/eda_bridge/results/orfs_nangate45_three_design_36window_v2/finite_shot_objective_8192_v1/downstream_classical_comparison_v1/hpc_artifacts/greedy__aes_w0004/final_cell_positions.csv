@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+text_out\[115\]$_DFF_P_,247760,61600,R0,247760,61600,R0
+text_in_r\[116\]$_DFFE_PP_,242060,64400,MX,242060,64400,MX
+text_out\[49\]$_DFF_P_,244720,56000,R0,244720,56000,R0
+text_out\[116\]$_DFF_P_,238640,58800,MX,238640,58800,MX

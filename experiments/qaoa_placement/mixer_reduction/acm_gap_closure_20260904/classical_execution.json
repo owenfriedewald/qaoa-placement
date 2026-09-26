@@ -1,0 +1,185 @@
+{
+  "expected": 36,
+  "cases": [
+    {
+      "case": "quality_4_6_compact_1",
+      "returncode": 0,
+      "sha256": "6a5970b9036987a6aca35f38f09ac89bc183bfc7b24952e8b41628f62dce72ce"
+    },
+    {
+      "case": "quality_4_6_compact_3",
+      "returncode": 0,
+      "sha256": "b87890207c0d51c3004fe718dde867823dc45ca958d540d0dd1d4708295b5128"
+    },
+    {
+      "case": "quality_4_6_line_2",
+      "returncode": 0,
+      "sha256": "ebce48662e2072626c3bae83ba9820ba4e7d62d3286dc8564f3036ca7304b3ee"
+    },
+    {
+      "case": "quality_4_6_line_3",
+      "returncode": 0,
+      "sha256": "fe465a0babeb53df2788fd22cd7f48f05a300d199e7276dc08734ec86e872147"
+    },
+    {
+      "case": "quality_4_6_compact_0",
+      "returncode": 0,
+      "sha256": "a82d2c4ef9c917f2f770d756fb76a52f303f369bbec11aa44686a1fcf6e340f5"
+    },
+    {
+      "case": "quality_4_6_line_0",
+      "returncode": 0,
+      "sha256": "af0bc3f369eee0153a149a80867775d5b713121d9eca3073c920bded740db2fb"
+    },
+    {
+      "case": "quality_4_6_compact_2",
+      "returncode": 0,
+      "sha256": "a6149e315d02a9405d4568c99ca5360835be2d1e244da1f95a5c4d853e05fe43"
+    },
+    {
+      "case": "quality_4_6_line_1",
+      "returncode": 0,
+      "sha256": "2342f5e3ba86960878c06c86cdfd29f3aa3671641a0fb974db11ab3a2e3690ba"
+    },
+    {
+      "case": "quality_4_6_scatter_0",
+      "returncode": 0,
+      "sha256": "67bfeb46445ea8bc09a2e2b1935e91f561e2c01a2212bfaca6d72c750af7ea8d"
+    },
+    {
+      "case": "quality_4_6_scatter_2",
+      "returncode": 0,
+      "sha256": "fcec6466d96db89173825aef33a8aac3b4d5bc2676729a973af4eb0d563a1945"
+    },
+    {
+      "case": "quality_4_6_scatter_1",
+      "returncode": 0,
+      "sha256": "85153da1b0e1ea19ef3a69c56338930f58c8d368524cc106915bf6b285d45bb9"
+    },
+    {
+      "case": "quality_4_6_scatter_3",
+      "returncode": 0,
+      "sha256": "8815c54c2d3b747fd6082c893362ab637bb13ce7f5e23923611c60fbe91484ff"
+    },
+    {
+      "case": "quality_5_8_compact_0",
+      "returncode": 0,
+      "sha256": "329237f42bbb0f699fa60e5150762cd70780d7ae3623f7b633839ceb89394852"
+    },
+    {
+      "case": "quality_5_8_compact_1",
+      "returncode": 0,
+      "sha256": "f0a9b643d332a73d0db0513cbed20c67329dd7ac1b28ee7ce82fca1bce1b3706"
+    },
+    {
+      "case": "quality_5_8_compact_2",
+      "returncode": 0,
+      "sha256": "ffd8ac97aca0ebf043170c1812338e4cbe6114c55dcfa4f3774780b7226a01c6"
+    },
+    {
+      "case": "quality_5_8_compact_3",
+      "returncode": 0,
+      "sha256": "ec27761cafe1535965e3e1b37729f8500b4c00cf9fff307a1ea6185164217886"
+    },
+    {
+      "case": "quality_5_8_line_2",
+      "returncode": 0,
+      "sha256": "803a1857b744fedeed08d795cae2671b25497c2a0b6f65dbe93ce709d3a0ee83"
+    },
+    {
+      "case": "quality_5_8_line_1",
+      "returncode": 0,
+      "sha256": "27fa0a7cc532cf2cfb3bd4f0d9602a5d309eedcf0f2b5bd1e39277ec3db0ea52"
+    },
+    {
+      "case": "quality_5_8_line_3",
+      "returncode": 0,
+      "sha256": "09abf5109ba1e67abbe987c522c31ef269bae1da998619595a950d22dacc4e44"
+    },
+    {
+      "case": "quality_5_8_line_0",
+      "returncode": 0,
+      "sha256": "94b074dd97138b263b0006a154b68ff236b805407f0fe2b826a3635304368c61"
+    },
+    {
+      "case": "quality_5_8_scatter_0",
+      "returncode": 0,
+      "sha256": "927aeb4a347b3e9f28e2e6837e0c1b6e0bccb1c606b8f96a3409fea5a9e8a475"
+    },
+    {
+      "case": "quality_5_8_scatter_1",
+      "returncode": 0,
+      "sha256": "f110c86cbbfb15475ca1ca18c2fff3c85b61169ab66a6f8826e40b0d084211ed"
+    },
+    {
+      "case": "quality_5_8_scatter_2",
+      "returncode": 0,
+      "sha256": "a880f058e868c2cb1160815688764695a0c0a0e768e12724c75188cc5eb67022"
+    },
+    {
+      "case": "quality_5_8_scatter_3",
+      "returncode": 0,
+      "sha256": "a6ac5844b84a847f5962fb0a30eb8ae8dc6c6ae16fe891f6d739b78cfbf7cd1a"
+    },
+    {
+      "case": "quality_6_8_compact_0",
+      "returncode": 0,
+      "sha256": "5d34f205cab92fb51b37ebd5c263c7ec8571fb161b890f296a92d8315f8c15aa"
+    },
+    {
+      "case": "quality_6_8_compact_2",
+      "returncode": 0,
+      "sha256": "69bb4ee91f58aae624c9757c653c9eb9ffb1802ebf6f7f80977890443bf5d3dd"
+    },
+    {
+      "case": "quality_6_8_compact_3",
+      "returncode": 0,
+      "sha256": "9130414ed3bb81b71b33bb8d90064f71de6f503dc13f3eb8539c6e774bd9c9a6"
+    },
+    {
+      "case": "quality_6_8_compact_1",
+      "returncode": 0,
+      "sha256": "40ebf2bf3a96dda26f598db0ac92e486242e2227ee677baf9e03745ca7568550"
+    },
+    {
+      "case": "quality_6_8_line_0",
+      "returncode": 0,
+      "sha256": "19cea5356448b6c6e9dfc9946d698b37c9c9834b42834dc3830ac8a84b8e8718"
+    },
+    {
+      "case": "quality_6_8_line_1",
+      "returncode": 0,
+      "sha256": "f8cb1ccebb713d38d7d8a2f5c66a82b92c76039c75175866599e4090529983f5"
+    },
+    {
+      "case": "quality_6_8_line_2",
+      "returncode": 0,
+      "sha256": "d9fd370f05003dc373bc884f044aea066120870bd78857df94e4cd847893fa9d"
+    },
+    {
+      "case": "quality_6_8_line_3",
+      "returncode": 0,
+      "sha256": "9c00f2ad8099479542acfceb76d10cf10776869cef13d0eeb4e51bed9169811a"
+    },
+    {
+      "case": "quality_6_8_scatter_0",
+      "returncode": 0,
+      "sha256": "8d99dd4f267dd86178a6d61e89ac04d5a5dd309007c8f041dce12c1e6a428763"
+    },
+    {
+      "case": "quality_6_8_scatter_1",
+      "returncode": 0,
+      "sha256": "686258e45cc1d0e097800b8fd0eaa754d238a19d86e95c30dc1386a7583a34d4"
+    },
+    {
+      "case": "quality_6_8_scatter_2",
+      "returncode": 0,
+      "sha256": "9fb86625a761ad7830cfe2466d620cdfe5d10de21c87be23821d5aff827b202d"
+    },
+    {
+      "case": "quality_6_8_scatter_3",
+      "returncode": 0,
+      "sha256": "160b516abc885d659bb8cf2b350d0dbbb89ceba8175b761f912efb01f9515a0b"
+    }
+  ]
+}

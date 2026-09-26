@@ -1,0 +1,17 @@
+{
+  "temperature": 0.05,
+  "scores": {
+    "0.05": 1.0,
+    "0.2": 1.0,
+    "1.0": 1.0
+  },
+  "development_manifest_sha256": "e1ac2051b2fc16eb24f5c24360b53511fd540a6f6a1d24caa9f69824e42677e2",
+  "instances": [
+    "0000_sparse_grid_502",
+    "0001_dense_grid_503",
+    "0002_sparse_grid_line_504",
+    "0003_dense_grid_line_505",
+    "0004_sparse_grid_lshape_506",
+    "0005_dense_grid_lshape_507"
+  ]
+}

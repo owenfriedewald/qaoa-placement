@@ -1,0 +1,2611 @@
+{
+  "analyses": {
+    "original": {
+      "assignment_identity_with_qaoa": {
+        "exact": {
+          "different_assignment_count": 1,
+          "different_assignment_same_routed_wirelength_count": 0,
+          "different_assignment_same_routed_wirelength_windows": [],
+          "identical_assignment_count": 35
+        },
+        "greedy": {
+          "different_assignment_count": 6,
+          "different_assignment_same_routed_wirelength_count": 1,
+          "different_assignment_same_routed_wirelength_windows": [
+            "gcd_w0004"
+          ],
+          "identical_assignment_count": 30
+        },
+        "simulated_annealing": {
+          "different_assignment_count": 5,
+          "different_assignment_same_routed_wirelength_count": 2,
+          "different_assignment_same_routed_wirelength_windows": [
+            "gcd_w0004",
+            "ibex_w0000"
+          ],
+          "identical_assignment_count": 31
+        }
+      },
+      "design_count": 3,
+      "method_summaries": {
+        "exact": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 17,
+              "maximum": 7.0,
+              "mean": -1.8888888888888888,
+              "median": 0.0,
+              "minimum": -35.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 15,
+              "worsened_count": 4,
+              "worst_value": 7.0,
+              "worst_window_id": "aes_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "nonworsening_count": 36,
+              "unchanged_count": 36,
+              "worsened_count": 0,
+              "worst_value": 0.0,
+              "worst_window_id": "aes_w0000"
+            },
+            "hold_wns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": -2.804166666666657e-05,
+              "median": 0.0,
+              "minimum": -0.0003934000000000021,
+              "nonworsening_count": 33,
+              "unchanged_count": 33,
+              "worsened_count": 3,
+              "worst_value": -0.0003934000000000021,
+              "worst_window_id": "ibex_w0005"
+            },
+            "routed_wirelength": {
+              "improved_count": 18,
+              "maximum": 23.0,
+              "mean": -7.638888888888889,
+              "median": -1.5,
+              "minimum": -46.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 11,
+              "worsened_count": 7,
+              "worst_value": 23.0,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 0.1288999999999998,
+              "mean": 0.0068166666666666376,
+              "median": 0.0,
+              "minimum": -0.022500000000000853,
+              "nonworsening_count": 27,
+              "unchanged_count": 16,
+              "worsened_count": 9,
+              "worst_value": -0.022500000000000853,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_wns_ns": {
+              "improved_count": 3,
+              "maximum": 0.0007188999999999945,
+              "mean": -1.352500000000227e-05,
+              "median": 0.0,
+              "minimum": -0.0010400000000000131,
+              "nonworsening_count": 33,
+              "unchanged_count": 30,
+              "worsened_count": 3,
+              "worst_value": -0.0010400000000000131,
+              "worst_window_id": "gcd_w0004"
+            },
+            "via_count": {
+              "improved_count": 12,
+              "maximum": 21.0,
+              "mean": -1.2222222222222223,
+              "median": 0.0,
+              "minimum": -41.0,
+              "nonworsening_count": 24,
+              "unchanged_count": 12,
+              "worsened_count": 12,
+              "worst_value": 21.0,
+              "worst_window_id": "ibex_w0005"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -275.0,
+          "zero_overflow_count": 36
+        },
+        "greedy": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 15,
+              "maximum": 7.0,
+              "mean": -0.7777777777777778,
+              "median": 0.0,
+              "minimum": -6.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 17,
+              "worsened_count": 4,
+              "worst_value": 7.0,
+              "worst_window_id": "aes_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "nonworsening_count": 36,
+              "unchanged_count": 36,
+              "worsened_count": 0,
+              "worst_value": 0.0,
+              "worst_window_id": "aes_w0000"
+            },
+            "hold_wns_ns": {
+              "improved_count": 1,
+              "maximum": 0.00026189999999999547,
+              "mean": -9.83888888888886e-06,
+              "median": 0.0,
+              "minimum": -0.0003934000000000021,
+              "nonworsening_count": 34,
+              "unchanged_count": 33,
+              "worsened_count": 2,
+              "worst_value": -0.0003934000000000021,
+              "worst_window_id": "ibex_w0005"
+            },
+            "routed_wirelength": {
+              "improved_count": 16,
+              "maximum": 117.0,
+              "mean": -3.8333333333333335,
+              "median": 0.0,
+              "minimum": -46.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 13,
+              "worsened_count": 7,
+              "worst_value": 117.0,
+              "worst_window_id": "ibex_w0006"
+            },
+            "setup_tns_ns": {
+              "improved_count": 9,
+              "maximum": 0.12110000000000021,
+              "mean": 0.0018213888888888123,
+              "median": 0.0,
+              "minimum": -0.04750000000000121,
+              "nonworsening_count": 26,
+              "unchanged_count": 17,
+              "worsened_count": 10,
+              "worst_value": -0.04750000000000121,
+              "worst_window_id": "ibex_w0006"
+            },
+            "setup_wns_ns": {
+              "improved_count": 3,
+              "maximum": 0.000928299999999993,
+              "mean": 1.2944444444423466e-06,
+              "median": 0.0,
+              "minimum": -0.0010940000000000116,
+              "nonworsening_count": 33,
+              "unchanged_count": 30,
+              "worsened_count": 3,
+              "worst_value": -0.0010940000000000116,
+              "worst_window_id": "gcd_w0004"
+            },
+            "via_count": {
+              "improved_count": 12,
+              "maximum": 21.0,
+              "mean": -2.5277777777777777,
+              "median": 0.0,
+              "minimum": -58.0,
+              "nonworsening_count": 26,
+              "unchanged_count": 14,
+              "worsened_count": 10,
+              "worst_value": 21.0,
+              "worst_window_id": "ibex_w0005"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -138.0,
+          "zero_overflow_count": 36
+        },
+        "qaoa": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 17,
+              "maximum": 7.0,
+              "mean": -1.8333333333333333,
+              "median": 0.0,
+              "minimum": -35.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 15,
+              "worsened_count": 4,
+              "worst_value": 7.0,
+              "worst_window_id": "aes_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "nonworsening_count": 36,
+              "unchanged_count": 36,
+              "worsened_count": 0,
+              "worst_value": 0.0,
+              "worst_window_id": "aes_w0000"
+            },
+            "hold_wns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": -2.804166666666657e-05,
+              "median": 0.0,
+              "minimum": -0.0003934000000000021,
+              "nonworsening_count": 33,
+              "unchanged_count": 33,
+              "worsened_count": 3,
+              "worst_value": -0.0003934000000000021,
+              "worst_window_id": "ibex_w0005"
+            },
+            "routed_wirelength": {
+              "improved_count": 18,
+              "maximum": 23.0,
+              "mean": -7.305555555555555,
+              "median": -1.5,
+              "minimum": -46.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 11,
+              "worsened_count": 7,
+              "worst_value": 23.0,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 0.1288999999999998,
+              "mean": 0.0068166666666666376,
+              "median": 0.0,
+              "minimum": -0.022500000000000853,
+              "nonworsening_count": 27,
+              "unchanged_count": 16,
+              "worsened_count": 9,
+              "worst_value": -0.022500000000000853,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_wns_ns": {
+              "improved_count": 3,
+              "maximum": 0.0007188999999999945,
+              "mean": -1.352500000000227e-05,
+              "median": 0.0,
+              "minimum": -0.0010400000000000131,
+              "nonworsening_count": 33,
+              "unchanged_count": 30,
+              "worsened_count": 3,
+              "worst_value": -0.0010400000000000131,
+              "worst_window_id": "gcd_w0004"
+            },
+            "via_count": {
+              "improved_count": 12,
+              "maximum": 21.0,
+              "mean": -1.0833333333333333,
+              "median": 0.0,
+              "minimum": -41.0,
+              "nonworsening_count": 24,
+              "unchanged_count": 12,
+              "worsened_count": 12,
+              "worst_value": 21.0,
+              "worst_window_id": "ibex_w0005"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -263.0,
+          "zero_overflow_count": 36
+        },
+        "simulated_annealing": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 16,
+              "maximum": 7.0,
+              "mean": -1.8333333333333333,
+              "median": 0.0,
+              "minimum": -35.0,
+              "nonworsening_count": 31,
+              "unchanged_count": 15,
+              "worsened_count": 5,
+              "worst_value": 7.0,
+              "worst_window_id": "aes_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "nonworsening_count": 36,
+              "unchanged_count": 36,
+              "worsened_count": 0,
+              "worst_value": 0.0,
+              "worst_window_id": "aes_w0000"
+            },
+            "hold_wns_ns": {
+              "improved_count": 0,
+              "maximum": 0.0,
+              "mean": -2.804166666666657e-05,
+              "median": 0.0,
+              "minimum": -0.0003934000000000021,
+              "nonworsening_count": 33,
+              "unchanged_count": 33,
+              "worsened_count": 3,
+              "worst_value": -0.0003934000000000021,
+              "worst_window_id": "ibex_w0005"
+            },
+            "routed_wirelength": {
+              "improved_count": 17,
+              "maximum": 23.0,
+              "mean": -7.472222222222222,
+              "median": 0.0,
+              "minimum": -46.0,
+              "nonworsening_count": 28,
+              "unchanged_count": 11,
+              "worsened_count": 8,
+              "worst_value": 23.0,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_tns_ns": {
+              "improved_count": 10,
+              "maximum": 0.1288999999999998,
+              "mean": 0.0065655555555555346,
+              "median": 0.0,
+              "minimum": -0.022500000000000853,
+              "nonworsening_count": 26,
+              "unchanged_count": 16,
+              "worsened_count": 10,
+              "worst_value": -0.022500000000000853,
+              "worst_window_id": "ibex_w0005"
+            },
+            "setup_wns_ns": {
+              "improved_count": 3,
+              "maximum": 0.0007188999999999945,
+              "mean": -1.5025000000002229e-05,
+              "median": 0.0,
+              "minimum": -0.0010940000000000116,
+              "nonworsening_count": 33,
+              "unchanged_count": 30,
+              "worsened_count": 3,
+              "worst_value": -0.0010940000000000116,
+              "worst_window_id": "gcd_w0004"
+            },
+            "via_count": {
+              "improved_count": 11,
+              "maximum": 21.0,
+              "mean": -1.1111111111111112,
+              "median": 0.0,
+              "minimum": -41.0,
+              "nonworsening_count": 24,
+              "unchanged_count": 13,
+              "worsened_count": 12,
+              "worst_value": 21.0,
+              "worst_window_id": "ibex_w0005"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -269.0,
+          "zero_overflow_count": 36
+        }
+      },
+      "qaoa_pairwise": {
+        "exact": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.2222222222222222
+            ],
+            "mean_difference": 0.05555555555555555,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 35
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              1.3333333333333333
+            ],
+            "mean_difference": 0.3333333333333333,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 35
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.5555555555555556
+            ],
+            "mean_difference": 0.1388888888888889,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 35
+          }
+        },
+        "greedy": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -3.888888888888889,
+              0.16666666666666666
+            ],
+            "mean_difference": -1.0555555555555556,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 2,
+            "ties": 33
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -7.281111111111084e-05,
+              0.0
+            ],
+            "mean_difference": -1.820277777777771e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 35
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -15.88888888888889,
+              1.5
+            ],
+            "mean_difference": -3.4722222222222223,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 2,
+            "ties": 31
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.019855555555555664
+            ],
+            "mean_difference": 0.004995277777777825,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 3,
+            "ties": 33
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -6.52777777777783e-05,
+              5.9999999999998324e-06
+            ],
+            "mean_difference": -1.4819444444444616e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -2.4166666666666665,
+              7.277777777777778
+            ],
+            "mean_difference": 1.4444444444444444,
+            "median_difference": 0.0,
+            "qaoa_losses": 4,
+            "qaoa_wins": 1,
+            "ties": 31
+          }
+        },
+        "simulated_annealing": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.1388888888888889,
+              0.16666666666666666
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 2,
+            "ties": 33
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.4166666666666667,
+              1.25
+            ],
+            "mean_difference": 0.16666666666666666,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 2,
+            "ties": 33
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.000878055555555473
+            ],
+            "mean_difference": 0.0002511111111111032,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 3,
+            "ties": 33
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              5.9999999999998324e-06
+            ],
+            "mean_difference": 1.4999999999999581e-06,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 1,
+            "ties": 35
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.4444444444444444,
+              0.5555555555555556
+            ],
+            "mean_difference": 0.027777777777777776,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          }
+        }
+      },
+      "qaoa_pairwise_all_cells_retained": {
+        "exact": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              1.411764705882353
+            ],
+            "mean_difference": 0.34285714285714286,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 34
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011"
+          ]
+        },
+        "greedy": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -16.055555555555557,
+              1.5
+            ],
+            "mean_difference": -3.5714285714285716,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 2,
+            "ties": 30
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011"
+          ]
+        },
+        "simulated_annealing": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.35294117647058826,
+              1.3235294117647058
+            ],
+            "mean_difference": 0.17142857142857143,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 2,
+            "ties": 32
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011"
+          ]
+        }
+      },
+      "routing_case_count": 144,
+      "routing_zero_overflow_count": 144,
+      "technical": {
+        "all_cells_retained_count": 105,
+        "attempted_count": 108,
+        "completed_count": 108,
+        "retained_cell_count": 429,
+        "zero_overflow_count": 108
+      },
+      "window_count": 36
+    },
+    "pooled": {
+      "assignment_identity_with_qaoa": {
+        "exact": {
+          "different_assignment_count": 1,
+          "different_assignment_same_routed_wirelength_count": 0,
+          "different_assignment_same_routed_wirelength_windows": [],
+          "identical_assignment_count": 71
+        },
+        "greedy": {
+          "different_assignment_count": 8,
+          "different_assignment_same_routed_wirelength_count": 1,
+          "different_assignment_same_routed_wirelength_windows": [
+            "gcd_w0004"
+          ],
+          "identical_assignment_count": 64
+        },
+        "simulated_annealing": {
+          "different_assignment_count": 10,
+          "different_assignment_same_routed_wirelength_count": 3,
+          "different_assignment_same_routed_wirelength_windows": [
+            "gcd_w0004",
+            "ibex_w0000",
+            "mempool_group_w0009"
+          ],
+          "identical_assignment_count": 62
+        }
+      },
+      "design_count": 6,
+      "method_summaries": {
+        "exact": {
+          "all_cells_retained_count": 70,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 25,
+              "maximum": 437.0,
+              "mean": -17.805555555555557,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 60,
+              "unchanged_count": 35,
+              "worsened_count": 12,
+              "worst_value": 437.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.013367930555555537,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 69,
+              "unchanged_count": 64,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 6,
+              "maximum": 0.003448699999999999,
+              "mean": 2.243347222222263e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 67,
+              "unchanged_count": 61,
+              "worsened_count": 5,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 30,
+              "maximum": 1662.0,
+              "mean": -244.65277777777777,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 61,
+              "unchanged_count": 31,
+              "worsened_count": 11,
+              "worst_value": 1662.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_tns_ns": {
+              "improved_count": 22,
+              "maximum": 73.00099999999998,
+              "mean": 0.5312027777777375,
+              "median": 0.0,
+              "minimum": -177.86,
+              "nonworsening_count": 59,
+              "unchanged_count": 37,
+              "worsened_count": 13,
+              "worst_value": -177.86,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.023046415277777774,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 61,
+              "unchanged_count": 56,
+              "worsened_count": 11,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 21,
+              "maximum": 177.0,
+              "mean": -82.75,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 53,
+              "unchanged_count": 32,
+              "worsened_count": 19,
+              "worst_value": 177.0,
+              "worst_window_id": "swerv_w0002"
+            }
+          },
+          "retained_cell_count": 286,
+          "routed_wirelength_sum_delta": -17615.0,
+          "zero_overflow_count": 72
+        },
+        "greedy": {
+          "all_cells_retained_count": 70,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 22,
+              "maximum": 395.0,
+              "mean": -16.944444444444443,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 60,
+              "unchanged_count": 38,
+              "worsened_count": 12,
+              "worst_value": 395.0,
+              "worst_window_id": "swerv_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.013345833333333315,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 70,
+              "unchanged_count": 65,
+              "worsened_count": 2,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 7,
+              "maximum": 0.0006188000000000027,
+              "mean": 1.1784722222222635e-05,
+              "median": 0.0,
+              "minimum": -0.0003934000000000021,
+              "nonworsening_count": 69,
+              "unchanged_count": 62,
+              "worsened_count": 3,
+              "worst_value": -0.0003934000000000021,
+              "worst_window_id": "ibex_w0005"
+            },
+            "routed_wirelength": {
+              "improved_count": 27,
+              "maximum": 257.0,
+              "mean": -257.59722222222223,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 61,
+              "unchanged_count": 34,
+              "worsened_count": 11,
+              "worst_value": 257.0,
+              "worst_window_id": "swerv_w0004"
+            },
+            "setup_tns_ns": {
+              "improved_count": 20,
+              "maximum": 73.00099999999998,
+              "mean": 3.6248579166666364,
+              "median": 0.0,
+              "minimum": -6.43100000000004,
+              "nonworsening_count": 59,
+              "unchanged_count": 39,
+              "worsened_count": 13,
+              "worst_value": -6.43100000000004,
+              "worst_window_id": "swerv_w0007"
+            },
+            "setup_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.023093588888888888,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 61,
+              "unchanged_count": 56,
+              "worsened_count": 11,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 22,
+              "maximum": 40.0,
+              "mean": -94.44444444444444,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 57,
+              "unchanged_count": 35,
+              "worsened_count": 15,
+              "worst_value": 40.0,
+              "worst_window_id": "tinyRocket_w0008"
+            }
+          },
+          "retained_cell_count": 286,
+          "routed_wirelength_sum_delta": -18547.0,
+          "zero_overflow_count": 72
+        },
+        "qaoa": {
+          "all_cells_retained_count": 70,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 25,
+              "maximum": 437.0,
+              "mean": -17.77777777777778,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 60,
+              "unchanged_count": 35,
+              "worsened_count": 12,
+              "worst_value": 437.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.013367930555555537,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 69,
+              "unchanged_count": 64,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 6,
+              "maximum": 0.003448699999999999,
+              "mean": 2.243347222222263e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 67,
+              "unchanged_count": 61,
+              "worsened_count": 5,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 30,
+              "maximum": 1662.0,
+              "mean": -244.48611111111111,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 61,
+              "unchanged_count": 31,
+              "worsened_count": 11,
+              "worst_value": 1662.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_tns_ns": {
+              "improved_count": 22,
+              "maximum": 73.00099999999998,
+              "mean": 0.5312027777777375,
+              "median": 0.0,
+              "minimum": -177.86,
+              "nonworsening_count": 59,
+              "unchanged_count": 37,
+              "worsened_count": 13,
+              "worst_value": -177.86,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.023046415277777774,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 61,
+              "unchanged_count": 56,
+              "worsened_count": 11,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 21,
+              "maximum": 177.0,
+              "mean": -82.68055555555556,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 53,
+              "unchanged_count": 32,
+              "worsened_count": 19,
+              "worst_value": 177.0,
+              "worst_window_id": "swerv_w0002"
+            }
+          },
+          "retained_cell_count": 286,
+          "routed_wirelength_sum_delta": -17603.0,
+          "zero_overflow_count": 72
+        },
+        "simulated_annealing": {
+          "all_cells_retained_count": 70,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 25,
+              "maximum": 395.0,
+              "mean": -40.166666666666664,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 61,
+              "unchanged_count": 36,
+              "worsened_count": 11,
+              "worst_value": 395.0,
+              "worst_window_id": "swerv_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 4,
+              "maximum": 0.8899599999999994,
+              "mean": 0.015636124999999983,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 69,
+              "unchanged_count": 65,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.004317600000000005,
+              "mean": 3.1604305555556e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 67,
+              "unchanged_count": 62,
+              "worsened_count": 5,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 29,
+              "maximum": 257.0,
+              "mean": -353.0416666666667,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 61,
+              "unchanged_count": 32,
+              "worsened_count": 11,
+              "worst_value": 257.0,
+              "worst_window_id": "swerv_w0004"
+            },
+            "setup_tns_ns": {
+              "improved_count": 21,
+              "maximum": 73.00099999999998,
+              "mean": 1.7338688888888503,
+              "median": 0.0,
+              "minimum": -97.68999999999994,
+              "nonworsening_count": 59,
+              "unchanged_count": 38,
+              "worsened_count": 13,
+              "worst_value": -97.68999999999994,
+              "worst_window_id": "swerv_w0007"
+            },
+            "setup_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.019414526388888888,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 62,
+              "unchanged_count": 57,
+              "worsened_count": 10,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 20,
+              "maximum": 131.0,
+              "mean": -101.63888888888889,
+              "median": 0.0,
+              "minimum": -1971.0,
+              "nonworsening_count": 53,
+              "unchanged_count": 33,
+              "worsened_count": 19,
+              "worst_value": 131.0,
+              "worst_window_id": "mempool_group_w0000"
+            }
+          },
+          "retained_cell_count": 286,
+          "routed_wirelength_sum_delta": -25419.0,
+          "zero_overflow_count": 72
+        }
+      },
+      "qaoa_pairwise": {
+        "exact": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.1111111111111111
+            ],
+            "mean_difference": 0.027777777777777776,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 71
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 72
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 72
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.6666666666666666
+            ],
+            "mean_difference": 0.16666666666666666,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 71
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 72
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 72
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.2777777777777778
+            ],
+            "mean_difference": 0.06944444444444445,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 71
+          }
+        },
+        "greedy": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -10.097222222222221,
+              8.25
+            ],
+            "mean_difference": -0.8333333333333334,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 3,
+            "ties": 67
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.004301611111111111,
+              0.004389999999999993
+            ],
+            "mean_difference": 2.209722222222042e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 70
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.00010836750000000001,
+              0.00017826666666666654
+            ],
+            "mean_difference": 1.0648749999999992e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 1,
+            "ties": 69
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -28.86111111111111,
+              87.84722222222223
+            ],
+            "mean_difference": 13.11111111111111,
+            "median_difference": 0.0,
+            "qaoa_losses": 4,
+            "qaoa_wins": 3,
+            "ties": 65
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -12.484611111111109,
+              0.10003194444440403
+            ],
+            "mean_difference": -3.093655138888898,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 4,
+            "ties": 67
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -3.263888888888915e-05,
+              0.0002565972222222213
+            ],
+            "mean_difference": 4.717361111111087e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 2,
+            "ties": 69
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.6388888888888888,
+              42.361111111111114
+            ],
+            "mean_difference": 11.76388888888889,
+            "median_difference": 0.0,
+            "qaoa_losses": 6,
+            "qaoa_wins": 1,
+            "ties": 65
+          }
+        },
+        "simulated_annealing": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.08333333333333333,
+              87.80555555555556
+            ],
+            "mean_difference": 22.38888888888889,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 3,
+            "ties": 66
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.023619027777777763,
+              0.014546249999999983
+            ],
+            "mean_difference": -0.0022681944444444455,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 70
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.00018037916666666676,
+              0.0001436958333333333
+            ],
+            "mean_difference": -9.17083333333337e-06,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 70
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.5,
+              434.47222222222223
+            ],
+            "mean_difference": 108.55555555555556,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 4,
+            "ties": 65
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -8.613609305555558,
+              3.802458888888885
+            ],
+            "mean_difference": -1.2026661111111128,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 4,
+            "ties": 67
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.01395430555555555,
+              2.9999999999999162e-06
+            ],
+            "mean_difference": -0.003631888888888888,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 1,
+            "ties": 69
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.3055555555555556,
+              75.97222222222223
+            ],
+            "mean_difference": 18.958333333333332,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 3,
+            "ties": 66
+          }
+        }
+      },
+      "qaoa_pairwise_all_cells_retained": {
+        "exact": {
+          "pair_count": 70,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.7058823529411765
+            ],
+            "mean_difference": 0.17142857142857143,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 0,
+            "ties": 69
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011",
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        },
+        "greedy": {
+          "pair_count": 70,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -30.070422535211268,
+              91.8840579710145
+            ],
+            "mean_difference": 13.485714285714286,
+            "median_difference": 0.0,
+            "qaoa_losses": 4,
+            "qaoa_wins": 3,
+            "ties": 63
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011",
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        },
+        "simulated_annealing": {
+          "pair_count": 70,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.5072463768115942,
+              456.90140845070425
+            ],
+            "mean_difference": 111.65714285714286,
+            "median_difference": 0.0,
+            "qaoa_losses": 3,
+            "qaoa_wins": 4,
+            "ties": 63
+          },
+          "window_ids": [
+            "aes_w0000",
+            "aes_w0001",
+            "aes_w0002",
+            "aes_w0003",
+            "aes_w0004",
+            "aes_w0005",
+            "aes_w0006",
+            "aes_w0007",
+            "aes_w0008",
+            "aes_w0009",
+            "aes_w0010",
+            "aes_w0011",
+            "gcd_w0000",
+            "gcd_w0001",
+            "gcd_w0003",
+            "gcd_w0004",
+            "gcd_w0005",
+            "gcd_w0006",
+            "gcd_w0007",
+            "gcd_w0008",
+            "gcd_w0009",
+            "gcd_w0010",
+            "gcd_w0011",
+            "ibex_w0000",
+            "ibex_w0001",
+            "ibex_w0002",
+            "ibex_w0003",
+            "ibex_w0004",
+            "ibex_w0005",
+            "ibex_w0006",
+            "ibex_w0007",
+            "ibex_w0008",
+            "ibex_w0009",
+            "ibex_w0010",
+            "ibex_w0011",
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        }
+      },
+      "routing_case_count": 288,
+      "routing_zero_overflow_count": 288,
+      "technical": {
+        "all_cells_retained_count": 210,
+        "attempted_count": 216,
+        "completed_count": 216,
+        "retained_cell_count": 858,
+        "zero_overflow_count": 216
+      },
+      "window_count": 72
+    },
+    "replication": {
+      "assignment_identity_with_qaoa": {
+        "exact": {
+          "different_assignment_count": 0,
+          "different_assignment_same_routed_wirelength_count": 0,
+          "different_assignment_same_routed_wirelength_windows": [],
+          "identical_assignment_count": 36
+        },
+        "greedy": {
+          "different_assignment_count": 2,
+          "different_assignment_same_routed_wirelength_count": 0,
+          "different_assignment_same_routed_wirelength_windows": [],
+          "identical_assignment_count": 34
+        },
+        "simulated_annealing": {
+          "different_assignment_count": 5,
+          "different_assignment_same_routed_wirelength_count": 1,
+          "different_assignment_same_routed_wirelength_windows": [
+            "mempool_group_w0009"
+          ],
+          "identical_assignment_count": 31
+        }
+      },
+      "design_count": 3,
+      "method_summaries": {
+        "exact": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 8,
+              "maximum": 437.0,
+              "mean": -33.72222222222222,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 28,
+              "unchanged_count": 20,
+              "worsened_count": 8,
+              "worst_value": 437.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.026735861111111075,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 33,
+              "unchanged_count": 28,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 6,
+              "maximum": 0.003448699999999999,
+              "mean": 7.290861111111183e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 34,
+              "unchanged_count": 28,
+              "worsened_count": 2,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 12,
+              "maximum": 1662.0,
+              "mean": -481.6666666666667,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 20,
+              "worsened_count": 4,
+              "worst_value": 1662.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 73.00099999999998,
+              "mean": 1.0555888888888085,
+              "median": 0.0,
+              "minimum": -177.86,
+              "nonworsening_count": 32,
+              "unchanged_count": 21,
+              "worsened_count": 4,
+              "worst_value": -177.86,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_wns_ns": {
+              "improved_count": 2,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.04607930555555555,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 28,
+              "unchanged_count": 26,
+              "worsened_count": 8,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 9,
+              "maximum": 177.0,
+              "mean": -164.27777777777777,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 20,
+              "worsened_count": 7,
+              "worst_value": 177.0,
+              "worst_window_id": "swerv_w0002"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -17340.0,
+          "zero_overflow_count": 36
+        },
+        "greedy": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 7,
+              "maximum": 395.0,
+              "mean": -33.111111111111114,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 28,
+              "unchanged_count": 21,
+              "worsened_count": 8,
+              "worst_value": 395.0,
+              "worst_window_id": "swerv_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.02669166666666663,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 34,
+              "unchanged_count": 29,
+              "worsened_count": 2,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 6,
+              "maximum": 0.0006188000000000027,
+              "mean": 3.340833333333413e-05,
+              "median": 0.0,
+              "minimum": -0.0003625999999999907,
+              "nonworsening_count": 35,
+              "unchanged_count": 29,
+              "worsened_count": 1,
+              "worst_value": -0.0003625999999999907,
+              "worst_window_id": "swerv_w0006"
+            },
+            "routed_wirelength": {
+              "improved_count": 11,
+              "maximum": 257.0,
+              "mean": -511.3611111111111,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 21,
+              "worsened_count": 4,
+              "worst_value": 257.0,
+              "worst_window_id": "swerv_w0004"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 73.00099999999998,
+              "mean": 7.247894444444382,
+              "median": 0.0,
+              "minimum": -6.43100000000004,
+              "nonworsening_count": 33,
+              "unchanged_count": 22,
+              "worsened_count": 3,
+              "worst_value": -6.43100000000004,
+              "worst_window_id": "swerv_w0007"
+            },
+            "setup_wns_ns": {
+              "improved_count": 2,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.046188472222222214,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 28,
+              "unchanged_count": 26,
+              "worsened_count": 8,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 10,
+              "maximum": 40.0,
+              "mean": -186.36111111111111,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 31,
+              "unchanged_count": 21,
+              "worsened_count": 5,
+              "worst_value": 40.0,
+              "worst_window_id": "tinyRocket_w0008"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -18409.0,
+          "zero_overflow_count": 36
+        },
+        "qaoa": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 8,
+              "maximum": 437.0,
+              "mean": -33.72222222222222,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 28,
+              "unchanged_count": 20,
+              "worsened_count": 8,
+              "worst_value": 437.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "hold_tns_ns": {
+              "improved_count": 5,
+              "maximum": 0.6179600000000001,
+              "mean": 0.026735861111111075,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 33,
+              "unchanged_count": 28,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 6,
+              "maximum": 0.003448699999999999,
+              "mean": 7.290861111111183e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 34,
+              "unchanged_count": 28,
+              "worsened_count": 2,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 12,
+              "maximum": 1662.0,
+              "mean": -481.6666666666667,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 32,
+              "unchanged_count": 20,
+              "worsened_count": 4,
+              "worst_value": 1662.0,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 73.00099999999998,
+              "mean": 1.0555888888888085,
+              "median": 0.0,
+              "minimum": -177.86,
+              "nonworsening_count": 32,
+              "unchanged_count": 21,
+              "worsened_count": 4,
+              "worst_value": -177.86,
+              "worst_window_id": "swerv_w0002"
+            },
+            "setup_wns_ns": {
+              "improved_count": 2,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.04607930555555555,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 28,
+              "unchanged_count": 26,
+              "worsened_count": 8,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 9,
+              "maximum": 177.0,
+              "mean": -164.27777777777777,
+              "median": 0.0,
+              "minimum": -1852.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 20,
+              "worsened_count": 7,
+              "worst_value": 177.0,
+              "worst_window_id": "swerv_w0002"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -17340.0,
+          "zero_overflow_count": 36
+        },
+        "simulated_annealing": {
+          "all_cells_retained_count": 35,
+          "distributions": {
+            "congestion_demand": {
+              "improved_count": 9,
+              "maximum": 395.0,
+              "mean": -78.5,
+              "median": 0.0,
+              "minimum": -1704.0,
+              "nonworsening_count": 30,
+              "unchanged_count": 21,
+              "worsened_count": 6,
+              "worst_value": 395.0,
+              "worst_window_id": "swerv_w0003"
+            },
+            "hold_tns_ns": {
+              "improved_count": 4,
+              "maximum": 0.8899599999999994,
+              "mean": 0.03127224999999997,
+              "median": 0.0,
+              "minimum": -0.4202300000000001,
+              "nonworsening_count": 33,
+              "unchanged_count": 29,
+              "worsened_count": 3,
+              "worst_value": -0.4202300000000001,
+              "worst_window_id": "swerv_w0004"
+            },
+            "hold_wns_ns": {
+              "improved_count": 5,
+              "maximum": 0.004317600000000005,
+              "mean": 9.125027777777856e-05,
+              "median": 0.0,
+              "minimum": -0.0017867900000000008,
+              "nonworsening_count": 34,
+              "unchanged_count": 29,
+              "worsened_count": 2,
+              "worst_value": -0.0017867900000000008,
+              "worst_window_id": "mempool_group_w0000"
+            },
+            "routed_wirelength": {
+              "improved_count": 12,
+              "maximum": 257.0,
+              "mean": -698.6111111111111,
+              "median": 0.0,
+              "minimum": -7954.0,
+              "nonworsening_count": 33,
+              "unchanged_count": 21,
+              "worsened_count": 3,
+              "worst_value": 257.0,
+              "worst_window_id": "swerv_w0004"
+            },
+            "setup_tns_ns": {
+              "improved_count": 11,
+              "maximum": 73.00099999999998,
+              "mean": 3.461172222222145,
+              "median": 0.0,
+              "minimum": -97.68999999999994,
+              "nonworsening_count": 33,
+              "unchanged_count": 22,
+              "worsened_count": 3,
+              "worst_value": -97.68999999999994,
+              "worst_window_id": "swerv_w0007"
+            },
+            "setup_wns_ns": {
+              "improved_count": 2,
+              "maximum": 0.0011349999999999971,
+              "mean": -0.038814027777777774,
+              "median": 0.0,
+              "minimum": -0.3434299999999999,
+              "nonworsening_count": 29,
+              "unchanged_count": 27,
+              "worsened_count": 7,
+              "worst_value": -0.3434299999999999,
+              "worst_window_id": "swerv_w0003"
+            },
+            "via_count": {
+              "improved_count": 9,
+              "maximum": 131.0,
+              "mean": -202.16666666666666,
+              "median": 0.0,
+              "minimum": -1971.0,
+              "nonworsening_count": 29,
+              "unchanged_count": 20,
+              "worsened_count": 7,
+              "worst_value": 131.0,
+              "worst_window_id": "mempool_group_w0000"
+            }
+          },
+          "retained_cell_count": 143,
+          "routed_wirelength_sum_delta": -25150.0,
+          "zero_overflow_count": 36
+        }
+      },
+      "qaoa_pairwise": {
+        "exact": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 36
+          }
+        },
+        "greedy": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -19.22222222222222,
+              16.77777777777778
+            ],
+            "mean_difference": -0.6111111111111112,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.008603222222222222,
+              0.008779999999999986
+            ],
+            "mean_difference": 4.419444444444084e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.0001985322222222223,
+              0.0003565333333333331
+            ],
+            "mean_difference": 3.950027777777769e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -56.666666666666664,
+              175.44444444444446
+            ],
+            "mean_difference": 29.694444444444443,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -24.969222222222218,
+              0.19999999999991916
+            ],
+            "mean_difference": -6.192305555555574,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.00043666666666666544
+            ],
+            "mean_difference": 0.00010916666666666636,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 1,
+            "ties": 35
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              77.41666666666667
+            ],
+            "mean_difference": 22.083333333333332,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 0,
+            "ties": 34
+          }
+        },
+        "simulated_annealing": {
+          "congestion_demand": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.1111111111111111,
+              167.08333333333334
+            ],
+            "mean_difference": 44.77777777777778,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 1,
+            "ties": 33
+          },
+          "hold_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.047238055555555526,
+              0.029092499999999966
+            ],
+            "mean_difference": -0.004536388888888891,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "hold_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.0003607583333333335,
+              0.0002873916666666666
+            ],
+            "mean_difference": -1.834166666666674e-05,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -1.0277777777777777,
+              822.8333333333334
+            ],
+            "mean_difference": 216.94444444444446,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 2,
+            "ties": 32
+          },
+          "setup_tns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -17.227250000000005,
+              7.604916666666658
+            ],
+            "mean_difference": -2.4055833333333365,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 34
+          },
+          "setup_wns_ns": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.02695666666666666,
+              0.0
+            ],
+            "mean_difference": -0.007265277777777777,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 0,
+            "ties": 34
+          },
+          "via_count": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -0.4722222222222222,
+              147.05555555555554
+            ],
+            "mean_difference": 37.888888888888886,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 2,
+            "ties": 32
+          }
+        }
+      },
+      "qaoa_pairwise_all_cells_retained": {
+        "exact": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "qaoa_losses": 0,
+            "qaoa_wins": 0,
+            "ties": 35
+          },
+          "window_ids": [
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        },
+        "greedy": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -56.666666666666664,
+              180.45714285714286
+            ],
+            "mean_difference": 30.542857142857144,
+            "median_difference": 0.0,
+            "qaoa_losses": 1,
+            "qaoa_wins": 1,
+            "ties": 33
+          },
+          "window_ids": [
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        },
+        "simulated_annealing": {
+          "pair_count": 35,
+          "routed_wirelength": {
+            "difference_definition": "qaoa_minus_comparator",
+            "hierarchical_bootstrap_95_ci": [
+              -1.0277777777777777,
+              822.8333333333334
+            ],
+            "mean_difference": 223.14285714285714,
+            "median_difference": 0.0,
+            "qaoa_losses": 2,
+            "qaoa_wins": 2,
+            "ties": 31
+          },
+          "window_ids": [
+            "mempool_group_w0000",
+            "mempool_group_w0001",
+            "mempool_group_w0002",
+            "mempool_group_w0003",
+            "mempool_group_w0004",
+            "mempool_group_w0005",
+            "mempool_group_w0006",
+            "mempool_group_w0007",
+            "mempool_group_w0008",
+            "mempool_group_w0009",
+            "mempool_group_w0010",
+            "mempool_group_w0011",
+            "swerv_w0000",
+            "swerv_w0001",
+            "swerv_w0002",
+            "swerv_w0003",
+            "swerv_w0004",
+            "swerv_w0005",
+            "swerv_w0006",
+            "swerv_w0007",
+            "swerv_w0008",
+            "swerv_w0009",
+            "swerv_w0010",
+            "swerv_w0011",
+            "tinyRocket_w0000",
+            "tinyRocket_w0001",
+            "tinyRocket_w0002",
+            "tinyRocket_w0003",
+            "tinyRocket_w0004",
+            "tinyRocket_w0005",
+            "tinyRocket_w0007",
+            "tinyRocket_w0008",
+            "tinyRocket_w0009",
+            "tinyRocket_w0010",
+            "tinyRocket_w0011"
+          ]
+        }
+      },
+      "routing_case_count": 144,
+      "routing_zero_overflow_count": 144,
+      "technical": {
+        "all_cells_retained_count": 105,
+        "attempted_count": 108,
+        "completed_count": 108,
+        "retained_cell_count": 429,
+        "zero_overflow_count": 108
+      },
+      "window_count": 36
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "resampling": "design then window",
+    "seed": 20260827
+  },
+  "cohort_order": [
+    "original",
+    "replication"
+  ],
+  "provenance": {
+    "original": {
+      "classical_execution_commit": "f223d005268a65232e21fe85fb33178adc89bb6d",
+      "comparison_results_sha256": "4cbf7f053a69b325bccf14abed36f37dc2d90ce3918ccebf9ca07b590a6be66c",
+      "comparison_summary_sha256": "efe284c0552881d82f5c828d223f4a3226eb0a2cf6f708c4e4e23a6acbfad55f",
+      "container_sha256": "65f020a67c02e9ce0c8c507b5a4124498820c7ee7b07f6d8f3da7ea61c30151e",
+      "qaoa_execution_commit": "52976f7d7071b84351885655c87fe32d03f16d4b"
+    },
+    "replication": {
+      "classical_execution_commit": "9d8547c05a3f9d265335fb0422018c306449f447",
+      "comparison_results_sha256": "da8573050547f9dee38b271aee6ebec1caa1036131386ccd56f042793de70f57",
+      "comparison_summary_sha256": "0558c125a6ca0c30a82267a444a3872e41c6dcc236ed09ed86a1f9af27bae309",
+      "container_sha256": "65f020a67c02e9ce0c8c507b5a4124498820c7ee7b07f6d8f3da7ea61c30151e",
+      "qaoa_execution_commit": "c22e851f80d6218a1e0779a8c36e767b4fbb6b7f"
+    }
+  },
+  "schema_version": "qeda-downstream-classical-cohort-combination-v1"
+}

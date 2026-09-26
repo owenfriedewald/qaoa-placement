@@ -1,0 +1,26 @@
+[
+  {
+    "case_count": 12,
+    "design": "aes",
+    "methods": [
+      "selected_token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/selected_qaoa_ring_p3_beat_v1/openroad_validation/validate_aes.tcl"
+  },
+  {
+    "case_count": 12,
+    "design": "gcd",
+    "methods": [
+      "selected_token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/selected_qaoa_ring_p3_beat_v1/openroad_validation/validate_gcd.tcl"
+  },
+  {
+    "case_count": 12,
+    "design": "ibex",
+    "methods": [
+      "selected_token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/selected_qaoa_ring_p3_beat_v1/openroad_validation/validate_ibex.tcl"
+  }
+]

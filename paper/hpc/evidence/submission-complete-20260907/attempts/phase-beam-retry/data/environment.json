@@ -1,0 +1,16 @@
+{
+  "kind": "phase",
+  "spec_sha256": "8a98bc4db6422a4ff5c57c7aca5b6b46d7e072d32f1fd5cb188307857fa0bcd1",
+  "payload_sha256": "2e9a9349e67aba4478181fe597f1750671b61a3640e7bbffd948b486109fddf6",
+  "versions": {
+    "qiskit": "2.5.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "qiskit-ibm-runtime": "0.46.1",
+    "pyzx": "0.10.3"
+  },
+  "prior_job": "17007197",
+  "prior_environment_sha256": "0db5301204c3c6aba423dd627e3552cdaf564e9704c01f67aed45f0324c11edc",
+  "frozen_runner_sha256": "1a083cd150b6848424e2c18dfeaf693f2d13cf13e0883689c418c903a74433a0",
+  "checkpoint_runner_sha256": "711ba63779c07ab05d7211f8d852caf36fbdf0bd498e6fd55391a2ebfa2a899b"
+}

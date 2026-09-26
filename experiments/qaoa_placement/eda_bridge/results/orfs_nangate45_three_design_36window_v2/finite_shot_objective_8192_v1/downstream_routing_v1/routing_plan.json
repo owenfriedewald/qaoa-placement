@@ -1,0 +1,1705 @@
+{
+  "cases": [
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes__baseline_a.tcl",
+      "baseline_replica": "a",
+      "case_id": "aes__baseline_a",
+      "design": "aes",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes__baseline_a.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_aes__baseline_a",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes__baseline_b.tcl",
+      "baseline_replica": "b",
+      "case_id": "aes__baseline_b",
+      "design": "aes",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes__baseline_b.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_aes__baseline_b",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0000.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0000",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16978_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 216600,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16976_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 216220,
+          "y": 64400
+        },
+        {
+          "cell_id": "place5666",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 220400,
+          "y": 64400
+        },
+        {
+          "cell_id": "place5425",
+          "orient": "N",
+          "site_id": 3,
+          "x": 224200,
+          "y": 61600
+        }
+      ],
+      "initial_hpwl_dbu": 554563,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0000.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 554563,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_aes_w0000",
+      "window_id": "aes_w0000"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0001.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0001",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "place5856",
+          "orient": "N",
+          "site_id": 0,
+          "x": 113240,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16328_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 109820,
+          "y": 61600
+        },
+        {
+          "cell_id": "place6831",
+          "orient": "N",
+          "site_id": 2,
+          "x": 111340,
+          "y": 56000
+        },
+        {
+          "cell_id": "_16314_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 112480,
+          "y": 70000
+        }
+      ],
+      "initial_hpwl_dbu": 392606,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0001.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 392606,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_aes_w0001",
+      "window_id": "aes_w0001"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0002.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0002",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "input149",
+          "orient": "N",
+          "site_id": 0,
+          "x": 240540,
+          "y": 61600
+        },
+        {
+          "cell_id": "_17077_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 234840,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16948_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 235980,
+          "y": 64400
+        },
+        {
+          "cell_id": "_17168_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 237120,
+          "y": 64400
+        }
+      ],
+      "initial_hpwl_dbu": 367983,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0002.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 2067,
+      "seed": 29,
+      "selected_hpwl_dbu": 365916,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_aes_w0002",
+      "window_id": "aes_w0002"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0003.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0003",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16133_",
+          "orient": "N",
+          "site_id": 4,
+          "x": 130720,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16191_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 131100,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16350_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 132240,
+          "y": 56000
+        },
+        {
+          "cell_id": "_16327_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 127680,
+          "y": 64400
+        }
+      ],
+      "initial_hpwl_dbu": 135108,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0003.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 266,
+      "seed": 11,
+      "selected_hpwl_dbu": 134842,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_aes_w0003",
+      "window_id": "aes_w0003"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0004.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0004",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "text_out\\[115\\]$_DFF_P_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 247760,
+          "y": 61600
+        },
+        {
+          "cell_id": "text_in_r\\[116\\]$_DFFE_PP_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 242060,
+          "y": 64400
+        },
+        {
+          "cell_id": "text_out\\[49\\]$_DFF_P_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 244720,
+          "y": 56000
+        },
+        {
+          "cell_id": "text_out\\[116\\]$_DFF_P_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 238640,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 1135260,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0004.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 1135260,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_aes_w0004",
+      "window_id": "aes_w0004"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0005.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0005",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_17227_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 202920,
+          "y": 61600
+        },
+        {
+          "cell_id": "_17224_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 200260,
+          "y": 61600
+        },
+        {
+          "cell_id": "_17225_",
+          "orient": "N",
+          "site_id": 4,
+          "x": 204440,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16904_",
+          "orient": "N",
+          "site_id": 5,
+          "x": 202160,
+          "y": 56000
+        }
+      ],
+      "initial_hpwl_dbu": 792584,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0005.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 3810,
+      "seed": 11,
+      "selected_hpwl_dbu": 788774,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_aes_w0005",
+      "window_id": "aes_w0005"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0006.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0006",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16348_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 135280,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16353_",
+          "orient": "FS",
+          "site_id": 4,
+          "x": 136800,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16147_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 134140,
+          "y": 70000
+        },
+        {
+          "cell_id": "_16338_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 136040,
+          "y": 61600
+        }
+      ],
+      "initial_hpwl_dbu": 592970,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0006.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 8137,
+      "seed": 11,
+      "selected_hpwl_dbu": 584833,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_aes_w0006",
+      "window_id": "aes_w0006"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0007.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0007",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "text_in_r\\[119\\]$_DFFE_PP_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 260300,
+          "y": 61600
+        },
+        {
+          "cell_id": "text_out\\[47\\]$_DFF_P_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 260300,
+          "y": 67200
+        },
+        {
+          "cell_id": "u0.r0.rcnt\\[3\\]$_SDFF_PP0_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 258020,
+          "y": 70000
+        },
+        {
+          "cell_id": "text_in_r\\[120\\]$_DFFE_PP_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 269800,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 1123168,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0007.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 1123168,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_aes_w0007",
+      "window_id": "aes_w0007"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0008.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0008",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16317_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 106400,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16219_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 105640,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16335_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 107920,
+          "y": 58800
+        },
+        {
+          "cell_id": "_16318_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 106780,
+          "y": 67200
+        }
+      ],
+      "initial_hpwl_dbu": 667486,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0008.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 12580,
+      "seed": 11,
+      "selected_hpwl_dbu": 654906,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_aes_w0008",
+      "window_id": "aes_w0008"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0009.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0009",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16330_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 111340,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16334_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 120080,
+          "y": 70000
+        },
+        {
+          "cell_id": "_16332_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 122740,
+          "y": 67200
+        },
+        {
+          "cell_id": "_16213_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 121600,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 1066733,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0009.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 3700,
+      "seed": 11,
+      "selected_hpwl_dbu": 1063033,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_aes_w0009",
+      "window_id": "aes_w0009"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0010.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0010",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_16326_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 128060,
+          "y": 61600
+        },
+        {
+          "cell_id": "_16141_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 132240,
+          "y": 64400
+        },
+        {
+          "cell_id": "_16359_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 115140,
+          "y": 58800
+        },
+        {
+          "cell_id": "_16340_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 142120,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 1141154,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0010.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 113,
+      "seed": 11,
+      "selected_hpwl_dbu": 1141041,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_aes_w0010",
+      "window_id": "aes_w0010"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_aes_w0011.tcl",
+      "baseline_replica": "",
+      "case_id": "aes_w0011",
+      "design": "aes",
+      "expected_cells": [
+        {
+          "cell_id": "_18909_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 311600,
+          "y": 61600
+        },
+        {
+          "cell_id": "_18903_",
+          "orient": "N",
+          "site_id": 4,
+          "x": 313500,
+          "y": 61600
+        },
+        {
+          "cell_id": "_19139_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 316540,
+          "y": 58800
+        },
+        {
+          "cell_id": "_19142_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 310460,
+          "y": 67200
+        }
+      ],
+      "initial_hpwl_dbu": 807761,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_aes_w0011.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 1578,
+      "seed": 17,
+      "selected_hpwl_dbu": 806183,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_aes_w0011",
+      "window_id": "aes_w0011"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd__baseline_a.tcl",
+      "baseline_replica": "a",
+      "case_id": "gcd__baseline_a",
+      "design": "gcd",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd__baseline_a.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_gcd__baseline_a",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd__baseline_b.tcl",
+      "baseline_replica": "b",
+      "case_id": "gcd__baseline_b",
+      "design": "gcd",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd__baseline_b.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_gcd__baseline_b",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0000.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0000",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_701_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 45600,
+          "y": 50400
+        },
+        {
+          "cell_id": "_662_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 47120,
+          "y": 53200
+        },
+        {
+          "cell_id": "_678_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 46360,
+          "y": 56000
+        },
+        {
+          "cell_id": "_654_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 38380,
+          "y": 50400
+        }
+      ],
+      "initial_hpwl_dbu": 48554,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0000.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 48554,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_gcd_w0000",
+      "window_id": "gcd_w0000"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0001.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0001",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_766_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 4560,
+          "y": 53200
+        },
+        {
+          "cell_id": "input5",
+          "orient": "N",
+          "site_id": 0,
+          "x": 3420,
+          "y": 53200
+        },
+        {
+          "cell_id": "input6",
+          "orient": "FS",
+          "site_id": 4,
+          "x": 3420,
+          "y": 50400
+        },
+        {
+          "cell_id": "input22",
+          "orient": "N",
+          "site_id": 3,
+          "x": 3420,
+          "y": 47600
+        }
+      ],
+      "initial_hpwl_dbu": 116508,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0001.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 2730,
+      "seed": 11,
+      "selected_hpwl_dbu": 113778,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_gcd_w0001",
+      "window_id": "gcd_w0001"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0002.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0002",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_855_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 18620,
+          "y": 58800
+        },
+        {
+          "cell_id": "_848_",
+          "orient": "N",
+          "site_id": 5,
+          "x": 16720,
+          "y": 58800
+        },
+        {
+          "cell_id": "_971_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 15960,
+          "y": 53200
+        },
+        {
+          "cell_id": "_869_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 18240,
+          "y": 50400
+        }
+      ],
+      "initial_hpwl_dbu": 106526,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0002.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 70,
+      "seed": 11,
+      "selected_hpwl_dbu": 106456,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_gcd_w0002",
+      "window_id": "gcd_w0002"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0003.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0003",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_783_",
+          "orient": "N",
+          "site_id": 5,
+          "x": 23940,
+          "y": 58800
+        },
+        {
+          "cell_id": "input2",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 23940,
+          "y": 61600
+        },
+        {
+          "cell_id": "_775_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 19380,
+          "y": 61600
+        },
+        {
+          "cell_id": "input3",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 25080,
+          "y": 61600
+        }
+      ],
+      "initial_hpwl_dbu": 118619,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0003.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 340,
+      "seed": 11,
+      "selected_hpwl_dbu": 118279,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_gcd_w0003",
+      "window_id": "gcd_w0003"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0004.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0004",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "place231",
+          "orient": "N",
+          "site_id": 4,
+          "x": 36480,
+          "y": 58800
+        },
+        {
+          "cell_id": "_856_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 35340,
+          "y": 61600
+        },
+        {
+          "cell_id": "output42",
+          "orient": "N",
+          "site_id": 5,
+          "x": 32300,
+          "y": 64400
+        },
+        {
+          "cell_id": "place229",
+          "orient": "N",
+          "site_id": 3,
+          "x": 35340,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 163540,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0004.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 6285,
+      "seed": 11,
+      "selected_hpwl_dbu": 157255,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_gcd_w0004",
+      "window_id": "gcd_w0004"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0005.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0005",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_650_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 47880,
+          "y": 58800
+        },
+        {
+          "cell_id": "_581_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 44460,
+          "y": 61600
+        },
+        {
+          "cell_id": "_585_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 45600,
+          "y": 64400
+        },
+        {
+          "cell_id": "_743_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 42180,
+          "y": 58800
+        }
+      ],
+      "initial_hpwl_dbu": 179500,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0005.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 23139,
+      "seed": 11,
+      "selected_hpwl_dbu": 156361,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_gcd_w0005",
+      "window_id": "gcd_w0005"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0006.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0006",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_591_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 55480,
+          "y": 53200
+        },
+        {
+          "cell_id": "output43",
+          "orient": "FS",
+          "site_id": 4,
+          "x": 53960,
+          "y": 56000
+        },
+        {
+          "cell_id": "_639_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 55480,
+          "y": 50400
+        },
+        {
+          "cell_id": "place191",
+          "orient": "N",
+          "site_id": 1,
+          "x": 53580,
+          "y": 53200
+        }
+      ],
+      "initial_hpwl_dbu": 136808,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0006.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 1751,
+      "seed": 11,
+      "selected_hpwl_dbu": 135057,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_gcd_w0006",
+      "window_id": "gcd_w0006"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0007.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0007",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "output40",
+          "orient": "N",
+          "site_id": 0,
+          "x": 53200,
+          "y": 58800
+        },
+        {
+          "cell_id": "place209",
+          "orient": "N",
+          "site_id": 1,
+          "x": 52060,
+          "y": 58800
+        },
+        {
+          "cell_id": "_704_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 49780,
+          "y": 58800
+        },
+        {
+          "cell_id": "_592_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 53960,
+          "y": 56000
+        }
+      ],
+      "initial_hpwl_dbu": 131960,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0007.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 984,
+      "seed": 11,
+      "selected_hpwl_dbu": 130976,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_gcd_w0007",
+      "window_id": "gcd_w0007"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0008.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0008",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "dpath.a_reg.out\\[12\\]$_DFFE_PP_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 25080,
+          "y": 64400
+        },
+        {
+          "cell_id": "dpath.b_reg.out\\[12\\]$_DFFE_PP_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 17100,
+          "y": 64400
+        },
+        {
+          "cell_id": "dpath.a_reg.out\\[13\\]$_DFFE_PP_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 27740,
+          "y": 56000
+        },
+        {
+          "cell_id": "dpath.b_reg.out\\[11\\]$_DFFE_PP_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 24320,
+          "y": 50400
+        }
+      ],
+      "initial_hpwl_dbu": 255787,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0008.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 255787,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_gcd_w0008",
+      "window_id": "gcd_w0008"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0009.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0009",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_668_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 49020,
+          "y": 50400
+        },
+        {
+          "cell_id": "place197",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 44840,
+          "y": 56000
+        },
+        {
+          "cell_id": "_703_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 47120,
+          "y": 56000
+        },
+        {
+          "cell_id": "place184",
+          "orient": "N",
+          "site_id": 3,
+          "x": 45980,
+          "y": 47600
+        }
+      ],
+      "initial_hpwl_dbu": 136075,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0009.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 16285,
+      "seed": 11,
+      "selected_hpwl_dbu": 119790,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_gcd_w0009",
+      "window_id": "gcd_w0009"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0010.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0010",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_690_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 60420,
+          "y": 56000
+        },
+        {
+          "cell_id": "_688_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 60040,
+          "y": 53200
+        },
+        {
+          "cell_id": "_582_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 56620,
+          "y": 56000
+        },
+        {
+          "cell_id": "_687_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 58900,
+          "y": 53200
+        }
+      ],
+      "initial_hpwl_dbu": 78843,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0010.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 78843,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_gcd_w0010",
+      "window_id": "gcd_w0010"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_gcd_w0011.tcl",
+      "baseline_replica": "",
+      "case_id": "gcd_w0011",
+      "design": "gcd",
+      "expected_cells": [
+        {
+          "cell_id": "_964_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 16720,
+          "y": 56000
+        },
+        {
+          "cell_id": "_773_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 19380,
+          "y": 58800
+        },
+        {
+          "cell_id": "_966_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 11020,
+          "y": 56000
+        },
+        {
+          "cell_id": "_764_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 20140,
+          "y": 56000
+        }
+      ],
+      "initial_hpwl_dbu": 197788,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_gcd_w0011.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 5291,
+      "seed": 11,
+      "selected_hpwl_dbu": 192497,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_gcd_w0011",
+      "window_id": "gcd_w0011"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex__baseline_a.tcl",
+      "baseline_replica": "a",
+      "case_id": "ibex__baseline_a",
+      "design": "ibex",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex__baseline_a.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_ibex__baseline_a",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex__baseline_b.tcl",
+      "baseline_replica": "b",
+      "case_id": "ibex__baseline_b",
+      "design": "ibex",
+      "expected_cells": [],
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex__baseline_b.tcl",
+      "kind": "baseline",
+      "local_hpwl_improvement_dbu": 0,
+      "variant": "qeda_routing_ibex__baseline_b",
+      "window_id": ""
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0000.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0000",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_18192_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 395960,
+          "y": 352800
+        },
+        {
+          "cell_id": "_20737_",
+          "orient": "N",
+          "site_id": 5,
+          "x": 392540,
+          "y": 350000
+        },
+        {
+          "cell_id": "_17688_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 391020,
+          "y": 350000
+        },
+        {
+          "cell_id": "_25423_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 387220,
+          "y": 350000
+        }
+      ],
+      "initial_hpwl_dbu": 987521,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0000.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 70,
+      "seed": 11,
+      "selected_hpwl_dbu": 987451,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_ibex_w0000",
+      "window_id": "ibex_w0000"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0001.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0001",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_25272_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 259160,
+          "y": 352800
+        },
+        {
+          "cell_id": "_25265_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 256880,
+          "y": 350000
+        },
+        {
+          "cell_id": "_24476_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 254980,
+          "y": 358400
+        },
+        {
+          "cell_id": "_25151_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 260680,
+          "y": 344400
+        }
+      ],
+      "initial_hpwl_dbu": 328500,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0001.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 328500,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_ibex_w0001",
+      "window_id": "ibex_w0001"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0002.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0002",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_16198_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 40660,
+          "y": 352800
+        },
+        {
+          "cell_id": "_16197_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 39520,
+          "y": 355600
+        },
+        {
+          "cell_id": "_15133_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 42560,
+          "y": 355600
+        },
+        {
+          "cell_id": "_15132_",
+          "orient": "N",
+          "site_id": 5,
+          "x": 41800,
+          "y": 350000
+        }
+      ],
+      "initial_hpwl_dbu": 495080,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0002.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 2060,
+      "seed": 29,
+      "selected_hpwl_dbu": 493020,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_ibex_w0002",
+      "window_id": "ibex_w0002"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0003.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0003",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "place1891",
+          "orient": "N",
+          "site_id": 5,
+          "x": 461700,
+          "y": 344400
+        },
+        {
+          "cell_id": "_23552_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 463220,
+          "y": 350000
+        },
+        {
+          "cell_id": "_23518_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 464740,
+          "y": 344400
+        },
+        {
+          "cell_id": "input153",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 465500,
+          "y": 347200
+        }
+      ],
+      "initial_hpwl_dbu": 490766,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0003.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 6193,
+      "seed": 11,
+      "selected_hpwl_dbu": 484573,
+      "selection_stratum": "low_connectivity",
+      "variant": "qeda_routing_ibex_w0003",
+      "window_id": "ibex_w0003"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0004.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0004",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_14849_",
+          "orient": "N",
+          "site_id": 4,
+          "x": 153900,
+          "y": 350000
+        },
+        {
+          "cell_id": "_14850_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 150860,
+          "y": 352800
+        },
+        {
+          "cell_id": "_16781_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 151620,
+          "y": 355600
+        },
+        {
+          "cell_id": "_16782_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 154280,
+          "y": 347200
+        }
+      ],
+      "initial_hpwl_dbu": 1006420,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0004.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 80,
+      "seed": 11,
+      "selected_hpwl_dbu": 1006340,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_ibex_w0004",
+      "window_id": "ibex_w0004"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0005.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0005",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_21803_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 106020,
+          "y": 352800
+        },
+        {
+          "cell_id": "_18137_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 105260,
+          "y": 350000
+        },
+        {
+          "cell_id": "_21980_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 108680,
+          "y": 352800
+        },
+        {
+          "cell_id": "_15066_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 103360,
+          "y": 352800
+        }
+      ],
+      "initial_hpwl_dbu": 917575,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0005.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 1900,
+      "seed": 11,
+      "selected_hpwl_dbu": 915675,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_ibex_w0005",
+      "window_id": "ibex_w0005"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0006.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0006",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_25779_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 297160,
+          "y": 352800
+        },
+        {
+          "cell_id": "_25780_",
+          "orient": "FS",
+          "site_id": 5,
+          "x": 296780,
+          "y": 347200
+        },
+        {
+          "cell_id": "_25709_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 299440,
+          "y": 347200
+        },
+        {
+          "cell_id": "_25588_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 299060,
+          "y": 350000
+        }
+      ],
+      "initial_hpwl_dbu": 1312687,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0006.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 13780,
+      "seed": 11,
+      "selected_hpwl_dbu": 1298907,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_ibex_w0006",
+      "window_id": "ibex_w0006"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0007.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0007",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_15147_",
+          "orient": "N",
+          "site_id": 4,
+          "x": 16340,
+          "y": 355600
+        },
+        {
+          "cell_id": "_16179_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 14060,
+          "y": 358400
+        },
+        {
+          "cell_id": "_21610_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 13680,
+          "y": 355600
+        },
+        {
+          "cell_id": "_16183_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 12920,
+          "y": 361200
+        }
+      ],
+      "initial_hpwl_dbu": 915692,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0007.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 4120,
+      "seed": 11,
+      "selected_hpwl_dbu": 911572,
+      "selection_stratum": "medium_connectivity",
+      "variant": "qeda_routing_ibex_w0007",
+      "window_id": "ibex_w0007"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0008.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0008",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_15077_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 128060,
+          "y": 350000
+        },
+        {
+          "cell_id": "_18117_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 127300,
+          "y": 352800
+        },
+        {
+          "cell_id": "_15075_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 132240,
+          "y": 355600
+        },
+        {
+          "cell_id": "_21910_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 130720,
+          "y": 352800
+        }
+      ],
+      "initial_hpwl_dbu": 958345,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0008.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 3030,
+      "seed": 17,
+      "selected_hpwl_dbu": 955315,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_ibex_w0008",
+      "window_id": "ibex_w0008"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0009.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0009",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_23316_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 446880,
+          "y": 355600
+        },
+        {
+          "cell_id": "_23311_",
+          "orient": "FS",
+          "site_id": 0,
+          "x": 445360,
+          "y": 352800
+        },
+        {
+          "cell_id": "_23301_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 446880,
+          "y": 358400
+        },
+        {
+          "cell_id": "_23326_",
+          "orient": "N",
+          "site_id": 3,
+          "x": 446880,
+          "y": 344400
+        }
+      ],
+      "initial_hpwl_dbu": 463123,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0009.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 662,
+      "seed": 11,
+      "selected_hpwl_dbu": 462461,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_ibex_w0009",
+      "window_id": "ibex_w0009"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0010.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0010",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_16785_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 168340,
+          "y": 355600
+        },
+        {
+          "cell_id": "_14845_",
+          "orient": "FS",
+          "site_id": 2,
+          "x": 168340,
+          "y": 352800
+        },
+        {
+          "cell_id": "_21405_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 168720,
+          "y": 358400
+        },
+        {
+          "cell_id": "_16784_",
+          "orient": "N",
+          "site_id": 1,
+          "x": 171000,
+          "y": 355600
+        }
+      ],
+      "initial_hpwl_dbu": 894106,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0010.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 12130,
+      "seed": 11,
+      "selected_hpwl_dbu": 881976,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_ibex_w0010",
+      "window_id": "ibex_w0010"
+    },
+    {
+      "apply_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/apply_ibex_w0011.tcl",
+      "baseline_replica": "",
+      "case_id": "ibex_w0011",
+      "design": "ibex",
+      "expected_cells": [
+        {
+          "cell_id": "_14835_",
+          "orient": "N",
+          "site_id": 0,
+          "x": 149720,
+          "y": 355600
+        },
+        {
+          "cell_id": "_15078_",
+          "orient": "FS",
+          "site_id": 1,
+          "x": 134520,
+          "y": 352800
+        },
+        {
+          "cell_id": "_19516_",
+          "orient": "N",
+          "site_id": 2,
+          "x": 187340,
+          "y": 361200
+        },
+        {
+          "cell_id": "_20573_",
+          "orient": "FS",
+          "site_id": 3,
+          "x": 185060,
+          "y": 364000
+        }
+      ],
+      "initial_hpwl_dbu": 849273,
+      "inspect_tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/downstream_routing_v1/inspect_ibex_w0011.tcl",
+      "kind": "assignment",
+      "local_hpwl_improvement_dbu": 0,
+      "seed": 11,
+      "selected_hpwl_dbu": 849273,
+      "selection_stratum": "high_connectivity",
+      "variant": "qeda_routing_ibex_w0011",
+      "window_id": "ibex_w0011"
+    }
+  ],
+  "container_image": "openroad/orfs@sha256:d995618be9f2bcdfa5538b885123463070dfbf178bea1818716d4652fe0fa380",
+  "grt_seed": 20260827,
+  "manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/benchmark_manifest.json",
+  "manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "num_cores": 2,
+  "orfs_commit": "be0dca0b1fd41df54792b3012350cd52bccd99bb",
+  "schema_version": "qeda-downstream-routing-v1",
+  "selected_readout": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/selected_readout.csv",
+  "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851"
+}

@@ -1,0 +1,184 @@
+{
+  "cases": [
+    {
+      "instance_id": "fresh4_sparse_grid_904004",
+      "returncode": 0,
+      "sha256": "b6cff6f4d53a4afb96fcc6bc4cea61e825fb2ceb9504ef0304d14d622127c903"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_904000",
+      "returncode": 0,
+      "sha256": "a61f55b98b17571406d0806f4b9de993038c3f1c369a7ddd701a2b49d073cc4d"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_904001",
+      "returncode": 0,
+      "sha256": "96f724edafa2a43d6bf607095c2c4697f1d47ce98b18a064a4e53b498bf960b6"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_904005",
+      "returncode": 0,
+      "sha256": "f8fdff8bf97802a28e367809c2fde4aceebffefe5a3af6e2560b5e2c8cf23513"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_904003",
+      "returncode": 0,
+      "sha256": "adc76e076160e7ab3c59cdb07abbde033b410330800e1b567eed385242d61061"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904101",
+      "returncode": 0,
+      "sha256": "2476069b8532cd2d54042e79fbc743360a8c591b8c443b6e354220ad018f08c6"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904100",
+      "returncode": 0,
+      "sha256": "a2d009c8f647634ce1491fe5030851fd6064f44a431f99d3e68dd37672fd053f"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_904002",
+      "returncode": 0,
+      "sha256": "a07e369e2e99b51785dd0c3d12ecd804e1b925ca3c6ef0225bddfc159fe4ae9c"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904200",
+      "returncode": 0,
+      "sha256": "3ffc0a7fcfba553a8ed1f9ce139dfa32774a158a147708b61fd7ccf84795e2bc"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904201",
+      "returncode": 0,
+      "sha256": "408e7f6eb1172bb3056feac8fae00ed74e8330f8b4b9b76d93874182a9249662"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904102",
+      "returncode": 0,
+      "sha256": "50b3cdad2fe8e844ed16558943a6597491a374c5d58eda8ba0e7644e80ec4137"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904103",
+      "returncode": 0,
+      "sha256": "36386617339a4fe957496bea42a97d94bf031f1de7d57ae8ad843d008348f357"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904203",
+      "returncode": 0,
+      "sha256": "5b1b110bdf90a1d14a9de5456b0e71a49e376bdc895a1580eb4847a4faabbe25"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904202",
+      "returncode": 0,
+      "sha256": "eeeed8aeb35a9a6cd472c002bb26fdf9acd513f93d1ae20b64dba1ca9aa8b19e"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904104",
+      "returncode": 0,
+      "sha256": "01e76ba0bbd00024ca9d3434c2bf38af16ea05190e48a9819c47c9e1f333cafe"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_904105",
+      "returncode": 0,
+      "sha256": "5350dd398083d8ca827098ab74786397f13b43965cf7b767e3c12fbe14a4b5ad"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904204",
+      "returncode": 0,
+      "sha256": "f650c863f56c17354a245eb982800703024cf51efe3bed021a6b22661d4a02e4"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_line_904205",
+      "returncode": 0,
+      "sha256": "87da4d5b18645b899a46f957d1df901098a3fd7a383e8c27140bd6e82363e009"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904300",
+      "returncode": 0,
+      "sha256": "001a5efcf3604053b5fbc1bf298bf4441560b1ce44703965aff84ee8ca376034"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904302",
+      "returncode": 0,
+      "sha256": "3a6823bb2612c37243cde6ee9ac09ebb8c5a7f54baee33d6842658287ce4593b"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904301",
+      "returncode": 0,
+      "sha256": "0f367535119d7ecf251f1ff1f261ef7a9f440d8dfa8a5957a2a5402c0df970fb"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904303",
+      "returncode": 0,
+      "sha256": "e2c65a2380e34fa5f8902cf1d4f98ce31a10a4127908a90a2737c3234b8b6cdf"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904305",
+      "returncode": 0,
+      "sha256": "79348b1a60a83561931a022632f33980a4d8337f84553e8f4dc55d00e01e7672"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_line_904304",
+      "returncode": 0,
+      "sha256": "62091036764b0a2b9719f7603fb0fc0224916a0ca9535732bd1c038fcc893355"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904400",
+      "returncode": 0,
+      "sha256": "23000c3adff50994047bc3c21d7e3ff9a3b3a9a3b59a17711d2c2e7b27710d48"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904402",
+      "returncode": 0,
+      "sha256": "a41e9fed0d579c1d5eceb19f959e355faf26a39d98069f59edc61430989d2fd3"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904405",
+      "returncode": 0,
+      "sha256": "1c537f1dc6118d0d8f3991680eb649adaa4cb172f8967120acb87e5e9c73ddf4"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904403",
+      "returncode": 0,
+      "sha256": "3aa3441954453f4a47476221b6b05519b898c5a50d0ad706ed14488b5c250ccb"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904401",
+      "returncode": 0,
+      "sha256": "582748501860f0e2a31a1d2e0fc1311a91d7e8fbe1fb90171b53f07644e19cc9"
+    },
+    {
+      "instance_id": "fresh4_sparse_grid_lshape_904404",
+      "returncode": 0,
+      "sha256": "d1df7d40d22ad624d0285718b3d9b9592367d510a99f000e65861a630a01d662"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904500",
+      "returncode": 0,
+      "sha256": "3b29556d4e7116f6c43951546b99990a0c8c390e10338905aeefe28cebdf8ea0"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904501",
+      "returncode": 0,
+      "sha256": "91686ed9cb5e3fa51d4774e1d34867c961d5a06cd4cf8ef3d825e525d99a94a1"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904502",
+      "returncode": 0,
+      "sha256": "0b9d2ffd7e7f1a24fca8dbad9b5d373d43986af2df974595a22f7319cc1c820a"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904505",
+      "returncode": 0,
+      "sha256": "6a8fc351ae17f222283c241c7d0f93663071a144583ed9b3ca92e6bd46f2b4e3"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904503",
+      "returncode": 0,
+      "sha256": "d7eb903b6ea1bddfb822809f80614af0cf4673951b6f200c40055a9104938f6d"
+    },
+    {
+      "instance_id": "fresh4_dense_grid_lshape_904504",
+      "returncode": 0,
+      "sha256": "41a92b3a0be117024b56b41b9f0dcaa46a27fa82773d990ce54a37352d1f163e"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "validation_instance": "fresh4_sparse_grid_904000",
+  "prior_smoke_rows": 16,
+  "prior_initializations": [
+    "deterministic",
+    "poor"
+  ],
+  "full_initializations": [
+    "deterministic",
+    "poor",
+    "random"
+  ],
+  "previously_unevaluated_4c6s": 35,
+  "previously_unevaluated_5c7s": 12,
+  "interpretation": "Full-run freeze did not make the smoke instance previously unevaluated. Retain all-instance endpoint and disclose separate sensitivity.",
+  "analysis_timing": "Identified during final provenance audit, after the full outcomes; no outcome-based exclusion.",
+  "smoke_sha256": {
+    "protocol.json": "eb6f5db5ffb572936e68d520ecbbceed378b4f84e4a60e686f8333ecb4f8614a",
+    "quality_run_level.csv": "72cc78c5e273a36ab4748876e0aba56f928acc447041cb0ed891136bfb61df63"
+  },
+  "smoke_vs_full_max_absolute_difference": {
+    "optimal_probability": 0.0,
+    "feasible_probability": 0.0,
+    "improvement_probability": 0.0,
+    "objective_value": 0.0
+  }
+}

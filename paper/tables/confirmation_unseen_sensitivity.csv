@@ -1,0 +1,2 @@
+cells,sites,instances,excluded_validation_instance,token_mean,penalty_mean,mean_delta,positive,negative,ci_low,ci_high
+4,6,35,fresh4_sparse_grid_904000,0.1525532723561684,0.03492414318174903,0.11762912917441938,34,1,0.09665769175198372,0.1396614720098347

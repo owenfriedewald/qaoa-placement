@@ -1,0 +1,4 @@
+readouts,qaoa_mean_absolute_improvement_dbu,uniform_mean_absolute_improvement_dbu,qaoa_median_absolute_improvement_dbu,uniform_median_absolute_improvement_dbu,qaoa_better_equal_worse_than_initial,uniform_better_equal_worse_than_initial,qaoa_mean_gap_closure_improving_windows,uniform_mean_gap_closure_improving_windows
+64,2043.926131605761,-1985.4802381760533,269.94066181156813,-548.132927548344,"[39, 0, 33]","[24, 0, 48]",-0.24429830141866038,-3.114770194823249
+256,2561.1579768814877,1729.016552711109,546.1954764742404,285.4514095647173,"[46, 8, 18]","[42, 0, 30]",0.7475636102527222,0.07850400356083968
+4096,3057.496154564067,3151.0650404367075,1093.652107854723,1229.9908170974813,"[48, 24, 0]","[48, 5, 19]",0.9552284672215153,0.9999958798758337

@@ -1,0 +1,5 @@
+method,resource_type,data_qubits,ancillas,cx,depth,two_qubit_depth,construction_time_seconds,transpilation_time_seconds,basis_gates,includes_phase_separator
+row_xy,mixer_ansatz_estimate_existing_qaoaansatz,24,0,918,116,,,4.291534423828125e-06,existing Aer preset opt3,yes_existing_QAOAAnsatz
+complete_reversed,diagnostic_exact_transition_estimate,24,0,2628720,4980960,,,,representative transition Aer preset opt3,no_mixer_transition_estimate
+one_hot_sparse_grid,actual_mixer_only_circuit,30,0,4998,1929,1359,0.026757001876831055,0.12824678421020508,"u3,cx opt3",no_mixer_only
+structured_binary_pswap_grid,actual_mixer_only_circuit,18,1,819,1033,632,0.0011985301971435547,0.031800270080566406,"u3,cx opt3",no_mixer_only

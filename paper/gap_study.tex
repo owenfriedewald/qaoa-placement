@@ -1,0 +1,92 @@
+\section{Completion and Synthesis Results}
+\label{sec:phase-results}\label{sec:gap-study}
+We first evaluate the distance phase independently of the mixer. This
+isolates the effect of choosing unspecified table entries, then asks how
+that effect depends on geometry, label structure and synthesis.
+
+\input{submission_results}
+
+\subsection{The extent of completion freedom}
+A two-register distance table has $2^{2k}$ entries but only $m^2$ prescribed
+values. Its fraction of unspecified entries is therefore
+\begin{equation}
+ F=1-\frac{m^2}{2^{2\lceil\log_2m\rceil}}.
+ \label{eq:free-fraction}
+\end{equation}
+This fraction concerns unused binary codes, not the number of vacant
+placement sites. At a power of two, $F=0$ and completion cannot change the
+operator. Between powers of two, freedom becomes available but does not
+by itself determine the saving: six and twelve sites both have $F=7/16$,
+yet their CX reductions differ (Fig.~\ref{fig:free-fraction}). Nine sites
+have $F=175/256$. Geometry and label assignment determine the required
+values, while net aggregation and parity synthesis determine how a chosen
+extension translates into gates.
+
+\begin{figure}[t]\centering
+\includegraphics[width=.97\textwidth]{fig_reviewer_free_fraction.pdf}
+\caption{CX reductions from L1 completion relative to zero extension.
+The initial cohort uses fixed mask order (20 cases per size); the
+replication cohort uses beam search and Gray synthesis (12 per size).
+Boxes show medians and quartiles; whiskers reach the most extreme values
+within 1.5 IQR, with other observations shown individually. Powers of two have no
+completion freedom and hence zero reduction.}
+\Description{Three panels show paired CX reductions by site count for fixed
+mask order, beam search and Gray synthesis, with power-of-two controls at zero.}
+\label{fig:free-fraction}
+\end{figure}
+
+\subsection{Joint optimization of coordinate contributions}
+Manhattan distance is additive in its coordinates, suggesting a simpler
+alternative to joint completion: solve Eq.~\eqref{eq:lp} separately for
+$|x_a-x_b|$ and $|y_a-y_b|$, then add the coefficient vectors. The sum
+$c_x+c_y$ is feasible for the joint problem. Consequently, the joint
+optimum cannot have a larger weighted norm, although its synthesized
+circuit need not have fewer gates. Both formulations retain the same
+$O(m^4)$ dense constraint storage because both use the full site-label
+domain. Coordinate separation alone does not solve the storage problem.
+
+\begin{table}[t]\centering\small
+\caption{Coordinate-separated relative to joint L1 completion. Each row
+contains 20 initial-cohort or 12 replication-cohort cases. W/T/L counts
+cases with fewer/equal/more CX gates for the separated construction.
+Changes and IQRs summarize paired percentages. Norm comparisons in the
+text evaluate the LP objective on $c_x+c_y$. Power-of-two ties are omitted.}
+\label{tab:coordinate}\input{tables/reviewer_coordinate}
+\end{table}
+
+Joint completion has a strictly smaller weighted norm in 67 of the 96
+cases with unused codes. Coordinate-separated completion increases
+replication-cohort Gray CX by median 10.0\%, 16.3\% and 14.6\% at six,
+nine and twelve sites (Table~\ref{tab:coordinate}). Some individual cases
+nevertheless favor separation in gate count, illustrating the distinction
+between the LP objective and the synthesized circuit. All 64 power-of-two
+cases yield identical coefficients, and the maximum valid-distance
+residual is $8.35\times10^{-14}$. Joint optimization can exploit
+cancellation between coordinate contributions that separate solves miss.
+
+\subsection{Direct construction on regular arrays}
+The recurrence in Section~\ref{sec:structured} takes a different approach:
+it uses coordinate bits directly and avoids the dense LP. We evaluate it
+on binary rows and row-major rectangles, including prefixes with unused
+codes, at the same five site counts. Each comparison uses a four-cell,
+six-net phase and Gray synthesis (Table~\ref{tab:structured}). These deterministic geometries examine
+the construction's mechanism; they are separate from the shuffled-label
+cohorts.
+
+\begin{table}[t]\centering\small
+\caption{Gray CX counts for regular-coordinate distance phases with six
+nets. Each row is one deterministic geometry. All three extensions are
+exact on valid pairs; the recurrence assigns distances to unused binary
+coordinates. These are construction examples rather than a sampled cohort.}
+\label{tab:structured}\input{tables/submission_structured}
+\end{table}
+
+The recurrence reproduces every coordinate-pair distance through six bits,
+and its support count agrees with Eq.~\eqref{eq:structured-support} through
+sixteen bits. The latter check constructs coefficients rather than a
+placement circuit at that width. At six grid sites, the recurrence and L1
+both use 86 CX, compared with 318 for zero extension. The recurrence is not
+always as economical as the LP: at nine grid sites it uses 148 CX versus
+110, and at nine row sites 720 versus 344. It therefore provides a more
+compact construction on this structured subclass without necessarily
+minimizing the resulting circuit.

@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+lsu.bus_intf.bus_buffer.genblk9_0__buf_dataff.genblock_dff.dout\[20\]$_DFF_PN0_,215460,100800,R0,215460,100800,R0
+lsu.bus_intf.bus_buffer.genblk9_5__buf_dataff.genblock_dff.dout\[20\]$_DFF_PN0_,218500,106400,R0,218500,106400,R0
+lsu.bus_intf.bus_buffer.genblk9_4__buf_dataff.genblock_dff.dout\[20\]$_DFF_PN0_,226100,100800,R0,226100,100800,R0
+lsu.bus_intf.bus_buffer.genblk9_6__buf_dataff.genblock_dff.dout\[20\]$_DFF_PN0_,224200,98000,MX,224200,98000,MX

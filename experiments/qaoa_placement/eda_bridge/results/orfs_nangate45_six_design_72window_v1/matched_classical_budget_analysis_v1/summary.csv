@@ -1,0 +1,7 @@
+method,budget_per_seed,seeds,total_budget_exposure,windows,selected_exact_hits,mean_selected_improvement_dbu,mean_selected_gap_closure
+random_feasible_without_replacement,40,4,160,72,42,2448.2916666666665,0.7996157869325031
+simulated_annealing,40,4,160,72,70,3149.0,0.9857549857549858
+random_feasible_without_replacement,360,4,1440,72,72,3151.0833333333335,1.0
+simulated_annealing,360,4,1440,72,72,3151.0833333333335,1.0
+random_feasible_without_replacement,4096,4,16384,72,72,3151.0833333333335,1.0
+simulated_annealing,4096,4,16384,72,72,3151.0833333333335,1.0

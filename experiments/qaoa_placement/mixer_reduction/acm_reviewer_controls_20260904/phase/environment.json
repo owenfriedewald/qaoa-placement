@@ -1,0 +1,15 @@
+{
+  "kind": "phase",
+  "versions": {
+    "qiskit": "2.5.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "qiskit-ibm-runtime": "0.46.1"
+  },
+  "spec_sha256": "36c6746666ec67b37a24e11f984afbb2fbfe2b2f097c6680b3256911eb7a3094",
+  "payload_sha256": "8f778336453f682896b59a7eb54eee580a971c0db99ea30e03172e66f0d980dd",
+  "source_sha256": {
+    "experiments/qaoa_placement/mixer_reduction/acm_reviewer_study.py": "55fd7056ade0f1d17d68e75bc071f888830e8442491d633c5923936b08659881",
+    "experiments/qaoa_placement/mixer_reduction/acm_reviewer_methods.py": "bc98d7dc1f5cab7bf98beda3ae1b8bc0929be362e9df1b3cc9be158b7daddb85"
+  }
+}

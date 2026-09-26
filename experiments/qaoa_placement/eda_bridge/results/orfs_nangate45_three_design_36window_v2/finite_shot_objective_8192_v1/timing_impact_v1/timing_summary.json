@@ -1,0 +1,358 @@
+{
+  "baselines": {
+    "aes": {
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.10395545829508153,
+      "maximum_roundtrip_error_ns": 0.0,
+      "setup_tns_ns": -0.060916051704864076,
+      "setup_wns_ns": -0.016700197253330364
+    },
+    "gcd": {
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.09313917956070472,
+      "maximum_roundtrip_error_ns": 0.0,
+      "setup_tns_ns": -6.902965505702716,
+      "setup_wns_ns": -0.15504528655356675
+    },
+    "ibex": {
+      "hold_tns_ns": 0.0,
+      "hold_wns_ns": 0.04561262607831802,
+      "maximum_roundtrip_error_ns": 0.0,
+      "setup_tns_ns": -1.4492170096386234,
+      "setup_wns_ns": -0.02732281145337191
+    }
+  },
+  "by_design": {
+    "aes": {
+      "case_count": 12,
+      "hold_joint_nonworsening_count": 12,
+      "hpwl_improved_count": 8,
+      "hpwl_unchanged_count": 4,
+      "metrics": {
+        "hold_tns": {
+          "best_window_id": "aes_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "aes_w0000"
+        },
+        "hold_wns": {
+          "best_window_id": "aes_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "aes_w0000"
+        },
+        "setup_tns": {
+          "best_window_id": "aes_w0009",
+          "improved_count": 1,
+          "maximum_delta_ns": 0.0008510969947483141,
+          "mean_delta_ns": 7.09247495623595e-05,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 11,
+          "worsened_count": 0,
+          "worst_window_id": "aes_w0000"
+        },
+        "setup_wns": {
+          "best_window_id": "aes_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "aes_w0000"
+        }
+      },
+      "new_setup_violation_count": 0,
+      "pearson_hpwl_improvement_vs_timing_delta": {
+        "hold_tns": null,
+        "hold_wns": null,
+        "setup_tns": 0.08043198336642043,
+        "setup_wns": null
+      },
+      "setup_joint_nonworsening_count": 12,
+      "setup_tns_nonworsening_count": 12,
+      "setup_wns_nonworsening_count": 12,
+      "total_hpwl_improvement_dbu": 32251.0
+    },
+    "gcd": {
+      "case_count": 12,
+      "hold_joint_nonworsening_count": 12,
+      "hpwl_improved_count": 9,
+      "hpwl_unchanged_count": 3,
+      "metrics": {
+        "hold_tns": {
+          "best_window_id": "gcd_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "gcd_w0000"
+        },
+        "hold_wns": {
+          "best_window_id": "gcd_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "gcd_w0000"
+        },
+        "setup_tns": {
+          "best_window_id": "gcd_w0009",
+          "improved_count": 4,
+          "maximum_delta_ns": 0.0033124615099540122,
+          "mean_delta_ns": 0.00020935106093089573,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": -0.0006150635730373111,
+          "unchanged_count": 6,
+          "worsened_count": 2,
+          "worst_window_id": "gcd_w0004"
+        },
+        "setup_wns": {
+          "best_window_id": "gcd_w0009",
+          "improved_count": 1,
+          "maximum_delta_ns": 0.0011504408862288706,
+          "mean_delta_ns": 5.4634539179897655e-05,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": -0.0004948264160700988,
+          "unchanged_count": 10,
+          "worsened_count": 1,
+          "worst_window_id": "gcd_w0004"
+        }
+      },
+      "new_setup_violation_count": 0,
+      "pearson_hpwl_improvement_vs_timing_delta": {
+        "hold_tns": null,
+        "hold_wns": null,
+        "setup_tns": 0.4646181618794532,
+        "setup_wns": 0.409349605945033
+      },
+      "setup_joint_nonworsening_count": 10,
+      "setup_tns_nonworsening_count": 10,
+      "setup_wns_nonworsening_count": 11,
+      "total_hpwl_improvement_dbu": 56875.0
+    },
+    "ibex": {
+      "case_count": 12,
+      "hold_joint_nonworsening_count": 12,
+      "hpwl_improved_count": 10,
+      "hpwl_unchanged_count": 2,
+      "metrics": {
+        "hold_tns": {
+          "best_window_id": "ibex_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "ibex_w0000"
+        },
+        "hold_wns": {
+          "best_window_id": "ibex_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "ibex_w0000"
+        },
+        "setup_tns": {
+          "best_window_id": "ibex_w0010",
+          "improved_count": 1,
+          "maximum_delta_ns": 0.0035023096525346187,
+          "mean_delta_ns": 0.00029185913771121824,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 11,
+          "worsened_count": 0,
+          "worst_window_id": "ibex_w0000"
+        },
+        "setup_wns": {
+          "best_window_id": "ibex_w0000",
+          "improved_count": 0,
+          "maximum_delta_ns": 0.0,
+          "mean_delta_ns": 0.0,
+          "median_delta_ns": 0.0,
+          "minimum_delta_ns": 0.0,
+          "unchanged_count": 12,
+          "worsened_count": 0,
+          "worst_window_id": "ibex_w0000"
+        }
+      },
+      "new_setup_violation_count": 0,
+      "pearson_hpwl_improvement_vs_timing_delta": {
+        "hold_tns": null,
+        "hold_wns": null,
+        "setup_tns": 0.5608189990421262,
+        "setup_wns": null
+      },
+      "setup_joint_nonworsening_count": 12,
+      "setup_tns_nonworsening_count": 12,
+      "setup_wns_nonworsening_count": 12,
+      "total_hpwl_improvement_dbu": 44025.0
+    }
+  },
+  "container_image": "openroad/orfs@sha256:d995618be9f2bcdfa5538b885123463070dfbf178bea1818716d4652fe0fa380",
+  "input_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "legality_passed_count": 36,
+  "overall": {
+    "case_count": 36,
+    "hold_joint_nonworsening_count": 36,
+    "hpwl_improved_count": 27,
+    "hpwl_unchanged_count": 9,
+    "metrics": {
+      "hold_tns": {
+        "best_window_id": "aes_w0000",
+        "improved_count": 0,
+        "maximum_delta_ns": 0.0,
+        "mean_delta_ns": 0.0,
+        "median_delta_ns": 0.0,
+        "minimum_delta_ns": 0.0,
+        "unchanged_count": 36,
+        "worsened_count": 0,
+        "worst_window_id": "aes_w0000"
+      },
+      "hold_wns": {
+        "best_window_id": "aes_w0000",
+        "improved_count": 0,
+        "maximum_delta_ns": 0.0,
+        "mean_delta_ns": 0.0,
+        "median_delta_ns": 0.0,
+        "minimum_delta_ns": 0.0,
+        "unchanged_count": 36,
+        "worsened_count": 0,
+        "worst_window_id": "aes_w0000"
+      },
+      "setup_tns": {
+        "best_window_id": "ibex_w0010",
+        "improved_count": 6,
+        "maximum_delta_ns": 0.0035023096525346187,
+        "mean_delta_ns": 0.00019071164940149114,
+        "median_delta_ns": 0.0,
+        "minimum_delta_ns": -0.0006150635730373111,
+        "unchanged_count": 28,
+        "worsened_count": 2,
+        "worst_window_id": "gcd_w0004"
+      },
+      "setup_wns": {
+        "best_window_id": "gcd_w0009",
+        "improved_count": 1,
+        "maximum_delta_ns": 0.0011504408862288706,
+        "mean_delta_ns": 1.8211513059965883e-05,
+        "median_delta_ns": 0.0,
+        "minimum_delta_ns": -0.0004948264160700988,
+        "unchanged_count": 34,
+        "worsened_count": 1,
+        "worst_window_id": "gcd_w0004"
+      }
+    },
+    "new_setup_violation_count": 0,
+    "pearson_hpwl_improvement_vs_timing_delta": {
+      "hold_tns": null,
+      "hold_wns": null,
+      "setup_tns": 0.44817094795139445,
+      "setup_wns": 0.3255044252372997
+    },
+    "setup_joint_nonworsening_count": 34,
+    "setup_tns_nonworsening_count": 34,
+    "setup_wns_nonworsening_count": 35,
+    "total_hpwl_improvement_dbu": 133151.0
+  },
+  "raw_timing_sha256": {
+    "aes": "546c58ba130f5ae24a91ead5575da0a716086c76ec64c74103f50e440e716755",
+    "gcd": "40456c1d950996815c37e3a7228e79ab41882a04a6eb7d095e0a7f29e83402ef",
+    "ibex": "ea993ec508e18b8018b50189f7dca7e958eca41bd27a54415ad3d3ad85b4a1c2"
+  },
+  "roundtrip_passed_count": 3,
+  "roundtrip_tolerance_ns": 1e-12,
+  "schema_version": "qeda-timing-impact-summary-v1",
+  "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851",
+  "source_provenance": {
+    "design_inputs": {
+      "aes": {
+        "odb": "[local-path]",
+        "odb_sha256": "2d82b8802376c82ccf73b61c1ba3560368601369b9f3715d763ab3fbf7eb76e1",
+        "sdc": "[local-path]",
+        "sdc_sha256": "85697e525c7542e938f1b06e0c959b7aafc6cc6b465c937cda7fe5fe404ad520"
+      },
+      "gcd": {
+        "odb": "[local-path]",
+        "odb_sha256": "5140093541759c0a3564a009e93df86deb458faf62e9b1fad8e300b5184ee904",
+        "sdc": "[local-path]",
+        "sdc_sha256": "6751e14b03cf0b14b6977b695992234d0fa472f657deb3ed5ae8727c5844c79b"
+      },
+      "ibex": {
+        "odb": "[local-path]",
+        "odb_sha256": "728163f276732c02f9408e0165d90f78184a6d851b41df2283e73ab1607e14de",
+        "sdc": "[local-path]",
+        "sdc_sha256": "9ac9ed045d99d218e1500c185cc12b5b8a88b03ef1cd805028ced1056324e014"
+      }
+    },
+    "set_rc": "[local-path]",
+    "set_rc_sha256": "521df813bf4da9d7400df33e3f680c9a328cc720830dbfca1188083741503fa5"
+  },
+  "timing_plan_sha256": "48166f05b5245d20fa245206be195fa3314594df1a5c793c01eb1c177fee6689",
+  "worsening_cases": [
+    {
+      "case_kind": "assignment",
+      "design": "gcd",
+      "hold_tns_delta_ns": 0.0,
+      "hold_tns_ns": 0.0,
+      "hold_wns_delta_ns": 0.0,
+      "hold_wns_ns": 0.09313917956070472,
+      "hpwl_delta_dbu": -6285.0,
+      "hpwl_improvement_dbu": 6285.0,
+      "initial_hpwl_dbu": 163540.0,
+      "new_setup_violation": false,
+      "seed": "11",
+      "selected_hpwl_dbu": 157255.0,
+      "selection_stratum": "medium_connectivity",
+      "setup_tns_delta_ns": -0.0006150635730373111,
+      "setup_tns_ns": -6.9035805692757535,
+      "setup_wns_delta_ns": -0.0004948264160700988,
+      "setup_wns_ns": -0.15554011296963685,
+      "window_id": "gcd_w0004"
+    },
+    {
+      "case_kind": "assignment",
+      "design": "gcd",
+      "hold_tns_delta_ns": 0.0,
+      "hold_tns_ns": 0.0,
+      "hold_wns_delta_ns": 0.0,
+      "hold_wns_ns": 0.09313917956070472,
+      "hpwl_delta_dbu": -1751.0,
+      "hpwl_improvement_dbu": 1751.0,
+      "initial_hpwl_dbu": 136808.0,
+      "new_setup_violation": false,
+      "seed": "11",
+      "selected_hpwl_dbu": 135057.0,
+      "selection_stratum": "medium_connectivity",
+      "setup_tns_delta_ns": -0.00019895197163943834,
+      "setup_tns_ns": -6.903164457674356,
+      "setup_wns_delta_ns": 0.0,
+      "setup_wns_ns": -0.15504528655356675,
+      "window_id": "gcd_w0006"
+    }
+  ]
+}

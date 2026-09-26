@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/i_snitch_regfile.mem\[347\]$_DFFE_PP_,1893920,1447600,R0,1893920,1447600,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/i_snitch_regfile.mem\[923\]$_DFFE_PP_,1906080,1447600,R0,1906080,1447600,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/i_snitch_regfile.mem\[271\]$_DFFE_PP_,1896960,1458800,R0,1896960,1458800,R0
+gen_tiles\[0\].i_tile.i_tile/gen_cores\[3\].gen_mempool_cc.riscv_core.i_snitch/i_snitch_regfile.mem\[283\]$_DFFE_PP_,1878340,1450400,MX,1878340,1450400,MX

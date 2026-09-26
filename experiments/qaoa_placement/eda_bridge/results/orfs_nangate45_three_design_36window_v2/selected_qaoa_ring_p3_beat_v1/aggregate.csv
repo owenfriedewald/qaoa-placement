@@ -1,0 +1,2 @@
+config,graph,schedule,p,objective,budget,edge_layers,window_count,improving_window_count,zero_opportunity_fraction,mean_expected_best_256_gap_closure,mean_probability_beating_initial,mean_optimal_probability,mean_optimizer_runtime_seconds,optimizer_failure_count
+selected_ring_p3_beat,ring,reversed,3,beat_initial,40,18,36,27,0.25,0.8067996573686381,0.10120111049751046,0.048324543958684976,0.022707508669959173,54

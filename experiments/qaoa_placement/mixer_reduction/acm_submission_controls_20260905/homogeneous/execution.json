@@ -1,0 +1,62 @@
+[
+  {
+    "task": 2,
+    "returncode": 0,
+    "sha256": "35ad59a5e003ee56839674901ea3e14af5f172a3d405296175b396f34f51bb12"
+  },
+  {
+    "task": 3,
+    "returncode": 0,
+    "sha256": "c942fd9cb73ebffb89cb80d6ae2dec9d82705c97bb1714d2a9b3c5b548f2ac89"
+  },
+  {
+    "task": 0,
+    "returncode": 0,
+    "sha256": "cbc268cae3a91e67ab2afbbdf16b4c922a1eac4440b852718bfd5fac7f94f553"
+  },
+  {
+    "task": 1,
+    "returncode": 0,
+    "sha256": "54898a42542a237e4dba8591b897c62b7784254c502482be09a28ff740b86605"
+  },
+  {
+    "task": 7,
+    "returncode": 0,
+    "sha256": "9acfcadb05524fc3dd7ca757f6b9a6c6ffcd7f4fa71873cd2358fe0bf0a50457"
+  },
+  {
+    "task": 4,
+    "returncode": 0,
+    "sha256": "f3918d14b05eb92ad0685f521420fefd63459ec2785e2c622058ada7e01a405e"
+  },
+  {
+    "task": 5,
+    "returncode": 0,
+    "sha256": "bf4887b14efa65aa753d5a0cef8b6eb065a3e79fdbdeccf467fce67dc9c4fb13"
+  },
+  {
+    "task": 6,
+    "returncode": 0,
+    "sha256": "d11889da2dc46ff052e9c6700ea222908f1b5f7a37e63febb2b6d8f15780fbf5"
+  },
+  {
+    "task": 9,
+    "returncode": 0,
+    "sha256": "92b6ce487ad896ec044a3841bb39346c46df86cc98a008b263e8650f8534ec2f"
+  },
+  {
+    "task": 8,
+    "returncode": 0,
+    "sha256": "f9ff25dc74ab1bce22df69ade7831f00e6c00e5fa6725182b0b0e31c851e9506"
+  },
+  {
+    "task": 11,
+    "returncode": 0,
+    "sha256": "d290230265a4167c564344235da693a1ae3097c6019a966240d616a050a2dd8a"
+  },
+  {
+    "task": 10,
+    "returncode": 0,
+    "sha256": "4b13df8184e812da91feb17de44aaba68a299add4a96ada14450f83c739c95b6"
+  }
+]

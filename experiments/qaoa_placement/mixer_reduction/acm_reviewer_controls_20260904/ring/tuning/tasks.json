@@ -1,0 +1,6678 @@
+[
+  {
+    "row": {
+      "id": "calibration_4_compact_0",
+      "family": "compact",
+      "seed": 1080000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.72
+        ],
+        [
+          "A",
+          "D",
+          1.77
+        ],
+        [
+          "B",
+          "C",
+          1.9
+        ],
+        [
+          "B",
+          "D",
+          1.83
+        ],
+        [
+          "C",
+          "D",
+          1.76
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_0",
+      "family": "compact",
+      "seed": 1080000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.72
+        ],
+        [
+          "A",
+          "D",
+          1.77
+        ],
+        [
+          "B",
+          "C",
+          1.9
+        ],
+        [
+          "B",
+          "D",
+          1.83
+        ],
+        [
+          "C",
+          "D",
+          1.76
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_0",
+      "family": "compact",
+      "seed": 1080000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.72
+        ],
+        [
+          "A",
+          "D",
+          1.77
+        ],
+        [
+          "B",
+          "C",
+          1.9
+        ],
+        [
+          "B",
+          "D",
+          1.83
+        ],
+        [
+          "C",
+          "D",
+          1.76
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_0",
+      "family": "compact",
+      "seed": 1080000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.72
+        ],
+        [
+          "A",
+          "D",
+          1.77
+        ],
+        [
+          "B",
+          "C",
+          1.9
+        ],
+        [
+          "B",
+          "D",
+          1.83
+        ],
+        [
+          "C",
+          "D",
+          1.76
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_1",
+      "family": "compact",
+      "seed": 1080001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.02
+        ],
+        [
+          "A",
+          "D",
+          1.96
+        ],
+        [
+          "B",
+          "C",
+          0.84
+        ],
+        [
+          "B",
+          "D",
+          0.76
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_1",
+      "family": "compact",
+      "seed": 1080001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.02
+        ],
+        [
+          "A",
+          "D",
+          1.96
+        ],
+        [
+          "B",
+          "C",
+          0.84
+        ],
+        [
+          "B",
+          "D",
+          0.76
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_1",
+      "family": "compact",
+      "seed": 1080001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.02
+        ],
+        [
+          "A",
+          "D",
+          1.96
+        ],
+        [
+          "B",
+          "C",
+          0.84
+        ],
+        [
+          "B",
+          "D",
+          0.76
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_compact_1",
+      "family": "compact",
+      "seed": 1080001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.02
+        ],
+        [
+          "A",
+          "D",
+          1.96
+        ],
+        [
+          "B",
+          "C",
+          0.84
+        ],
+        [
+          "B",
+          "D",
+          0.76
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_0",
+      "family": "line",
+      "seed": 1080100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.61
+        ],
+        [
+          "A",
+          "C",
+          0.51
+        ],
+        [
+          "B",
+          "C",
+          0.78
+        ],
+        [
+          "B",
+          "D",
+          0.78
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_0",
+      "family": "line",
+      "seed": 1080100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.61
+        ],
+        [
+          "A",
+          "C",
+          0.51
+        ],
+        [
+          "B",
+          "C",
+          0.78
+        ],
+        [
+          "B",
+          "D",
+          0.78
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_0",
+      "family": "line",
+      "seed": 1080100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.61
+        ],
+        [
+          "A",
+          "C",
+          0.51
+        ],
+        [
+          "B",
+          "C",
+          0.78
+        ],
+        [
+          "B",
+          "D",
+          0.78
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_0",
+      "family": "line",
+      "seed": 1080100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.61
+        ],
+        [
+          "A",
+          "C",
+          0.51
+        ],
+        [
+          "B",
+          "C",
+          0.78
+        ],
+        [
+          "B",
+          "D",
+          0.78
+        ],
+        [
+          "C",
+          "D",
+          1.79
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_1",
+      "family": "line",
+      "seed": 1080101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.33
+        ],
+        [
+          "A",
+          "C",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          1.92
+        ],
+        [
+          "C",
+          "D",
+          1.99
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_1",
+      "family": "line",
+      "seed": 1080101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.33
+        ],
+        [
+          "A",
+          "C",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          1.92
+        ],
+        [
+          "C",
+          "D",
+          1.99
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_1",
+      "family": "line",
+      "seed": 1080101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.33
+        ],
+        [
+          "A",
+          "C",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          1.92
+        ],
+        [
+          "C",
+          "D",
+          1.99
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_line_1",
+      "family": "line",
+      "seed": 1080101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.33
+        ],
+        [
+          "A",
+          "C",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          1.92
+        ],
+        [
+          "C",
+          "D",
+          1.99
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_0",
+      "family": "scatter",
+      "seed": 1080200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.94
+        ],
+        [
+          "A",
+          "D",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          0.94
+        ],
+        [
+          "B",
+          "D",
+          0.77
+        ],
+        [
+          "C",
+          "D",
+          1.8
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_0",
+      "family": "scatter",
+      "seed": 1080200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.94
+        ],
+        [
+          "A",
+          "D",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          0.94
+        ],
+        [
+          "B",
+          "D",
+          0.77
+        ],
+        [
+          "C",
+          "D",
+          1.8
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_0",
+      "family": "scatter",
+      "seed": 1080200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.94
+        ],
+        [
+          "A",
+          "D",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          0.94
+        ],
+        [
+          "B",
+          "D",
+          0.77
+        ],
+        [
+          "C",
+          "D",
+          1.8
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_0",
+      "family": "scatter",
+      "seed": 1080200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          5,
+          11
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.94
+        ],
+        [
+          "A",
+          "D",
+          0.73
+        ],
+        [
+          "B",
+          "C",
+          0.94
+        ],
+        [
+          "B",
+          "D",
+          0.77
+        ],
+        [
+          "C",
+          "D",
+          1.8
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_1",
+      "family": "scatter",
+      "seed": 1080201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          10,
+          5
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.18
+        ],
+        [
+          "A",
+          "D",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.5
+        ],
+        [
+          "B",
+          "D",
+          1.68
+        ],
+        [
+          "C",
+          "D",
+          1.1
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_1",
+      "family": "scatter",
+      "seed": 1080201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          10,
+          5
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.18
+        ],
+        [
+          "A",
+          "D",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.5
+        ],
+        [
+          "B",
+          "D",
+          1.68
+        ],
+        [
+          "C",
+          "D",
+          1.1
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_1",
+      "family": "scatter",
+      "seed": 1080201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          10,
+          5
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.18
+        ],
+        [
+          "A",
+          "D",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.5
+        ],
+        [
+          "B",
+          "D",
+          1.68
+        ],
+        [
+          "C",
+          "D",
+          1.1
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_4_scatter_1",
+      "family": "scatter",
+      "seed": 1080201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sites": [
+        [
+          10,
+          5
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.18
+        ],
+        [
+          "A",
+          "D",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.5
+        ],
+        [
+          "B",
+          "D",
+          1.68
+        ],
+        [
+          "C",
+          "D",
+          1.1
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_0",
+      "family": "compact",
+      "seed": 1090000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.43
+        ],
+        [
+          "A",
+          "D",
+          1.06
+        ],
+        [
+          "A",
+          "E",
+          1.74
+        ],
+        [
+          "B",
+          "C",
+          0.9
+        ],
+        [
+          "B",
+          "D",
+          1.08
+        ],
+        [
+          "B",
+          "E",
+          1.61
+        ],
+        [
+          "C",
+          "D",
+          1.2
+        ],
+        [
+          "C",
+          "E",
+          1.46
+        ],
+        [
+          "D",
+          "E",
+          1.91
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_0",
+      "family": "compact",
+      "seed": 1090000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.43
+        ],
+        [
+          "A",
+          "D",
+          1.06
+        ],
+        [
+          "A",
+          "E",
+          1.74
+        ],
+        [
+          "B",
+          "C",
+          0.9
+        ],
+        [
+          "B",
+          "D",
+          1.08
+        ],
+        [
+          "B",
+          "E",
+          1.61
+        ],
+        [
+          "C",
+          "D",
+          1.2
+        ],
+        [
+          "C",
+          "E",
+          1.46
+        ],
+        [
+          "D",
+          "E",
+          1.91
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_0",
+      "family": "compact",
+      "seed": 1090000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.43
+        ],
+        [
+          "A",
+          "D",
+          1.06
+        ],
+        [
+          "A",
+          "E",
+          1.74
+        ],
+        [
+          "B",
+          "C",
+          0.9
+        ],
+        [
+          "B",
+          "D",
+          1.08
+        ],
+        [
+          "B",
+          "E",
+          1.61
+        ],
+        [
+          "C",
+          "D",
+          1.2
+        ],
+        [
+          "C",
+          "E",
+          1.46
+        ],
+        [
+          "D",
+          "E",
+          1.91
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_0",
+      "family": "compact",
+      "seed": 1090000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.43
+        ],
+        [
+          "A",
+          "D",
+          1.06
+        ],
+        [
+          "A",
+          "E",
+          1.74
+        ],
+        [
+          "B",
+          "C",
+          0.9
+        ],
+        [
+          "B",
+          "D",
+          1.08
+        ],
+        [
+          "B",
+          "E",
+          1.61
+        ],
+        [
+          "C",
+          "D",
+          1.2
+        ],
+        [
+          "C",
+          "E",
+          1.46
+        ],
+        [
+          "D",
+          "E",
+          1.91
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_1",
+      "family": "compact",
+      "seed": 1090001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.09
+        ],
+        [
+          "A",
+          "C",
+          1.97
+        ],
+        [
+          "B",
+          "C",
+          0.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.18
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_1",
+      "family": "compact",
+      "seed": 1090001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.09
+        ],
+        [
+          "A",
+          "C",
+          1.97
+        ],
+        [
+          "B",
+          "C",
+          0.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.18
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_1",
+      "family": "compact",
+      "seed": 1090001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.09
+        ],
+        [
+          "A",
+          "C",
+          1.97
+        ],
+        [
+          "B",
+          "C",
+          0.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.18
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_compact_1",
+      "family": "compact",
+      "seed": 1090001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.09
+        ],
+        [
+          "A",
+          "C",
+          1.97
+        ],
+        [
+          "B",
+          "C",
+          0.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.18
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_0",
+      "family": "line",
+      "seed": 1090100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.64
+        ],
+        [
+          "A",
+          "C",
+          1.93
+        ],
+        [
+          "B",
+          "C",
+          0.57
+        ],
+        [
+          "B",
+          "D",
+          0.91
+        ],
+        [
+          "C",
+          "D",
+          0.85
+        ],
+        [
+          "C",
+          "E",
+          0.89
+        ],
+        [
+          "D",
+          "E",
+          1.82
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_0",
+      "family": "line",
+      "seed": 1090100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.64
+        ],
+        [
+          "A",
+          "C",
+          1.93
+        ],
+        [
+          "B",
+          "C",
+          0.57
+        ],
+        [
+          "B",
+          "D",
+          0.91
+        ],
+        [
+          "C",
+          "D",
+          0.85
+        ],
+        [
+          "C",
+          "E",
+          0.89
+        ],
+        [
+          "D",
+          "E",
+          1.82
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_0",
+      "family": "line",
+      "seed": 1090100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.64
+        ],
+        [
+          "A",
+          "C",
+          1.93
+        ],
+        [
+          "B",
+          "C",
+          0.57
+        ],
+        [
+          "B",
+          "D",
+          0.91
+        ],
+        [
+          "C",
+          "D",
+          0.85
+        ],
+        [
+          "C",
+          "E",
+          0.89
+        ],
+        [
+          "D",
+          "E",
+          1.82
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_0",
+      "family": "line",
+      "seed": 1090100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.64
+        ],
+        [
+          "A",
+          "C",
+          1.93
+        ],
+        [
+          "B",
+          "C",
+          0.57
+        ],
+        [
+          "B",
+          "D",
+          0.91
+        ],
+        [
+          "C",
+          "D",
+          0.85
+        ],
+        [
+          "C",
+          "E",
+          0.89
+        ],
+        [
+          "D",
+          "E",
+          1.82
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_1",
+      "family": "line",
+      "seed": 1090101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.95
+        ],
+        [
+          "A",
+          "C",
+          1.79
+        ],
+        [
+          "A",
+          "D",
+          1.32
+        ],
+        [
+          "B",
+          "C",
+          1.43
+        ],
+        [
+          "B",
+          "D",
+          1.94
+        ],
+        [
+          "C",
+          "D",
+          1.23
+        ],
+        [
+          "C",
+          "E",
+          1.14
+        ],
+        [
+          "D",
+          "E",
+          0.88
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_1",
+      "family": "line",
+      "seed": 1090101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.95
+        ],
+        [
+          "A",
+          "C",
+          1.79
+        ],
+        [
+          "A",
+          "D",
+          1.32
+        ],
+        [
+          "B",
+          "C",
+          1.43
+        ],
+        [
+          "B",
+          "D",
+          1.94
+        ],
+        [
+          "C",
+          "D",
+          1.23
+        ],
+        [
+          "C",
+          "E",
+          1.14
+        ],
+        [
+          "D",
+          "E",
+          0.88
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_1",
+      "family": "line",
+      "seed": 1090101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.95
+        ],
+        [
+          "A",
+          "C",
+          1.79
+        ],
+        [
+          "A",
+          "D",
+          1.32
+        ],
+        [
+          "B",
+          "C",
+          1.43
+        ],
+        [
+          "B",
+          "D",
+          1.94
+        ],
+        [
+          "C",
+          "D",
+          1.23
+        ],
+        [
+          "C",
+          "E",
+          1.14
+        ],
+        [
+          "D",
+          "E",
+          0.88
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_line_1",
+      "family": "line",
+      "seed": 1090101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.95
+        ],
+        [
+          "A",
+          "C",
+          1.79
+        ],
+        [
+          "A",
+          "D",
+          1.32
+        ],
+        [
+          "B",
+          "C",
+          1.43
+        ],
+        [
+          "B",
+          "D",
+          1.94
+        ],
+        [
+          "C",
+          "D",
+          1.23
+        ],
+        [
+          "C",
+          "E",
+          1.14
+        ],
+        [
+          "D",
+          "E",
+          0.88
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_0",
+      "family": "scatter",
+      "seed": 1090200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          23,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          16,
+          15
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.92
+        ],
+        [
+          "A",
+          "E",
+          1.41
+        ],
+        [
+          "B",
+          "C",
+          1.01
+        ],
+        [
+          "B",
+          "D",
+          1.93
+        ],
+        [
+          "B",
+          "E",
+          0.7
+        ],
+        [
+          "C",
+          "D",
+          1.64
+        ],
+        [
+          "C",
+          "E",
+          0.72
+        ],
+        [
+          "D",
+          "E",
+          0.72
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_0",
+      "family": "scatter",
+      "seed": 1090200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          23,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          16,
+          15
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.92
+        ],
+        [
+          "A",
+          "E",
+          1.41
+        ],
+        [
+          "B",
+          "C",
+          1.01
+        ],
+        [
+          "B",
+          "D",
+          1.93
+        ],
+        [
+          "B",
+          "E",
+          0.7
+        ],
+        [
+          "C",
+          "D",
+          1.64
+        ],
+        [
+          "C",
+          "E",
+          0.72
+        ],
+        [
+          "D",
+          "E",
+          0.72
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_0",
+      "family": "scatter",
+      "seed": 1090200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          23,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          16,
+          15
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.92
+        ],
+        [
+          "A",
+          "E",
+          1.41
+        ],
+        [
+          "B",
+          "C",
+          1.01
+        ],
+        [
+          "B",
+          "D",
+          1.93
+        ],
+        [
+          "B",
+          "E",
+          0.7
+        ],
+        [
+          "C",
+          "D",
+          1.64
+        ],
+        [
+          "C",
+          "E",
+          0.72
+        ],
+        [
+          "D",
+          "E",
+          0.72
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_0",
+      "family": "scatter",
+      "seed": 1090200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          23,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          16,
+          15
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.92
+        ],
+        [
+          "A",
+          "E",
+          1.41
+        ],
+        [
+          "B",
+          "C",
+          1.01
+        ],
+        [
+          "B",
+          "D",
+          1.93
+        ],
+        [
+          "B",
+          "E",
+          0.7
+        ],
+        [
+          "C",
+          "D",
+          1.64
+        ],
+        [
+          "C",
+          "E",
+          0.72
+        ],
+        [
+          "D",
+          "E",
+          0.72
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_1",
+      "family": "scatter",
+      "seed": 1090201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          15
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.66
+        ],
+        [
+          "A",
+          "C",
+          0.61
+        ],
+        [
+          "A",
+          "D",
+          1.12
+        ],
+        [
+          "A",
+          "E",
+          1.55
+        ],
+        [
+          "B",
+          "C",
+          1.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.93
+        ],
+        [
+          "C",
+          "E",
+          1.57
+        ],
+        [
+          "D",
+          "E",
+          0.9
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_1",
+      "family": "scatter",
+      "seed": 1090201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          15
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.66
+        ],
+        [
+          "A",
+          "C",
+          0.61
+        ],
+        [
+          "A",
+          "D",
+          1.12
+        ],
+        [
+          "A",
+          "E",
+          1.55
+        ],
+        [
+          "B",
+          "C",
+          1.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.93
+        ],
+        [
+          "C",
+          "E",
+          1.57
+        ],
+        [
+          "D",
+          "E",
+          0.9
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_1",
+      "family": "scatter",
+      "seed": 1090201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          15
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.66
+        ],
+        [
+          "A",
+          "C",
+          0.61
+        ],
+        [
+          "A",
+          "D",
+          1.12
+        ],
+        [
+          "A",
+          "E",
+          1.55
+        ],
+        [
+          "B",
+          "C",
+          1.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.93
+        ],
+        [
+          "C",
+          "E",
+          1.57
+        ],
+        [
+          "D",
+          "E",
+          0.9
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_5_scatter_1",
+      "family": "scatter",
+      "seed": 1090201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "sites": [
+        [
+          22,
+          15
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.66
+        ],
+        [
+          "A",
+          "C",
+          0.61
+        ],
+        [
+          "A",
+          "D",
+          1.12
+        ],
+        [
+          "A",
+          "E",
+          1.55
+        ],
+        [
+          "B",
+          "C",
+          1.69
+        ],
+        [
+          "B",
+          "E",
+          0.67
+        ],
+        [
+          "C",
+          "D",
+          1.93
+        ],
+        [
+          "C",
+          "E",
+          1.57
+        ],
+        [
+          "D",
+          "E",
+          0.9
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_0",
+      "family": "compact",
+      "seed": 1100000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.1
+        ],
+        [
+          "A",
+          "C",
+          0.91
+        ],
+        [
+          "B",
+          "C",
+          0.81
+        ],
+        [
+          "B",
+          "F",
+          1.27
+        ],
+        [
+          "C",
+          "D",
+          0.83
+        ],
+        [
+          "C",
+          "E",
+          1.71
+        ],
+        [
+          "C",
+          "F",
+          1.3
+        ],
+        [
+          "D",
+          "E",
+          1.47
+        ],
+        [
+          "D",
+          "F",
+          1.32
+        ],
+        [
+          "E",
+          "F",
+          1.23
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_0",
+      "family": "compact",
+      "seed": 1100000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.1
+        ],
+        [
+          "A",
+          "C",
+          0.91
+        ],
+        [
+          "B",
+          "C",
+          0.81
+        ],
+        [
+          "B",
+          "F",
+          1.27
+        ],
+        [
+          "C",
+          "D",
+          0.83
+        ],
+        [
+          "C",
+          "E",
+          1.71
+        ],
+        [
+          "C",
+          "F",
+          1.3
+        ],
+        [
+          "D",
+          "E",
+          1.47
+        ],
+        [
+          "D",
+          "F",
+          1.32
+        ],
+        [
+          "E",
+          "F",
+          1.23
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_0",
+      "family": "compact",
+      "seed": 1100000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.1
+        ],
+        [
+          "A",
+          "C",
+          0.91
+        ],
+        [
+          "B",
+          "C",
+          0.81
+        ],
+        [
+          "B",
+          "F",
+          1.27
+        ],
+        [
+          "C",
+          "D",
+          0.83
+        ],
+        [
+          "C",
+          "E",
+          1.71
+        ],
+        [
+          "C",
+          "F",
+          1.3
+        ],
+        [
+          "D",
+          "E",
+          1.47
+        ],
+        [
+          "D",
+          "F",
+          1.32
+        ],
+        [
+          "E",
+          "F",
+          1.23
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_0",
+      "family": "compact",
+      "seed": 1100000,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.1
+        ],
+        [
+          "A",
+          "C",
+          0.91
+        ],
+        [
+          "B",
+          "C",
+          0.81
+        ],
+        [
+          "B",
+          "F",
+          1.27
+        ],
+        [
+          "C",
+          "D",
+          0.83
+        ],
+        [
+          "C",
+          "E",
+          1.71
+        ],
+        [
+          "C",
+          "F",
+          1.3
+        ],
+        [
+          "D",
+          "E",
+          1.47
+        ],
+        [
+          "D",
+          "F",
+          1.32
+        ],
+        [
+          "E",
+          "F",
+          1.23
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_1",
+      "family": "compact",
+      "seed": 1100001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.76
+        ],
+        [
+          "A",
+          "C",
+          0.57
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.72
+        ],
+        [
+          "B",
+          "C",
+          1.81
+        ],
+        [
+          "B",
+          "E",
+          0.93
+        ],
+        [
+          "B",
+          "F",
+          1.63
+        ],
+        [
+          "C",
+          "D",
+          1.97
+        ],
+        [
+          "C",
+          "E",
+          1.5
+        ],
+        [
+          "D",
+          "E",
+          1.52
+        ],
+        [
+          "D",
+          "F",
+          0.9
+        ],
+        [
+          "E",
+          "F",
+          0.6
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_1",
+      "family": "compact",
+      "seed": 1100001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.76
+        ],
+        [
+          "A",
+          "C",
+          0.57
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.72
+        ],
+        [
+          "B",
+          "C",
+          1.81
+        ],
+        [
+          "B",
+          "E",
+          0.93
+        ],
+        [
+          "B",
+          "F",
+          1.63
+        ],
+        [
+          "C",
+          "D",
+          1.97
+        ],
+        [
+          "C",
+          "E",
+          1.5
+        ],
+        [
+          "D",
+          "E",
+          1.52
+        ],
+        [
+          "D",
+          "F",
+          0.9
+        ],
+        [
+          "E",
+          "F",
+          0.6
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_1",
+      "family": "compact",
+      "seed": 1100001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.76
+        ],
+        [
+          "A",
+          "C",
+          0.57
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.72
+        ],
+        [
+          "B",
+          "C",
+          1.81
+        ],
+        [
+          "B",
+          "E",
+          0.93
+        ],
+        [
+          "B",
+          "F",
+          1.63
+        ],
+        [
+          "C",
+          "D",
+          1.97
+        ],
+        [
+          "C",
+          "E",
+          1.5
+        ],
+        [
+          "D",
+          "E",
+          1.52
+        ],
+        [
+          "D",
+          "F",
+          0.9
+        ],
+        [
+          "E",
+          "F",
+          0.6
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_compact_1",
+      "family": "compact",
+      "seed": 1100001,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.76
+        ],
+        [
+          "A",
+          "C",
+          0.57
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.72
+        ],
+        [
+          "B",
+          "C",
+          1.81
+        ],
+        [
+          "B",
+          "E",
+          0.93
+        ],
+        [
+          "B",
+          "F",
+          1.63
+        ],
+        [
+          "C",
+          "D",
+          1.97
+        ],
+        [
+          "C",
+          "E",
+          1.5
+        ],
+        [
+          "D",
+          "E",
+          1.52
+        ],
+        [
+          "D",
+          "F",
+          0.9
+        ],
+        [
+          "E",
+          "F",
+          0.6
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_0",
+      "family": "line",
+      "seed": 1100100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.68
+        ],
+        [
+          "A",
+          "C",
+          1.37
+        ],
+        [
+          "A",
+          "D",
+          0.58
+        ],
+        [
+          "B",
+          "C",
+          1.65
+        ],
+        [
+          "B",
+          "D",
+          1.8
+        ],
+        [
+          "B",
+          "E",
+          1.02
+        ],
+        [
+          "C",
+          "D",
+          1.24
+        ],
+        [
+          "C",
+          "E",
+          1.82
+        ],
+        [
+          "C",
+          "F",
+          0.71
+        ],
+        [
+          "D",
+          "E",
+          1.48
+        ],
+        [
+          "D",
+          "F",
+          0.76
+        ],
+        [
+          "E",
+          "F",
+          1.32
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_0",
+      "family": "line",
+      "seed": 1100100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.68
+        ],
+        [
+          "A",
+          "C",
+          1.37
+        ],
+        [
+          "A",
+          "D",
+          0.58
+        ],
+        [
+          "B",
+          "C",
+          1.65
+        ],
+        [
+          "B",
+          "D",
+          1.8
+        ],
+        [
+          "B",
+          "E",
+          1.02
+        ],
+        [
+          "C",
+          "D",
+          1.24
+        ],
+        [
+          "C",
+          "E",
+          1.82
+        ],
+        [
+          "C",
+          "F",
+          0.71
+        ],
+        [
+          "D",
+          "E",
+          1.48
+        ],
+        [
+          "D",
+          "F",
+          0.76
+        ],
+        [
+          "E",
+          "F",
+          1.32
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_0",
+      "family": "line",
+      "seed": 1100100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.68
+        ],
+        [
+          "A",
+          "C",
+          1.37
+        ],
+        [
+          "A",
+          "D",
+          0.58
+        ],
+        [
+          "B",
+          "C",
+          1.65
+        ],
+        [
+          "B",
+          "D",
+          1.8
+        ],
+        [
+          "B",
+          "E",
+          1.02
+        ],
+        [
+          "C",
+          "D",
+          1.24
+        ],
+        [
+          "C",
+          "E",
+          1.82
+        ],
+        [
+          "C",
+          "F",
+          0.71
+        ],
+        [
+          "D",
+          "E",
+          1.48
+        ],
+        [
+          "D",
+          "F",
+          0.76
+        ],
+        [
+          "E",
+          "F",
+          1.32
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_0",
+      "family": "line",
+      "seed": 1100100,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.68
+        ],
+        [
+          "A",
+          "C",
+          1.37
+        ],
+        [
+          "A",
+          "D",
+          0.58
+        ],
+        [
+          "B",
+          "C",
+          1.65
+        ],
+        [
+          "B",
+          "D",
+          1.8
+        ],
+        [
+          "B",
+          "E",
+          1.02
+        ],
+        [
+          "C",
+          "D",
+          1.24
+        ],
+        [
+          "C",
+          "E",
+          1.82
+        ],
+        [
+          "C",
+          "F",
+          0.71
+        ],
+        [
+          "D",
+          "E",
+          1.48
+        ],
+        [
+          "D",
+          "F",
+          0.76
+        ],
+        [
+          "E",
+          "F",
+          1.32
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_1",
+      "family": "line",
+      "seed": 1100101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          9,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.68
+        ],
+        [
+          "A",
+          "C",
+          0.97
+        ],
+        [
+          "A",
+          "D",
+          1.3
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.13
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.73
+        ],
+        [
+          "C",
+          "E",
+          1.29
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ],
+        [
+          "D",
+          "F",
+          0.65
+        ],
+        [
+          "E",
+          "F",
+          0.78
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_1",
+      "family": "line",
+      "seed": 1100101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          9,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.68
+        ],
+        [
+          "A",
+          "C",
+          0.97
+        ],
+        [
+          "A",
+          "D",
+          1.3
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.13
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.73
+        ],
+        [
+          "C",
+          "E",
+          1.29
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ],
+        [
+          "D",
+          "F",
+          0.65
+        ],
+        [
+          "E",
+          "F",
+          0.78
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_1",
+      "family": "line",
+      "seed": 1100101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          9,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.68
+        ],
+        [
+          "A",
+          "C",
+          0.97
+        ],
+        [
+          "A",
+          "D",
+          1.3
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.13
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.73
+        ],
+        [
+          "C",
+          "E",
+          1.29
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ],
+        [
+          "D",
+          "F",
+          0.65
+        ],
+        [
+          "E",
+          "F",
+          0.78
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_line_1",
+      "family": "line",
+      "seed": 1100101,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          9,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          0.68
+        ],
+        [
+          "A",
+          "C",
+          0.97
+        ],
+        [
+          "A",
+          "D",
+          1.3
+        ],
+        [
+          "A",
+          "E",
+          1.02
+        ],
+        [
+          "A",
+          "F",
+          0.93
+        ],
+        [
+          "B",
+          "C",
+          1.13
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.73
+        ],
+        [
+          "C",
+          "E",
+          1.29
+        ],
+        [
+          "D",
+          "E",
+          1.93
+        ],
+        [
+          "D",
+          "F",
+          0.65
+        ],
+        [
+          "E",
+          "F",
+          0.78
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_0",
+      "family": "scatter",
+      "seed": 1100200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          21
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.97
+        ],
+        [
+          "A",
+          "C",
+          1.65
+        ],
+        [
+          "A",
+          "E",
+          0.89
+        ],
+        [
+          "A",
+          "F",
+          1.36
+        ],
+        [
+          "B",
+          "C",
+          1.12
+        ],
+        [
+          "B",
+          "D",
+          0.9
+        ],
+        [
+          "B",
+          "E",
+          1.51
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.75
+        ],
+        [
+          "C",
+          "E",
+          1.65
+        ],
+        [
+          "D",
+          "E",
+          1.99
+        ],
+        [
+          "D",
+          "F",
+          1.26
+        ],
+        [
+          "E",
+          "F",
+          0.61
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_0",
+      "family": "scatter",
+      "seed": 1100200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          21
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.97
+        ],
+        [
+          "A",
+          "C",
+          1.65
+        ],
+        [
+          "A",
+          "E",
+          0.89
+        ],
+        [
+          "A",
+          "F",
+          1.36
+        ],
+        [
+          "B",
+          "C",
+          1.12
+        ],
+        [
+          "B",
+          "D",
+          0.9
+        ],
+        [
+          "B",
+          "E",
+          1.51
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.75
+        ],
+        [
+          "C",
+          "E",
+          1.65
+        ],
+        [
+          "D",
+          "E",
+          1.99
+        ],
+        [
+          "D",
+          "F",
+          1.26
+        ],
+        [
+          "E",
+          "F",
+          0.61
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_0",
+      "family": "scatter",
+      "seed": 1100200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          21
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.97
+        ],
+        [
+          "A",
+          "C",
+          1.65
+        ],
+        [
+          "A",
+          "E",
+          0.89
+        ],
+        [
+          "A",
+          "F",
+          1.36
+        ],
+        [
+          "B",
+          "C",
+          1.12
+        ],
+        [
+          "B",
+          "D",
+          0.9
+        ],
+        [
+          "B",
+          "E",
+          1.51
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.75
+        ],
+        [
+          "C",
+          "E",
+          1.65
+        ],
+        [
+          "D",
+          "E",
+          1.99
+        ],
+        [
+          "D",
+          "F",
+          1.26
+        ],
+        [
+          "E",
+          "F",
+          0.61
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_0",
+      "family": "scatter",
+      "seed": 1100200,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          21
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.97
+        ],
+        [
+          "A",
+          "C",
+          1.65
+        ],
+        [
+          "A",
+          "E",
+          0.89
+        ],
+        [
+          "A",
+          "F",
+          1.36
+        ],
+        [
+          "B",
+          "C",
+          1.12
+        ],
+        [
+          "B",
+          "D",
+          0.9
+        ],
+        [
+          "B",
+          "E",
+          1.51
+        ],
+        [
+          "B",
+          "F",
+          1.95
+        ],
+        [
+          "C",
+          "D",
+          0.75
+        ],
+        [
+          "C",
+          "E",
+          1.65
+        ],
+        [
+          "D",
+          "E",
+          1.99
+        ],
+        [
+          "D",
+          "F",
+          1.26
+        ],
+        [
+          "E",
+          "F",
+          0.61
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_1",
+      "family": "scatter",
+      "seed": 1100201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          0,
+          4
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.04
+        ],
+        [
+          "A",
+          "C",
+          1.61
+        ],
+        [
+          "A",
+          "D",
+          0.53
+        ],
+        [
+          "A",
+          "E",
+          0.56
+        ],
+        [
+          "B",
+          "C",
+          1.59
+        ],
+        [
+          "B",
+          "D",
+          1.42
+        ],
+        [
+          "B",
+          "E",
+          0.99
+        ],
+        [
+          "B",
+          "F",
+          0.58
+        ],
+        [
+          "C",
+          "D",
+          1.52
+        ],
+        [
+          "C",
+          "E",
+          1.87
+        ],
+        [
+          "C",
+          "F",
+          1.98
+        ],
+        [
+          "D",
+          "E",
+          0.75
+        ],
+        [
+          "D",
+          "F",
+          0.99
+        ],
+        [
+          "E",
+          "F",
+          1.94
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "fixed5",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_1",
+      "family": "scatter",
+      "seed": 1100201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          0,
+          4
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.04
+        ],
+        [
+          "A",
+          "C",
+          1.61
+        ],
+        [
+          "A",
+          "D",
+          0.53
+        ],
+        [
+          "A",
+          "E",
+          0.56
+        ],
+        [
+          "B",
+          "C",
+          1.59
+        ],
+        [
+          "B",
+          "D",
+          1.42
+        ],
+        [
+          "B",
+          "E",
+          0.99
+        ],
+        [
+          "B",
+          "F",
+          0.58
+        ],
+        [
+          "C",
+          "D",
+          1.52
+        ],
+        [
+          "C",
+          "E",
+          1.87
+        ],
+        [
+          "C",
+          "F",
+          1.98
+        ],
+        [
+          "D",
+          "E",
+          0.75
+        ],
+        [
+          "D",
+          "F",
+          0.99
+        ],
+        [
+          "E",
+          "F",
+          1.94
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "quarter_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_1",
+      "family": "scatter",
+      "seed": 1100201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          0,
+          4
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.04
+        ],
+        [
+          "A",
+          "C",
+          1.61
+        ],
+        [
+          "A",
+          "D",
+          0.53
+        ],
+        [
+          "A",
+          "E",
+          0.56
+        ],
+        [
+          "B",
+          "C",
+          1.59
+        ],
+        [
+          "B",
+          "D",
+          1.42
+        ],
+        [
+          "B",
+          "E",
+          0.99
+        ],
+        [
+          "B",
+          "F",
+          0.58
+        ],
+        [
+          "C",
+          "D",
+          1.52
+        ],
+        [
+          "C",
+          "E",
+          1.87
+        ],
+        [
+          "C",
+          "F",
+          1.98
+        ],
+        [
+          "D",
+          "E",
+          0.75
+        ],
+        [
+          "D",
+          "F",
+          0.99
+        ],
+        [
+          "E",
+          "F",
+          1.94
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "strict_bound",
+    "tuning": true
+  },
+  {
+    "row": {
+      "id": "calibration_6_scatter_1",
+      "family": "scatter",
+      "seed": 1100201,
+      "cells": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sites": [
+        [
+          0,
+          4
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "nets": [
+        [
+          "A",
+          "B",
+          1.04
+        ],
+        [
+          "A",
+          "C",
+          1.61
+        ],
+        [
+          "A",
+          "D",
+          0.53
+        ],
+        [
+          "A",
+          "E",
+          0.56
+        ],
+        [
+          "B",
+          "C",
+          1.59
+        ],
+        [
+          "B",
+          "D",
+          1.42
+        ],
+        [
+          "B",
+          "E",
+          0.99
+        ],
+        [
+          "B",
+          "F",
+          0.58
+        ],
+        [
+          "C",
+          "D",
+          1.52
+        ],
+        [
+          "C",
+          "E",
+          1.87
+        ],
+        [
+          "C",
+          "F",
+          1.98
+        ],
+        [
+          "D",
+          "E",
+          0.75
+        ],
+        [
+          "D",
+          "F",
+          0.99
+        ],
+        [
+          "E",
+          "F",
+          1.94
+        ]
+      ],
+      "penalty": 5.0
+    },
+    "cohort": "development",
+    "candidate": "four_bound",
+    "tuning": true
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "analyses": {
+    "original": {
+      "analytical_improving_windows": {
+        "expected_best_256_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.462988710378125,
+            0.8421953370951748
+          ],
+          "mean": 0.6730886069086325
+        },
+        "expected_best_4096_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.8415418077910737,
+            0.9895241003741846
+          ],
+          "mean": 0.9306113888586436
+        },
+        "expected_best_64_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            -3.598975451829387,
+            0.670209420382058
+          ],
+          "mean": -0.7414314917307627
+        }
+      },
+      "design_count": 3,
+      "improving_window_count": 27,
+      "mean_probability_beating_initial_all_windows": 0.09086665648806824,
+      "seed_count_per_window": 4,
+      "selected_best_of_4096": {
+        "exact_hit_count": 35,
+        "exact_hit_fraction": 0.9722222222222222,
+        "mean_gap_closure_improving_windows": 0.9966915280168293
+      },
+      "window_count": 36
+    },
+    "pooled": {
+      "analytical_improving_windows": {
+        "expected_best_256_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.6012369814622088,
+            0.8774273229343175
+          ],
+          "mean": 0.7475636102527242
+        },
+        "expected_best_4096_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.8972880148574047,
+            0.9903372643227377
+          ],
+          "mean": 0.9552284672214649
+        },
+        "expected_best_64_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            -1.9559618728974786,
+            0.7187859162120784
+          ],
+          "mean": -0.24429830141863595
+        }
+      },
+      "design_count": 6,
+      "improving_window_count": 48,
+      "mean_probability_beating_initial_all_windows": 0.08098227773668695,
+      "seed_count_per_window": 4,
+      "selected_best_of_4096": {
+        "exact_hit_count": 71,
+        "exact_hit_fraction": 0.9861111111111112,
+        "mean_gap_closure_improving_windows": 0.9981389845094664
+      },
+      "window_count": 72
+    },
+    "replication": {
+      "analytical_improving_windows": {
+        "expected_best_256_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.7118906780618113,
+            0.9726361460502152
+          ],
+          "mean": 0.843317185980842
+        },
+        "expected_best_4096_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            0.9738129548734529,
+            0.9962409498115127
+          ],
+          "mean": 0.9868789965450924
+        },
+        "expected_best_64_gap_closure": {
+          "hierarchical_bootstrap_95_ci": [
+            -0.6861785509796565,
+            0.9662428739587445
+          ],
+          "mean": 0.39487294326838407
+        }
+      },
+      "design_count": 3,
+      "improving_window_count": 21,
+      "mean_probability_beating_initial_all_windows": 0.07109789898530566,
+      "seed_count_per_window": 4,
+      "selected_best_of_4096": {
+        "exact_hit_count": 36,
+        "exact_hit_fraction": 1.0,
+        "mean_gap_closure_improving_windows": 1.0
+      },
+      "window_count": 36
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "resampling": "design then window after seed aggregation",
+    "seed": 20260827
+  },
+  "cohort_order": [
+    "original",
+    "replication"
+  ],
+  "provenance": {
+    "original": {
+      "run_level_sha256": "e4dd6b7ecd2a739204565eaabe3a583e51228f92a43fa7f4e2c70e1ed45fde4f",
+      "selected_readout_sha256": "8b9edce3c3a6ec909a1291ea865453e0eb93c61bf2b1f1f2db70cfab8b941851"
+    },
+    "replication": {
+      "run_level_sha256": "b4e5a4874695b3314d2336b76384602d0733423c1bdf3f34b9a9a31488a08be2",
+      "selected_readout_sha256": "bcc706de9e53f8f89696d857f902e4f0177e092a99b004e3c17354e56e4512c2"
+    }
+  },
+  "schema_version": "qeda-finite-shot-cohort-combination-v1"
+}

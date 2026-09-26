@@ -1,0 +1,76 @@
+{
+  "benchmark_manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/benchmark_manifest.json",
+  "benchmark_manifest_hash": "d4e4a1d267ddd2c16808e1013b1b52efccf5f4f3df2c6ef4438867d751589363",
+  "benchmark_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "environment": {
+    "numpy": "2.2.6",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "scipy": "1.15.3"
+  },
+  "limit": null,
+  "protocol": {
+    "budget_caveat": "QAOA distribution evaluations and classical candidate evaluations are matched numerically but are not computationally equivalent oracle calls.",
+    "evaluation_budget": 40,
+    "methods": [
+      "unchanged",
+      "exact",
+      "greedy",
+      "random_search",
+      "simulated_annealing",
+      "token_qaoa"
+    ],
+    "qaoa": {
+      "architecture": "explicit-EMPTY token permutation",
+      "graph": "line",
+      "objective": "CVaR(0.25)",
+      "p": 3,
+      "schedule": "rotating"
+    },
+    "readout_shots": 4096,
+    "seeds": [
+      11,
+      17
+    ]
+  },
+  "shard_count": 1,
+  "shard_index": 0,
+  "window_ids": [
+    "gcd_w0000",
+    "gcd_w0001",
+    "gcd_w0002",
+    "gcd_w0003",
+    "gcd_w0004",
+    "gcd_w0005",
+    "gcd_w0006",
+    "gcd_w0007",
+    "gcd_w0008",
+    "gcd_w0009",
+    "gcd_w0010",
+    "gcd_w0011",
+    "aes_w0000",
+    "aes_w0001",
+    "aes_w0002",
+    "aes_w0003",
+    "aes_w0004",
+    "aes_w0005",
+    "aes_w0006",
+    "aes_w0007",
+    "aes_w0008",
+    "aes_w0009",
+    "aes_w0010",
+    "aes_w0011",
+    "ibex_w0000",
+    "ibex_w0001",
+    "ibex_w0002",
+    "ibex_w0003",
+    "ibex_w0004",
+    "ibex_w0005",
+    "ibex_w0006",
+    "ibex_w0007",
+    "ibex_w0008",
+    "ibex_w0009",
+    "ibex_w0010",
+    "ibex_w0011"
+  ]
+}

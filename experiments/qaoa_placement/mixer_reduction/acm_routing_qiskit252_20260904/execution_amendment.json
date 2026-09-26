@@ -1,0 +1,16 @@
+{
+  "run_id": "qeda-acm-routing-corpus-20260904-v1",
+  "scientific_source_changes": "none",
+  "compiler_version": "2.5.2",
+  "reason": "Qiskit 2.4.1 native optimization SIGSEGV reproduced on Hellbender; 2.5.2 passed sparse/dense preflight and 12 tests",
+  "preflight_job": "16983208",
+  "prior_failed_job": "16983154",
+  "selection": "all 32 frozen and 36 fresh instances; no outcome filters",
+  "seed_policy": "101 through 120, both methods",
+  "older_rows": "all cases rerun; Qiskit 2.4.1 partial rows excluded",
+  "concurrency": 1,
+  "native_threads": 1,
+  "requested_cpus": 2,
+  "memory_gb": 8,
+  "time_limit_hours": 4
+}

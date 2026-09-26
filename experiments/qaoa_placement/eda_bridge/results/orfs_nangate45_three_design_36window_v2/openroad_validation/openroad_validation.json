@@ -1,0 +1,58 @@
+{
+  "schema_version": "qeda-openroad-in-memory-legality-v1",
+  "date": "2026-08-27",
+  "benchmark_manifest_hash": "d4e4a1d267ddd2c16808e1013b1b52efccf5f4f3df2c6ef4438867d751589363",
+  "benchmark_manifest_sha256": "fe75eba26c8802b6a4beca1d4a593897ca9e81f16e41460c2e4c73c1860052f5",
+  "container_digest": "sha256:d995618be9f2bcdfa5538b885123463070dfbf178bea1818716d4652fe0fa380",
+  "openroad_version": "26Q3-1510-g6cb3f2b704",
+  "validation_scope": {
+    "windows": 36,
+    "methods_per_window": [
+      "exact",
+      "greedy",
+      "best simulated_annealing seed",
+      "best token_qaoa sampled seed"
+    ],
+    "cases": 144,
+    "procedure": "load legalize-only ODB once per design; apply one assignment; run check_placement -verbose; restore the original assignment before the next case"
+  },
+  "all_cases_passed": true,
+  "results": [
+    {
+      "design": "gcd",
+      "case_count": 48,
+      "validated_marker_count": 48,
+      "exit_code": 0,
+      "input_odb_sha256": "5140093541759c0a3564a009e93df86deb458faf62e9b1fad8e300b5184ee904",
+      "validation_tcl_sha256": "fba2add3d50d98d2a111dcd377022f6c4e4a52a17f4fc8c1b71ea18d33fc242c"
+    },
+    {
+      "design": "aes",
+      "case_count": 48,
+      "validated_marker_count": 48,
+      "exit_code": 0,
+      "input_odb_sha256": "2d82b8802376c82ccf73b61c1ba3560368601369b9f3715d763ab3fbf7eb76e1",
+      "validation_tcl_sha256": "b9b0b9ec521ab75f75883247485ba3799b792f4d1c1c1b3a6d06fb8eb289fbbd"
+    },
+    {
+      "design": "ibex",
+      "case_count": 48,
+      "validated_marker_count": 48,
+      "exit_code": 0,
+      "input_odb_sha256": "728163f276732c02f9408e0165d90f78184a6d851b41df2283e73ab1607e14de",
+      "validation_tcl_sha256": "446cda199306c9a8a2e67f9668ebb3aae2241c436a6351d8dc74bb7417edd44e"
+    }
+  ],
+  "development_attempts_preserved": [
+    {
+      "attempt_count": 3,
+      "designs": ["gcd", "aes", "ibex"],
+      "exit_code": 1,
+      "validated_before_failure": 0,
+      "classification": "local orchestration",
+      "cause": "concurrent container launch attempts exited before OpenROAD validation markers; compact direct output did not retain a more specific diagnosis",
+      "resolution": "rerun each identical bundle sequentially",
+      "scientific_case_failure": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+instance_id,family,method,p,initialization,optimizer_seed,initial_assignment,theta,optimal_probability,feasible_probability,conditional_optimal,expected_best_128,expected_best_512,exact_cost,initial_cost,evaluations,seconds
+quality_4_6_scatter_3,scatter,token,1,deterministic,41,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}",[0.8876664606531416],0.0,1.0,0.0,56.33004223903226,56.33,29.15,84.06,16,0.002478464040905237
+quality_4_6_scatter_3,scatter,token,1,deterministic,53,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}",[0.8870681754309573],0.0,1.0,0.0,56.33004299160064,56.33,29.15,84.06,17,0.0021585640497505665
+quality_4_6_scatter_3,scatter,token,1,poor,41,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2}",[1.2115414606531414],0.0,1.0,0.0,61.87,61.87,29.15,99.51,13,0.0017570685595273972
+quality_4_6_scatter_3,scatter,token,1,poor,53,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2}",[1.1765681754309576],0.0,0.9999999999999999,0.0,61.87,61.87,29.15,99.51,9,0.0013734586536884308
+quality_4_6_scatter_3,scatter,token,1,random,41,"{""A"": 5, ""B"": 3, ""C"": 2, ""D"": 0}",[0.6937914606531413],0.0,0.9999999999999999,0.0,33.880774951033615,33.88000000000007,29.15,53.14999999999999,15,0.001968827098608017
+quality_4_6_scatter_3,scatter,token,1,random,53,"{""A"": 5, ""B"": 3, ""C"": 2, ""D"": 0}",[0.6927556754309573],0.0,1.0,0.0,33.88078450543212,33.880000000000074,29.15,53.14999999999999,15,0.0019234209321439266

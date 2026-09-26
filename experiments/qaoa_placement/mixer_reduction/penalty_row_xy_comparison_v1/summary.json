@@ -1,0 +1,68 @@
+{
+  "comparison": "strict token/permutation versus penalty-encoded one-hot Row-XY",
+  "matched_scope": "six instances x two starts x two optimizer seeds",
+  "method_summary": [
+    {
+      "instances": 6,
+      "mean_expected_feasible_samples_at_4096": 1955.5471079552551,
+      "mean_feasible_probability": 0.47742849315313846,
+      "mean_optimal_probability": 0.0650642619134309,
+      "mean_probability_beating_initial": 0.3139589231837932,
+      "mean_useful_feasible_per_1000_ideal": 313.9589231837932,
+      "median_optimal_probability": 0.03350237985405642,
+      "method": "penalty_row_xy",
+      "objective": "cvar_0.25",
+      "optimizer_budget": 40,
+      "optimizer_seeds": 2,
+      "p": 3,
+      "runs": 24,
+      "starts": 2
+    },
+    {
+      "instances": 6,
+      "mean_expected_feasible_samples_at_4096": 4096.0,
+      "mean_feasible_probability": 1.0,
+      "mean_optimal_probability": 0.16049830071399893,
+      "mean_probability_beating_initial": 0.7153663090601935,
+      "mean_useful_feasible_per_1000_ideal": 715.3663090601935,
+      "median_optimal_probability": 0.20243678022950412,
+      "method": "strict_token_line_rotating",
+      "objective": "cvar_0.25",
+      "optimizer_budget": 40,
+      "optimizer_seeds": 2,
+      "p": 3,
+      "runs": 24,
+      "starts": 2
+    }
+  ],
+  "objective": "cvar_0.25",
+  "optimizer": "COBYLA",
+  "optimizer_budget": 40,
+  "p": 3,
+  "paired_summary": [
+    {
+      "mean_strict_minus_penalty": 0.09543403880056804,
+      "median_strict_minus_penalty": 0.07510441642963933,
+      "metric": "strict_minus_penalty_optimal_probability",
+      "pairs": 24,
+      "wins_ties_losses": [
+        17,
+        0,
+        7
+      ]
+    },
+    {
+      "mean_strict_minus_penalty": 0.4014073858764003,
+      "median_strict_minus_penalty": 0.3701061613963753,
+      "metric": "strict_minus_penalty_probability_beating_initial",
+      "pairs": 24,
+      "wins_ties_losses": [
+        24,
+        0,
+        0
+      ]
+    }
+  ],
+  "penalty_encoding": "24-qubit cell-by-site one-hot QUBO with exactly-one row penalties, site-collision penalties, exact weighted-distance terms, and row-XY mixing",
+  "strict_encoding": "19-active-qubit explicit-EMPTY token/permutation with line graph and rotating schedule"
+}

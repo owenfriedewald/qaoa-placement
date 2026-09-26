@@ -1,0 +1,8 @@
+{
+  "versions": {
+    "qiskit": "2.4.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "protocol_sha256": "e02722268473c3c725ac69707a7b8facd0c1c41edd40459d4e854eabf6e82d42"
+}

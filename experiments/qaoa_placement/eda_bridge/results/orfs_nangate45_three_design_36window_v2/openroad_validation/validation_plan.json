@@ -1,0 +1,35 @@
+[
+  {
+    "case_count": 48,
+    "design": "aes",
+    "methods": [
+      "exact",
+      "greedy",
+      "simulated_annealing",
+      "token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/openroad_validation/validate_aes.tcl"
+  },
+  {
+    "case_count": 48,
+    "design": "gcd",
+    "methods": [
+      "exact",
+      "greedy",
+      "simulated_annealing",
+      "token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/openroad_validation/validate_gcd.tcl"
+  },
+  {
+    "case_count": 48,
+    "design": "ibex",
+    "methods": [
+      "exact",
+      "greedy",
+      "simulated_annealing",
+      "token_qaoa"
+    ],
+    "tcl": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/openroad_validation/validate_ibex.tcl"
+  }
+]

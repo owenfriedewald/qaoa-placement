@@ -1,0 +1,12 @@
+{
+  "title": "Exact Diagonal Completion on Reachable Subspaces: Application to QAOA Placement — Reproducibility Artifact",
+  "description": "Source code, protocols, benchmark instances, numerical results, coefficient vectors, analysis scripts and manuscript sources for the study of exact diagonal completion in QAOA placement. Original code is MIT licensed; original data and documentation are CC BY 4.0. Third-party material retains its existing license.",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Friedewald, Owen", "affiliation": "University of Missouri", "orcid": "0009-0003-6847-1706"},
+    {"name": "Shiri Sichani, Ali", "affiliation": "University of Missouri", "orcid": "0000-0002-7239-1341"},
+    {"name": "Shyu, Chi-Ren", "affiliation": "University of Missouri", "orcid": "0000-0001-9197-9522"}
+  ],
+  "license": "MIT",
+  "keywords": ["quantum computing", "QAOA", "diagonal synthesis", "placement", "reproducibility"]
+}

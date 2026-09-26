@@ -1,0 +1,60 @@
+{
+  "backend": "FakeSherbrooke",
+  "backend_qubits": 127,
+  "corpus_rule": "all frozen benchmark instances with n=4 and m=6",
+  "coupling_edges_sha256": "8dce0a6df33b96576febfb0f3aa7117b3e2c1e3a65a0d5edf1d19b64da964e07",
+  "exposed_cpus": 8,
+  "host_memory_gib": 11.681,
+  "instances": 32,
+  "logical_transpile_call": {
+    "basis_gates": [
+      "rz",
+      "sx",
+      "x",
+      "cx"
+    ],
+    "optimization_level": 3,
+    "seed_transpiler": 123
+  },
+  "manifest": "experiments/qaoa_placement/paper_suite_results/audit_061026/benchmark_manifest.json",
+  "penalty_lambda": 5.0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12",
+  "qiskit": "2.4.1",
+  "qiskit_ibm_runtime": "0.46.1",
+  "routing_transpile_call": {
+    "backend": "FakeSherbrooke()",
+    "layout_method": "sabre",
+    "optimization_level": 3,
+    "routing_method": "sabre",
+    "seed_transpiler": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  },
+  "summed_seed_routing_seconds": 1369.5862021446228,
+  "variants": [
+    "token_line_rotating",
+    "penalty_row_xy"
+  ],
+  "wall_clock_seconds_this_invocation": 0.29623889923095703
+}

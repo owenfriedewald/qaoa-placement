@@ -1,0 +1,76 @@
+{
+  "benchmark_manifest": "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_six_design_72window_v1/replication_manifest.json",
+  "benchmark_manifest_hash": "16531c7a5adc4e7fb8d9d0445f013f21877166a300e6dc6690a4d856f7b2f2fb",
+  "benchmark_manifest_sha256": "86ad4388ce34401588140faa7b4c33a34ed2eda481e110dd3e717b214cdda80a",
+  "environment": {
+    "numpy": "2.2.6",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "scipy": "1.15.3"
+  },
+  "limit": null,
+  "protocol": {
+    "budget_caveat": "QAOA distribution evaluations and classical candidate evaluations are matched numerically but are not computationally equivalent oracle calls.",
+    "evaluation_budget": 40,
+    "methods": [
+      "unchanged",
+      "exact",
+      "greedy",
+      "random_search",
+      "simulated_annealing",
+      "token_qaoa"
+    ],
+    "qaoa": {
+      "architecture": "explicit-EMPTY token permutation",
+      "graph": "line",
+      "objective": "CVaR(0.25)",
+      "p": 3,
+      "schedule": "rotating"
+    },
+    "readout_shots": 4096,
+    "seeds": [
+      11,
+      17
+    ]
+  },
+  "shard_count": 1,
+  "shard_index": 0,
+  "window_ids": [
+    "mempool_group_w0000",
+    "mempool_group_w0001",
+    "mempool_group_w0002",
+    "mempool_group_w0003",
+    "mempool_group_w0004",
+    "mempool_group_w0005",
+    "mempool_group_w0006",
+    "mempool_group_w0007",
+    "mempool_group_w0008",
+    "mempool_group_w0009",
+    "mempool_group_w0010",
+    "mempool_group_w0011",
+    "swerv_w0000",
+    "swerv_w0001",
+    "swerv_w0002",
+    "swerv_w0003",
+    "swerv_w0004",
+    "swerv_w0005",
+    "swerv_w0006",
+    "swerv_w0007",
+    "swerv_w0008",
+    "swerv_w0009",
+    "swerv_w0010",
+    "swerv_w0011",
+    "tinyRocket_w0000",
+    "tinyRocket_w0001",
+    "tinyRocket_w0002",
+    "tinyRocket_w0003",
+    "tinyRocket_w0004",
+    "tinyRocket_w0005",
+    "tinyRocket_w0006",
+    "tinyRocket_w0007",
+    "tinyRocket_w0008",
+    "tinyRocket_w0009",
+    "tinyRocket_w0010",
+    "tinyRocket_w0011"
+  ]
+}

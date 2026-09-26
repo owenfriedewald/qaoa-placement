@@ -1,0 +1,3 @@
+instance_id,family,sites,cohort,policy,synthesis,logical_cx,logical_depth,raw_cx,terms,objective,valid_residual,solve_seconds,coefficients,equalities,constraint_entries,circuit_sha256
+historical_8_sparse_scatter_3,sparse_scatter,8,historical,dense,mask,680,829,1548,61,183.07437499999997,0.0,0.00028655678033828735,64,64,4096,ca1a08a3afc57cc90f52f7a25c9997dd859de8b8787850489dbfbb0da9d020e9
+historical_8_sparse_scatter_3,sparse_scatter,8,historical,separable,mask,680,829,1548,61,183.07437499999997,0.0,0.00019254116341471672,64,64,4096,ca1a08a3afc57cc90f52f7a25c9997dd859de8b8787850489dbfbb0da9d020e9

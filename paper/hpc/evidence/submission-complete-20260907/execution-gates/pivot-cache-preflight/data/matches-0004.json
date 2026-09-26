@@ -1,0 +1,27 @@
+[
+  {
+    "task": 4,
+    "policy": "zero",
+    "circuit_sha256": "d41687f1c30d10054287edff0edac5d1621291a5a26470381cd4428a9f454923"
+  },
+  {
+    "task": 4,
+    "policy": "l1",
+    "circuit_sha256": "3ad677f4f2010c598433280b1d43c3429e2fffb8af68a12ea6372df720b9b546"
+  },
+  {
+    "task": 4,
+    "policy": "virtual",
+    "circuit_sha256": "9836c7c6fc818ae26ada2050a32070d37cc54fe0fc80472ca01a8165e46579c3"
+  },
+  {
+    "task": 4,
+    "policy": "nearest",
+    "circuit_sha256": "e3055119e1c1218c4e64035bc2a4eea33be5671c991262ef94de3c4bbb67ee0c"
+  },
+  {
+    "task": 4,
+    "policy": "mean",
+    "circuit_sha256": "5194f7589497e2d1c4bf7147215324f5fca4218dedbe9690a75e110c675ccb39"
+  }
+]

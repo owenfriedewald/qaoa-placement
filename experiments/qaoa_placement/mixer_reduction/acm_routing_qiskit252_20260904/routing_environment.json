@@ -1,0 +1,30 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-4.18.0-553.153.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "versions": {
+    "qiskit": "2.5.2",
+    "qiskit-ibm-runtime": "0.46.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  },
+  "code_sha256": {
+    "experiments/qaoa_placement/mixer_reduction/run_acm_confirmation.py": "23cacd1d5c825cc42302ed59c84bd66323810d5c2a68d016972920b82eb25fbf",
+    "experiments/qaoa_placement/mixer_reduction/invariant_placement.py": "17f3422dda77655ae43cde0dcbc076c4da9cd8b005aa95f097f17019562977c4",
+    "experiments/qaoa_placement/benchmark_suite.py": "a44fd18b87fb435b4cdd4a43a40c66b463fb623af3e22e76bdd741b3b3bb6030",
+    "experiments/qaoa_placement/placement_core.py": "5893320cfda1b21096128d65b34de882ba35efdd87fbf3433df0efbf7b5537e1",
+    "experiments/qaoa_placement/objective_functions.py": "977774244c7324b0a9fa8a42d42b4412e7aa32f9763f4dc61675edaec38f291a",
+    "experiments/qaoa_placement/mixer_reduction/run_token_permutation_p3_quality_uplift.py": "fbc95314d13f211fb4945ea4441597475507673dfce6164f3bcf2b79afd73043",
+    "experiments/qaoa_placement/mixer_reduction/phase_separator_optimization.py": "b5da3f21bb6171484eccfac96fc7a62ec364b442e71833520e4ee6a94498e8e1",
+    "experiments/qaoa_placement/mixer_reduction/register_partial_swap.py": "55e443e1cbffa6d62a10be99cdd42f4462c1582bdd55a8b5acf7b16a479dffa0"
+  },
+  "protocol_sha256": "b240abcc57d3baf3b3dd9a4fe43bf0b4139c43ed9610a008460b124b639dcc0b",
+  "manifest_sha256": "6565314f9edabd7eed3a078d36e6183412c89c7f18e7a2f6014c98d88cd6cf67",
+  "backend": "FakeSherbrooke",
+  "coupling_edges_sha256": "8dce0a6df33b96576febfb0f3aa7117b3e2c1e3a65a0d5edf1d19b64da964e07",
+  "backend_snapshot_sha256": {
+    "conf_sherbrooke.json": "8e8f2caa2cbf63738f2b8de4b2ed273ef3d70e250e227a62e4294fcacccd3110",
+    "props_sherbrooke.json": "544c882d5df1fa23861808cce72af051ce4e962560f4f33f803b7335334c1a15"
+  },
+  "note": "offline archived topology; no provider connection or hardware execution"
+}

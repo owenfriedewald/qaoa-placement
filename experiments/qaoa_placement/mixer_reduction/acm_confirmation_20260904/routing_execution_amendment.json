@@ -1,0 +1,14 @@
+{
+  "wrapper_sha256": "4bbd8714aadb77d05ddd0f7c28b4051cd9554d3521b609271be55175805171b6",
+  "protocol_sha256": "b240abcc57d3baf3b3dd9a4fe43bf0b4139c43ed9610a008460b124b639dcc0b",
+  "workers": 2,
+  "start_method": "spawn",
+  "max_tasks_per_child": 1,
+  "native_threads": 1,
+  "reason": "Persistent routing workers exited abruptly; cause not established.",
+  "scientific_changes": "none",
+  "retained_rows": {
+    "frozen": 40,
+    "fresh": 0
+  }
+}

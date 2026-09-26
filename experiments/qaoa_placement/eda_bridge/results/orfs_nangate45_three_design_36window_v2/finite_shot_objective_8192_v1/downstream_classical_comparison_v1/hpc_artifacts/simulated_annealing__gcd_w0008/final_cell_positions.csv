@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+dpath.a_reg.out\[12\]$_DFFE_PP_,25080,64400,R0,25080,64400,R0
+dpath.b_reg.out\[12\]$_DFFE_PP_,17100,64400,R0,17100,64400,R0
+dpath.a_reg.out\[13\]$_DFFE_PP_,27740,56000,MX,27740,56000,MX
+dpath.b_reg.out\[11\]$_DFFE_PP_,24320,50400,MX,24320,50400,MX

@@ -1,0 +1,5 @@
+cell_id,expected_x,expected_y,expected_orient,final_x,final_y,final_orient
+core/csr/reg_pmp_0_cfg_a\[0\]$_SDFFE_PP0P_,385320,428400,MX,385320,428400,MX
+core/csr/reg_pmp_7_cfg_a\[0\]$_SDFFE_PP0P_,385320,434000,MX,385320,434000,MX
+core/csr/reg_pmp_7_cfg_x$_DFFE_PP_,384560,439600,MX,384560,439600,MX
+core/csr/reg_pmp_7_cfg_a\[1\]$_SDFFE_PP0P_,374680,434000,MX,374680,434000,MX

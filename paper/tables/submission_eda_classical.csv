@@ -1,0 +1,7 @@
+method,budget,windows,mean_hit_fraction
+random_feasible_without_replacement,40,48,0.15625
+random_feasible_without_replacement,360,48,1
+random_feasible_without_replacement,4096,48,1
+simulated_annealing,40,48,0.6458333333333334
+simulated_annealing,360,48,1
+simulated_annealing,4096,48,1

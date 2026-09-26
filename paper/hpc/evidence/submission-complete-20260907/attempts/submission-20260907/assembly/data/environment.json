@@ -1,0 +1,24 @@
+{
+  "kind": "phase-checkpoint-assembly",
+  "versions": {
+    "qiskit": "2.5.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "qiskit-ibm-runtime": "0.46.1",
+    "pyzx": "0.10.3"
+  },
+  "spec_sha256": "8a98bc4db6422a4ff5c57c7aca5b6b46d7e072d32f1fd5cb188307857fa0bcd1",
+  "payload_sha256": "956b8cc13752311d27f735b867c7cf7ba16b00fe5b0b2fcbee85c6fa67459eed",
+  "assembler_source_sha256": "d8e1a0c6fe1b4dbef87a7d69c48885bef8501ef136b4543e4d72dbd3bc1ddef0",
+  "origin_rule": "historical: original; fresh: fresh partition",
+  "origins": [
+    {
+      "environment_sha256": "379b763682b06f56edf342aad915cd6e29a5fbcaf3125bb6f578a60b32f14a34",
+      "payload_sha256": "a6919867a8e6378beddb9b0e78b9aaf62687d50aa0a5bd1472b301395792136b"
+    },
+    {
+      "environment_sha256": "00217ddd144889d5f98e7520a70c7af6e9a621989f860b84ddb0bf6d719030ce",
+      "payload_sha256": "956b8cc13752311d27f735b867c7cf7ba16b00fe5b0b2fcbee85c6fa67459eed"
+    }
+  ]
+}

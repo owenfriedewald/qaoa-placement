@@ -1,0 +1,27 @@
+{
+  "grid": [
+    2.5,
+    5.0,
+    10.0,
+    20.0,
+    40.0,
+    80.0,
+    160.0
+  ],
+  "selected_penalty_lambda": 5.0,
+  "selection_caveat": "lambda is selected and evaluated on the same small suite; this favors the penalty challenger and is not a held-out hyperparameter estimate",
+  "selection_rule": "post-hoc maximize matched-suite mean optimal probability; tie-break by mean feasible probability, then smaller lambda",
+  "selection_scope": "six instances x two starts x optimizer seeds 11 and 17",
+  "strict_minus_selected_penalty_mean_optimal_probability": 0.0820863577334711,
+  "strict_minus_selected_penalty_mean_probability_beating_initial": 0.40232020587565875,
+  "strict_optimal_wins_ties_losses": [
+    17,
+    0,
+    7
+  ],
+  "strict_useful_wins_ties_losses": [
+    24,
+    0,
+    0
+  ]
+}

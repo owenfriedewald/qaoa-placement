@@ -1,0 +1,4 @@
+comparison,windows,mean_paired_gap_closed_difference,bootstrap_95_low,bootstrap_95_high
+token_qaoa_minus_random_search,27,0.14049831842120547,-0.05896104487474546,0.31499173727619456
+token_qaoa_minus_simulated_annealing,27,-0.1801938298980306,-0.32585279983793897,-0.04459357156659755
+token_qaoa_minus_greedy,27,-0.3184091525664187,-0.4900816433105335,-0.15720572618794051

@@ -1,0 +1,38 @@
+{
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "beta": 0.23,
+  "elapsed_seconds": 28.325500011444092,
+  "evidence_kind": "logical construction/transpilation; no hardware execution",
+  "fixed_net_weights": [
+    0.71,
+    0.83,
+    0.97,
+    1.09,
+    1.23,
+    1.37
+  ],
+  "gamma": 0.17,
+  "geometry_families": [
+    "compact",
+    "line",
+    "l_shape",
+    "sparse_scatter"
+  ],
+  "phase_ordering": "repository_order",
+  "python": "3.10.12",
+  "qiskit": "1.2.4",
+  "replicates_per_family": 5,
+  "site_counts": [
+    6,
+    8,
+    9,
+    12,
+    16
+  ],
+  "transpiler_seed": 123
+}

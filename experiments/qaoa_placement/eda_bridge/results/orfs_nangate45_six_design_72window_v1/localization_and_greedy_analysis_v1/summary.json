@@ -1,0 +1,97 @@
+{
+  "curve": [
+    {
+      "greedy_exact_hit_fraction": 0.4444444444444444,
+      "greedy_exact_hits": 32,
+      "greedy_max_actual_evaluations": 8,
+      "greedy_mean_actual_evaluations": 8.0,
+      "greedy_median_actual_evaluations": 8.0,
+      "greedy_min_actual_evaluations": 8,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.3338395393821847,
+      "qaoa_readouts_per_seed": 2,
+      "total_budget": 8,
+      "uniform_mean_exact_hit_probability": 0.040088692546069477
+    },
+    {
+      "greedy_exact_hit_fraction": 0.75,
+      "greedy_exact_hits": 54,
+      "greedy_max_actual_evaluations": 16,
+      "greedy_mean_actual_evaluations": 15.277777777777779,
+      "greedy_median_actual_evaluations": 16.0,
+      "greedy_min_actual_evaluations": 14,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.4610492092629376,
+      "qaoa_readouts_per_seed": 4,
+      "total_budget": 16,
+      "uniform_mean_exact_hit_probability": 0.07635026022428841
+    },
+    {
+      "greedy_exact_hit_fraction": 0.9583333333333334,
+      "greedy_exact_hits": 69,
+      "greedy_max_actual_evaluations": 32,
+      "greedy_mean_actual_evaluations": 23.88888888888889,
+      "greedy_median_actual_evaluations": 28.0,
+      "greedy_min_actual_evaluations": 14,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.5519448344271197,
+      "qaoa_readouts_per_seed": 8,
+      "total_budget": 32,
+      "uniform_mean_exact_hit_probability": 0.13989093018923873
+    },
+    {
+      "greedy_exact_hit_fraction": 0.9722222222222222,
+      "greedy_exact_hits": 70,
+      "greedy_max_actual_evaluations": 56,
+      "greedy_mean_actual_evaluations": 26.444444444444443,
+      "greedy_median_actual_evaluations": 28.0,
+      "greedy_min_actual_evaluations": 14,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.6080291880805924,
+      "qaoa_readouts_per_seed": 16,
+      "total_budget": 64,
+      "uniform_mean_exact_hit_probability": 0.24241850096496165
+    },
+    {
+      "greedy_exact_hit_fraction": 0.9722222222222222,
+      "greedy_exact_hits": 70,
+      "greedy_max_actual_evaluations": 56,
+      "greedy_mean_actual_evaluations": 26.444444444444443,
+      "greedy_median_actual_evaluations": 28.0,
+      "greedy_min_actual_evaluations": 14,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.663870373535758,
+      "qaoa_readouts_per_seed": 32,
+      "total_budget": 128,
+      "uniform_mean_exact_hit_probability": 0.39374355323523713
+    },
+    {
+      "greedy_exact_hit_fraction": 0.9722222222222222,
+      "greedy_exact_hits": 70,
+      "greedy_max_actual_evaluations": 56,
+      "greedy_mean_actual_evaluations": 26.444444444444443,
+      "greedy_median_actual_evaluations": 28.0,
+      "greedy_min_actual_evaluations": 14,
+      "qaoa_four_seed_mean_exact_hit_probability": 0.7270792093875836,
+      "qaoa_readouts_per_seed": 64,
+      "total_budget": 256,
+      "uniform_mean_exact_hit_probability": 0.5949378072394041
+    }
+  ],
+  "expected_exact_windows_at_4096_per_seed": 69.11349600951928,
+  "low_ceiling_threshold": 0.99,
+  "low_ceiling_window_count": 6,
+  "low_ceiling_windows": [
+    "aes_w0002",
+    "gcd_w0011",
+    "swerv_w0003",
+    "ibex_w0002",
+    "mempool_group_w0008",
+    "ibex_w0008"
+  ],
+  "mean_four_seed_exact_hit_probability_at_4096_per_seed": 0.9599096667988789,
+  "observed_exact_windows_at_4096_per_seed": 71,
+  "provenance": {
+    "manifest_sha256": "32b8e6259f6b36cb88aefe752b675574a4c29623927b1402faea10af896b0747",
+    "run_level_sha256": {
+      "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_six_design_72window_v1/replication_finite_shot_objective_8192_v1/run_level.csv": "b4e5a4874695b3314d2336b76384602d0733423c1bdf3f34b9a9a31488a08be2",
+      "experiments/qaoa_placement/eda_bridge/results/orfs_nangate45_three_design_36window_v2/finite_shot_objective_8192_v1/run_level.csv": "e4dd6b7ecd2a739204565eaabe3a583e51228f92a43fa7f4e2c70e1ed45fde4f"
+    }
+  },
+  "window_count": 72
+}

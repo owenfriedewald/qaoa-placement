@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this artifact when using its code or data."
+title: "Exact Diagonal Completion on Reachable Subspaces: Application to QAOA Placement — Reproducibility Artifact"
+type: software
+authors:
+  - family-names: Friedewald
+    given-names: Owen
+    orcid: "https://orcid.org/0009-0003-6847-1706"
+    affiliation: "University of Missouri"
+  - family-names: Shiri Sichani
+    given-names: Ali
+    orcid: "https://orcid.org/0000-0002-7239-1341"
+    affiliation: "University of Missouri"
+  - family-names: Shyu
+    given-names: Chi-Ren
+    orcid: "https://orcid.org/0000-0001-9197-9522"
+    affiliation: "University of Missouri"
+doi: 10.5281/zenodo.22970077
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - quantum computing
+  - QAOA
+  - diagonal synthesis
+  - placement
+  - reproducibility

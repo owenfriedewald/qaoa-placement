@@ -1,0 +1,17 @@
+cells,training,metric,delta,ci_low,ci_high,description
+4,analytic,optimum,0.026052950625602186,-0.0001371645672260044,0.05395765356586877,per-instance evaluation-oracle envelope; not selected for deployment
+4,finite2048,optimum,-0.00356254805660786,-0.022891192649932002,0.017904527580160586,per-instance evaluation-oracle envelope; not selected for deployment
+5,analytic,optimum,-0.0004361463848993071,-0.002241723459526179,0.0007716718745395817,per-instance evaluation-oracle envelope; not selected for deployment
+6,analytic,optimum,-0.00026730429026368516,-0.0008239592328602935,6.943581868755686e-05,per-instance evaluation-oracle envelope; not selected for deployment
+4,analytic,conditional,0.006015140277983485,-0.022387109124847555,0.03655613838038989,per-instance evaluation-oracle envelope; not selected for deployment
+4,finite2048,conditional,-0.02405630558573041,-0.04920685472098384,0.002463494047457994,per-instance evaluation-oracle envelope; not selected for deployment
+5,analytic,conditional,-0.0031013583445384033,-0.009514003650344601,0.00042629473118826463,per-instance evaluation-oracle envelope; not selected for deployment
+6,analytic,conditional,-0.0025957210844294552,-0.007516159314522219,-2.2827898984852723e-05,per-instance evaluation-oracle envelope; not selected for deployment
+4,analytic,best_128,0.08975148559628865,-0.39664723927340095,0.5635609118222431,per-instance evaluation-oracle envelope; not selected for deployment
+4,finite2048,best_128,0.8416175767438229,0.18722318766607948,1.639834219437869,per-instance evaluation-oracle envelope; not selected for deployment
+5,analytic,best_128,4.908337857121768,2.171414258439356,7.732320136577849,per-instance evaluation-oracle envelope; not selected for deployment
+6,analytic,best_128,-2.79645226652746,-6.6320915916167404,1.5378395438482968,per-instance evaluation-oracle envelope; not selected for deployment
+4,analytic,best_512,0.6055600057809666,0.08316676208008969,1.1275416863897407,per-instance evaluation-oracle envelope; not selected for deployment
+4,finite2048,best_512,1.1091711711415297,0.44259034224048743,1.9287015220679855,per-instance evaluation-oracle envelope; not selected for deployment
+5,analytic,best_512,6.2594601826485,3.307059427116331,9.327891110216418,per-instance evaluation-oracle envelope; not selected for deployment
+6,analytic,best_512,0.7998897979158542,-3.4349794334273134,5.414953496494653,per-instance evaluation-oracle envelope; not selected for deployment

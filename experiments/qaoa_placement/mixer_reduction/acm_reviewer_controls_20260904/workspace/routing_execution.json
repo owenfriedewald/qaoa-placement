@@ -1,0 +1,242 @@
+[
+  {
+    "task": 4,
+    "returncode": 0,
+    "sha256": "846bd29012cbbd135f1ced4c6ec7df3d3f0ccadbd6d8a8efa50cd1b6d996cd83"
+  },
+  {
+    "task": 0,
+    "returncode": 0,
+    "sha256": "7fbbc3085dc9afbf41b336b4c636030b2108ed7eb12b60293f8d09c6ad36f3eb"
+  },
+  {
+    "task": 5,
+    "returncode": 0,
+    "sha256": "c768434d05cf830c478c80be3d15a75145cee5087dfda0ec86a39e03ec3e96da"
+  },
+  {
+    "task": 1,
+    "returncode": 0,
+    "sha256": "e71dde762cd9a35853eedd9e934abe3d17157785e71fd182b28b9466bf8d9b20"
+  },
+  {
+    "task": 3,
+    "returncode": 0,
+    "sha256": "09c36aff24c5f3ac824df24aedd2b03b090dfd304bbe57769a1ac2d649c50d94"
+  },
+  {
+    "task": 7,
+    "returncode": 0,
+    "sha256": "cc022dcb8d74d6853fb918b82c1d57438387cef5c0af09d76d6da06b913af471"
+  },
+  {
+    "task": 2,
+    "returncode": 0,
+    "sha256": "b57f468f7cffc3e0e9416a37222d0b7572e9ea7567480367dd26af82df89a1ad"
+  },
+  {
+    "task": 6,
+    "returncode": 0,
+    "sha256": "c8aea08362ad47e3c8efe4312b602065f3026cbc7f93c2384aa8a6e5db31c045"
+  },
+  {
+    "task": 12,
+    "returncode": 0,
+    "sha256": "ab7151e5077bf18b0adddda98b4169a60e68bddb8013eba67d4d858e8944cbd0"
+  },
+  {
+    "task": 13,
+    "returncode": 0,
+    "sha256": "4c73100d6b5f2255340e304ed8b73a991afa7cb69b61bb4c5a320225643e52df"
+  },
+  {
+    "task": 8,
+    "returncode": 0,
+    "sha256": "560f6db8607a372d210da254a5c8517cc6b805a5eabf4bc9bc3a7897808aeac0"
+  },
+  {
+    "task": 9,
+    "returncode": 0,
+    "sha256": "2ab2bbd5fef0dbda7b85b7a40e10250e8c2202e347f00b6803035692408a77ac"
+  },
+  {
+    "task": 15,
+    "returncode": 0,
+    "sha256": "a7613f83a223e01127b2851d413d45684da6829033ec61997945bf360e7964e7"
+  },
+  {
+    "task": 14,
+    "returncode": 0,
+    "sha256": "feb0da8c5b7852259b8416f3a1b5d3eecb60e1d24380a506dd7126bd5983f7fa"
+  },
+  {
+    "task": 10,
+    "returncode": 0,
+    "sha256": "e238d54aacf4a121418769ceff24af53feb8fb63005c5ca0870c246c8a1b979d"
+  },
+  {
+    "task": 11,
+    "returncode": 0,
+    "sha256": "cb756f9da8343d1cdf96848e52fdadc5069ad6bbe1c4bf722bf5129d87328fa8"
+  },
+  {
+    "task": 16,
+    "returncode": 0,
+    "sha256": "528f7f7c3352c083819da6545969a464e21ea6f686f7b2e7e7f3a4ab0e3b6a3d"
+  },
+  {
+    "task": 17,
+    "returncode": 0,
+    "sha256": "2fc84ba84d47526f008f7d414fa93e15c6562f618b6a44dc49aa65f91423e814"
+  },
+  {
+    "task": 18,
+    "returncode": 0,
+    "sha256": "caecafe5b86cd75507dfd79df15cbd1eb9207f3550d0f87a666cae122755d1da"
+  },
+  {
+    "task": 20,
+    "returncode": 0,
+    "sha256": "2a756e0277d214ccd4d5c95fe2ee1c660b8a8f77da30b51ca0d573a3e49a2f65"
+  },
+  {
+    "task": 23,
+    "returncode": 0,
+    "sha256": "3c8e5d343560d533834c020a24bbb8bf79143ca19ef8630ed7a48a55af376fd5"
+  },
+  {
+    "task": 19,
+    "returncode": 0,
+    "sha256": "4eb17d49f85e7f9762dbc469f7a6ec609e26d24a15fe98e3c49a6ff6de1d2dd7"
+  },
+  {
+    "task": 21,
+    "returncode": 0,
+    "sha256": "9b0519ef2889739defbd64f92fce96da8bb1ac21a76c201abd36d3bf65a823c1"
+  },
+  {
+    "task": 22,
+    "returncode": 0,
+    "sha256": "24c2e688081824a5c6e97671399ae4c79b78220058898d48e7c2fde75b958539"
+  },
+  {
+    "task": 26,
+    "returncode": 0,
+    "sha256": "d51b4bcb6138d3dfe4f8932ed28cbfdfff044769c8592edda8828e7b25734eab"
+  },
+  {
+    "task": 24,
+    "returncode": 0,
+    "sha256": "c3dce5807536e7359f7f0bf42fe4eb2b62898e89189ccb7ca6f316d86ac31f66"
+  },
+  {
+    "task": 27,
+    "returncode": 0,
+    "sha256": "c52029d7ea9f1c17e5de17667ae8af5743ab1a938a4c6104b6da5a83df7d5bdb"
+  },
+  {
+    "task": 29,
+    "returncode": 0,
+    "sha256": "ebc3ff6378b1db52fbc41a6d27166418a6362f4ed89e057d6edc29fe79087e23"
+  },
+  {
+    "task": 25,
+    "returncode": 0,
+    "sha256": "22a768365473e7ef43e4b1eb5a6127727efc2117eb192e37b9a0036c476c2c62"
+  },
+  {
+    "task": 36,
+    "returncode": 0,
+    "sha256": "e9f8ac6a3eb9ca3fde347c4364fe647a142e009682feb16feb4b8bfb5c164f11"
+  },
+  {
+    "task": 37,
+    "returncode": 0,
+    "sha256": "2cf7f3ffc0d39b3499ba8ec2a516c458361132b0ec88108d1739ae45c507f038"
+  },
+  {
+    "task": 28,
+    "returncode": 0,
+    "sha256": "ee95c31b7aa22771876cf880a96c99a7bfe641e98cbf3f18817ae115d7082cf4"
+  },
+  {
+    "task": 30,
+    "returncode": 0,
+    "sha256": "36d86d4853d45b4041f7f750150e4bdaed0ae147de276a4b24c4256afab142f3"
+  },
+  {
+    "task": 38,
+    "returncode": 0,
+    "sha256": "fe2b895876fe9c173a2702b03c53a8b663acdebc8901278a3fb99db8977b41ea"
+  },
+  {
+    "task": 31,
+    "returncode": 0,
+    "sha256": "980896c76d9e5f0c5f7bfe309e59c3a4f88dae7d0bd7c910f43ba86a8b2b2987"
+  },
+  {
+    "task": 39,
+    "returncode": 0,
+    "sha256": "65950cc58d46972025acd43c88617cf2fe9d517fa8a83fd0ee9efd6a82daffe5"
+  },
+  {
+    "task": 40,
+    "returncode": 0,
+    "sha256": "02211619489ae2d90d69db2bd0f7876f7c62cba54d81056d467ec6ad85b28ac2"
+  },
+  {
+    "task": 32,
+    "returncode": 0,
+    "sha256": "3e0359058e609bb045c89fb0ffd09c893730150deed2d50602b21a0f97d2158c"
+  },
+  {
+    "task": 41,
+    "returncode": 0,
+    "sha256": "82b1dc1ddd4cea18e80020321b32185ce4a94484c7b8d809870e560c38921e36"
+  },
+  {
+    "task": 43,
+    "returncode": 0,
+    "sha256": "d7a360ae44ed97206b7ee609b471ebd7e47f9dc821411a476053704962b93312"
+  },
+  {
+    "task": 42,
+    "returncode": 0,
+    "sha256": "bc2fb7915b5ace656a043410c6af857dcf6f2d533217badcc759119f03cf44d6"
+  },
+  {
+    "task": 35,
+    "returncode": 0,
+    "sha256": "6bd755b178cbdec98e7b9cb0af9bc38f21dcfd3efeb9e62e47c5362a9426474e"
+  },
+  {
+    "task": 33,
+    "returncode": 0,
+    "sha256": "d8b2aa972fdca401adcfff1ed03cee2bc1e095c07c493233f52db47add881b98"
+  },
+  {
+    "task": 44,
+    "returncode": 0,
+    "sha256": "9b1cac0edbf23b4474fb08185fc4873205d3c99e1afa2102feb4e5323120ab1a"
+  },
+  {
+    "task": 45,
+    "returncode": 0,
+    "sha256": "e61fb5c25b2d7ed3e444debdd84906b91b937df9ff4f139bab7cec8997a33532"
+  },
+  {
+    "task": 46,
+    "returncode": 0,
+    "sha256": "f171ab84c9552d8f7bd53b0e7e3d091cadce5ea28e135ebb3a5f30779c494487"
+  },
+  {
+    "task": 47,
+    "returncode": 0,
+    "sha256": "1aff5a2ba839b72e7ac1519f896ea5adeb428f8e6a3eab6087feaa764a161f82"
+  },
+  {
+    "task": 34,
+    "returncode": 0,
+    "sha256": "b3d109b62261c5ff10ca8a84a2882e99e5a0ee67971a45ef09f2fa38d95dd887"
+  }
+]

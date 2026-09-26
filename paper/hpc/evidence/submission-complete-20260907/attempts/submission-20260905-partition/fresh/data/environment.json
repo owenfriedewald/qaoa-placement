@@ -1,0 +1,21 @@
+{
+  "kind": "phase",
+  "spec_sha256": "8a98bc4db6422a4ff5c57c7aca5b6b46d7e072d32f1fd5cb188307857fa0bcd1",
+  "payload_sha256": "956b8cc13752311d27f735b867c7cf7ba16b00fe5b0b2fcbee85c6fa67459eed",
+  "versions": {
+    "qiskit": "2.5.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "qiskit-ibm-runtime": "0.46.1",
+    "pyzx": "0.10.3"
+  },
+  "prior_job": "17013756",
+  "prior_environment_sha256": "d826602cd2c97c87a1954b94cb0b7a2cc2d390c01fb1185b10a42888151aaf88",
+  "frozen_runner_sha256": "1a083cd150b6848424e2c18dfeaf693f2d13cf13e0883689c418c903a74433a0",
+  "checkpoint_runner_sha256": "711ba63779c07ab05d7211f8d852caf36fbdf0bd498e6fd55391a2ebfa2a899b",
+  "verification_mode": "identical-input-memo-ordered-candidates-readonly-pivot-cache",
+  "memoization_module_sha256": "66c6e6ec1ffb6e15dffd913d371739e5e124b547a68c716653119393e2665515",
+  "memoization_cache_limit": 5,
+  "verification_runner_sha256": "16420046323cd74729548ff70b276cc71b9620accae85b0268da5e9256b70d8e",
+  "verification_matcher_upstream_sha256": "d7cfdf4551004549d60a99fc92b9c74b457464fabf2a6314e64b0991a905f9de"
+}

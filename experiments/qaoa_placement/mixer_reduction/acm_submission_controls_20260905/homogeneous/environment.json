@@ -1,0 +1,12 @@
+{
+  "kind": "homogeneous",
+  "spec_sha256": "8a98bc4db6422a4ff5c57c7aca5b6b46d7e072d32f1fd5cb188307857fa0bcd1",
+  "payload_sha256": "7162eb08477b23442821c78d2f4605460768530feefbfdcbe5cb568955deca03",
+  "versions": {
+    "qiskit": "2.5.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "qiskit-ibm-runtime": "0.46.1",
+    "pyzx": "0.10.3"
+  }
+}

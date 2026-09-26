@@ -1,0 +1,43 @@
+\subsection{Completion gains and synthesis dependence}
+We find that completion improves on all four inexpensive extensions under
+the same Gray synthesis method (Table~\ref{tab:extensions}). L1 uses fewer CX gates
+than each alternative in all 96 cases with unused binary codes. All 64
+power-of-two cases tie within every synthesis method, as required by the
+uniqueness of their Walsh expansion. On the replication cohort, median
+reductions relative to virtual-coordinate extension are 28.0\%, 53.9\% and
+21.6\% at six, nine and twelve sites. The corresponding reductions relative
+to nearest-code extension are 25.2\%, 53.0\% and 21.5\%.
+Thus, on these geometries and label assignments, optimizing the extension
+improves on natural alternatives to zero padding.
+
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{3pt}
+\caption{Exact extensions under symbolic Gray synthesis. The initial
+100-case and replication 60-case cohorts contain 20 and 12 geometries per
+site count, respectively. CX counts are medians with interquartile ranges.
+Percentage changes are medians of paired L1/reference changes, not ratios
+of the displayed medians; negative values favor L1. Power-of-two controls
+are omitted because all extensions coincide.}
+\label{tab:extensions}\input{tables/submission_extensions}
+\end{table}
+
+The benefit is sensitive to synthesis. With the angle fixed at
+$\gamma=0.371$, generic diagonal synthesis reduces the replication-cohort
+L1/virtual savings to 10.9\%, 1.3\% and 0.7\%. At these three sizes, L1
+uses fewer/equal/more CX gates in 11/0/1, 8/4/0 and 11/1/0 cases,
+respectively. L1 also improves on virtual extension throughout the
+replication cases with unused codes under the tested PyZX procedure, but
+that procedure produces more CX gates than numerical Gray synthesis for
+every input (Appendix~\ref{sec:synthesis-diagnostics}). The large Gray
+savings therefore describe a particular combination of completion and
+synthesis, rather than a compiler-independent reduction.
+
+We verify that these gate savings preserve the required action by
+reconstructing all 1,760 stored coefficient vectors. The maximum
+valid-distance residual is $5.69\times10^{-14}$ for the exact extensions. Replaying all 864 saved
+confirmation and transfer parameter vectors with L1-completed token
+energies gives the same energies and output probabilities at stored
+floating-point precision. These checks support
+Proposition~\ref{prop:completion}: the completion changes implementation
+cost while preserving the ideal algorithm. Numerical angle conversion
+and deliberate approximation have separate error checks in
+Appendix~\ref{sec:synthesis-diagnostics}.
