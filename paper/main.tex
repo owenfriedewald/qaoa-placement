@@ -459,7 +459,7 @@ All full circuits include basis preparation, omit the redundant operations
 identified in Section~\ref{sec:encoding}, and retain $2p-1$ free symbolic
 parameters. Measurements are excluded from gate counts. Logical circuits
 use the \texttt{rz,sx,x,cx} basis with Qiskit optimization level 3 and seed
-123. CX denotes a controlled-NOT gate. Routing uses Qiskit 2.5.2 with SABRE
+123. CX denotes a controlled-NOT gate. Routing uses Qiskit 2.5.2 with SABRE~\cite{li2019sabre}
 layout and routing on three targets: an archived 127-qubit heavy-hex
 \texttt{FakeSherbrooke} target, a 25-vertex path (\texttt{line25}) and a
 $5\times5$ grid (\texttt{grid25}). The native two-qubit gate is echoed
@@ -559,7 +559,8 @@ counts are descriptive paired comparisons, not additional significance tests.
 Phase savings are only one part of the encoding comparison. Token circuits
 use fewer data qubits, but their swaps and parity networks introduce depth
 that one-hot circuits may avoid. We compare complete circuits on the same
-twelve six-site phase instances with five routing seeds per target. Every
+twelve six-site phase instances with five SABRE routing seeds per
+target~\cite{li2019sabre}. Every
 token circuit uses L1 completion and Gray synthesis; all methods use $p=3$
 and symbolic angles.
 
